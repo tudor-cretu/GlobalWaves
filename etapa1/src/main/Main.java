@@ -62,18 +62,20 @@ public final class Main {
     }
 
     /**
-     * @param filePath1 for input file
-     * @param filePath2 for output file
+     * @param filePathInput for input file
+     * @param filePathOutput for output file
      * @throws IOException in case of exceptions to reading / writing
      */
-    public static void action(final String filePath1,
-                              final String filePath2) throws IOException {
+    public static void action(final String filePathInput,
+                              final String filePathOutput) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         LibraryInput library = objectMapper.readValue(new File(LIBRARY_PATH), LibraryInput.class);
 
         ArrayNode outputs = objectMapper.createArrayNode();
 
+        // TODO add your implementation
+
         ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
-        objectWriter.writeValue(new File(filePath2), outputs);
+        objectWriter.writeValue(new File(filePathOutput), outputs);
     }
 }
