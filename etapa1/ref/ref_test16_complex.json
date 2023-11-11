@@ -4637,7 +4637,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 5500,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -4995,7 +4995,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 5700,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -5155,7 +5155,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 5790,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
@@ -5245,7 +5245,7 @@
   "command" : "like",
   "user" : "emily30",
   "timestamp" : 5840,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "emily30",
@@ -5385,7 +5385,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 5910,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -5406,7 +5406,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 5920,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -5502,7 +5502,7 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 5980,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -5572,7 +5572,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 6020,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -5705,7 +5705,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6100,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -5907,7 +5907,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 6210,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -6094,7 +6094,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 6310,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -6110,7 +6110,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 6320,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -6217,7 +6217,7 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 6380,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -6249,7 +6249,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6400,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -6340,7 +6340,7 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 6450,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -6409,7 +6409,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 6490,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
@@ -6510,7 +6510,7 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 6550,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -6601,7 +6601,7 @@
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 6600,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "alice22",
@@ -6691,7 +6691,7 @@
   "command" : "like",
   "user" : "frank21",
   "timestamp" : 6650,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "frank21",
@@ -6787,7 +6787,7 @@
   "command" : "like",
   "user" : "bob35",
   "timestamp" : 6710,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -6925,7 +6925,7 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 6780,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -7096,7 +7096,7 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 6870,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "henry26",
@@ -7112,7 +7112,7 @@
   "command" : "like",
   "user" : "irene33",
   "timestamp" : 6880,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "irene33",
@@ -7128,7 +7128,7 @@
   "command" : "like",
   "user" : "jack29",
   "timestamp" : 6890,
-  "message" : "Loaded source is not a song."
+  "message" : "Unlike registered successfully."
 }, {
   "command" : "status",
   "user" : "jack29",
@@ -7181,7 +7181,7 @@
   "command" : "like",
   "user" : "carol19",
   "timestamp" : 6920,
-  "message" : "Loaded source is not a song."
+  "message" : "Like registered successfully."
 }, {
   "command" : "status",
   "user" : "carol19",
@@ -9745,7 +9745,7 @@
   "command" : "showPreferredSongs",
   "user" : "alice22",
   "timestamp" : 8490,
-  "result" : [ ]
+  "result" : [ "Bohemian Rhapsody" ]
 }, {
   "command" : "showPlaylists",
   "user" : "bob35",
@@ -9765,7 +9765,7 @@
   "command" : "showPreferredSongs",
   "user" : "bob35",
   "timestamp" : 8500,
-  "result" : [ ]
+  "result" : [ "Bohemian Rhapsody", "The Unforgiven" ]
 }, {
   "command" : "showPlaylists",
   "user" : "carol19",
@@ -9785,7 +9785,7 @@
   "command" : "showPreferredSongs",
   "user" : "carol19",
   "timestamp" : 8510,
-  "result" : [ ]
+  "result" : [ "Gimme Shelter", "Happier" ]
 }, {
   "command" : "showPlaylists",
   "user" : "david27",
@@ -9825,7 +9825,7 @@
   "command" : "showPreferredSongs",
   "user" : "emily30",
   "timestamp" : 8530,
-  "result" : [ ]
+  "result" : [ "Don't" ]
 }, {
   "command" : "showPlaylists",
   "user" : "frank21",
@@ -9845,7 +9845,7 @@
   "command" : "showPreferredSongs",
   "user" : "frank21",
   "timestamp" : 8540,
-  "result" : [ ]
+  "result" : [ "Maps" ]
 }, {
   "command" : "showPlaylists",
   "user" : "grace25",
@@ -9885,7 +9885,7 @@
   "command" : "showPreferredSongs",
   "user" : "henry26",
   "timestamp" : 8560,
-  "result" : [ ]
+  "result" : [ "Whatever You Need" ]
 }, {
   "command" : "showPlaylists",
   "user" : "irene33",
@@ -9905,7 +9905,7 @@
   "command" : "showPreferredSongs",
   "user" : "irene33",
   "timestamp" : 8570,
-  "result" : [ ]
+  "result" : [ "Don't", "Blank Space" ]
 }, {
   "command" : "showPlaylists",
   "user" : "jack29",
@@ -9925,7 +9925,7 @@
   "command" : "showPreferredSongs",
   "user" : "jack29",
   "timestamp" : 8580,
-  "result" : [ ]
+  "result" : [ "The Man" ]
 }, {
   "command" : "getTop5Playlists",
   "timestamp" : 8580,
@@ -9933,5 +9933,5 @@
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 8580,
-  "result" : [ "Shape of You", "Don't", "Stairway to Heaven", "Money Trees", "Under Pressure" ]
+  "result" : [ "Don't", "Bohemian Rhapsody", "The Unforgiven", "Whatever You Need", "Maps" ]
 } ]
