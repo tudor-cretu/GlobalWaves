@@ -104,7 +104,7 @@
   "timestamp" : 1250,
   "stats" : {
     "name" : "Swimming Pools (Drank)",
-    "remainedTime" : 237,
+    "remainedTime" : 125,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -167,7 +167,7 @@
   "timestamp" : 3220,
   "stats" : {
     "name" : "The Capitol Riot, 1 Year Later",
-    "remainedTime" : 440,
+    "remainedTime" : 260,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -182,8 +182,8 @@
   "user" : "emily30",
   "timestamp" : 3920,
   "stats" : {
-    "name" : "Inside the Vaccine Mandate Showdown",
-    "remainedTime" : 1241,
+    "name" : "The Psychology of Conspiracy Theories",
+    "remainedTime" : 120,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -192,7 +192,7 @@
   "command" : "next",
   "user" : "emily30",
   "timestamp" : 4120,
-  "message" : "Skipped to next track successfully. The current track is The Battle for Abortion Rights."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "search",
   "user" : "emily30",
