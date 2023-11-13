@@ -4766,13 +4766,13 @@
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 5570,
-  "message" : "Skipped to next track successfully. The current track is Dream On."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 5570,
   "stats" : {
-    "name" : "Dream On",
+    "name" : "",
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
@@ -4948,15 +4948,15 @@
   "command" : "repeat",
   "user" : "henry26",
   "timestamp" : 5670,
-  "message" : "Repeat mode changed to repeat all."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 5670,
   "stats" : {
-    "name" : "Dream On",
+    "name" : "",
     "remainedTime" : 0,
-    "repeat" : "Repeat All",
+    "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : true
   }
@@ -5145,17 +5145,17 @@
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 5770,
-  "message" : "Skipped to next track successfully. The current track is Dream On."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 5770,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 267,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "playPause",
@@ -5316,17 +5316,17 @@
   "command" : "shuffle",
   "user" : "henry26",
   "timestamp" : 5870,
-  "message" : "Shuffle function activated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 5870,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 167,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "switchVisibility",
@@ -5518,17 +5518,17 @@
   "command" : "shuffle",
   "user" : "henry26",
   "timestamp" : 5970,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 5970,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 67,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
@@ -5695,22 +5695,22 @@
   "user" : "henry26",
   "timestamp" : 6070,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 234,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6070,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 234,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "playPause",
@@ -5865,17 +5865,17 @@
   "command" : "prev",
   "user" : "henry26",
   "timestamp" : 6170,
-  "message" : "Returned to previous track successfully. The current track is Dream On."
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6170,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 267,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -6035,17 +6035,17 @@
   "command" : "next",
   "user" : "henry26",
   "timestamp" : 6270,
-  "message" : "Skipped to next track successfully. The current track is Dream On."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6270,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 267,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "switchVisibility",
@@ -6222,22 +6222,22 @@
   "user" : "henry26",
   "timestamp" : 6370,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 167,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6370,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 167,
-    "repeat" : "Repeat All",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
@@ -6397,17 +6397,17 @@
   "command" : "shuffle",
   "user" : "henry26",
   "timestamp" : 6470,
-  "message" : "Shuffle function activated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6470,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 67,
-    "repeat" : "Repeat All",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -6568,17 +6568,17 @@
   "command" : "repeat",
   "user" : "henry26",
   "timestamp" : 6570,
-  "message" : "Repeat mode changed to repeat current song."
+  "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6570,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 234,
-    "repeat" : "Repeat Current Song",
-    "shuffle" : true,
-    "paused" : false
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
   }
 }, {
   "command" : "repeat",
@@ -6734,17 +6734,17 @@
   "command" : "shuffle",
   "user" : "henry26",
   "timestamp" : 6670,
-  "message" : "Shuffle function deactivated successfully."
+  "message" : "Please load a source before using the shuffle function."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6670,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 134,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
@@ -6904,22 +6904,22 @@
   "command" : "prev",
   "user" : "henry26",
   "timestamp" : 6770,
-  "message" : "Returned to previous track successfully. The current track is Dream On."
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "prev",
   "user" : "henry26",
   "timestamp" : 6770,
-  "message" : "Returned to previous track successfully. The current track is Dream On."
+  "message" : "Please load a source before returning to the previous track."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6770,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 267,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "next",
@@ -7106,17 +7106,17 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 6870,
-  "message" : "Like registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6870,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 167,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "switchVisibility",
@@ -7288,17 +7288,17 @@
   "command" : "like",
   "user" : "henry26",
   "timestamp" : 6970,
-  "message" : "Unlike registered successfully."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "status",
   "user" : "henry26",
   "timestamp" : 6970,
   "stats" : {
-    "name" : "Dream On",
-    "remainedTime" : 67,
-    "repeat" : "Repeat Current Song",
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "shuffle",
