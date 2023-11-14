@@ -7549,7 +7549,7 @@
   "command" : "follow",
   "user" : "david27",
   "timestamp" : 7120,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -7901,7 +7901,7 @@
   "command" : "follow",
   "user" : "frank21",
   "timestamp" : 7340,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -8381,7 +8381,7 @@
   "command" : "follow",
   "user" : "frank21",
   "timestamp" : 7640,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -8605,7 +8605,7 @@
   "command" : "follow",
   "user" : "jack29",
   "timestamp" : 7780,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -8749,7 +8749,7 @@
   "command" : "follow",
   "user" : "irene33",
   "timestamp" : 7870,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -8973,7 +8973,7 @@
   "command" : "follow",
   "user" : "carol19",
   "timestamp" : 8010,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -9229,7 +9229,7 @@
   "command" : "follow",
   "user" : "irene33",
   "timestamp" : 8170,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -9437,7 +9437,7 @@
   "command" : "follow",
   "user" : "bob35",
   "timestamp" : 8300,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -9453,7 +9453,7 @@
   "command" : "follow",
   "user" : "carol19",
   "timestamp" : 8310,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -9629,7 +9629,7 @@
   "command" : "follow",
   "user" : "david27",
   "timestamp" : 8420,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -9661,7 +9661,7 @@
   "command" : "follow",
   "user" : "frank21",
   "timestamp" : 8440,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -9759,7 +9759,7 @@
     "name" : "Dynamic Tracks Trek #2",
     "songs" : [ "Bohemian Rhapsody", "The Unforgiven", "Begin Again" ],
     "visibility" : "public",
-    "followers" : 7
+    "followers" : 6
   } ]
 }, {
   "command" : "showPreferredSongs",
@@ -9794,12 +9794,12 @@
     "name" : "Electric Grooves Dream #1",
     "songs" : [ "Dream On", "Start Me Up", "Under Pressure" ],
     "visibility" : "private",
-    "followers" : 1
+    "followers" : 0
   }, {
     "name" : "Groovy Beats Expedition #2",
     "songs" : [ "Don't", "Sad But True", "Dream On" ],
     "visibility" : "private",
-    "followers" : 1
+    "followers" : 0
   } ]
 }, {
   "command" : "showPreferredSongs",
@@ -9839,7 +9839,7 @@
     "name" : "Breezy Bangers Quest #2",
     "songs" : [ "Castle on the Hill", "Maps", "Blank Space", "Delicate", "Happier", "Big Pimpin'" ],
     "visibility" : "public",
-    "followers" : 4
+    "followers" : 3
   } ]
 }, {
   "command" : "showPreferredSongs",
@@ -9914,7 +9914,7 @@
     "name" : "Classic Harmonies Quest #1",
     "songs" : [ "Big Pimpin'", "Maps", "Money Trees", "Gimme Shelter", "Start Me Up" ],
     "visibility" : "public",
-    "followers" : 5
+    "followers" : 4
   }, {
     "name" : "Mellow Tracks Safari #2",
     "songs" : [ "Maps", "The Man", "Blank Space", "Money Trees", "Shape of You", "The Unforgiven", "Big Pimpin'", "Love Story" ],
@@ -9929,7 +9929,7 @@
 }, {
   "command" : "getTop5Playlists",
   "timestamp" : 8580,
-  "result" : [ "Dynamic Tracks Trek #2", "Electric Bangers Dream #1", "Classic Harmonies Quest #1", "Breezy Bangers Quest #2", "Classic Tunes Dream #1" ]
+  "result" : [ "Dynamic Tracks Trek #2", "Electric Bangers Dream #1", "Classic Tunes Dream #1", "Epic Tracks Safari #1", "Classic Harmonies Quest #1" ]
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 8580,

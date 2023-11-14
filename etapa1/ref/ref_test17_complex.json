@@ -7427,7 +7427,7 @@
   "command" : "follow",
   "user" : "frank21",
   "timestamp" : 7040,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -7443,7 +7443,7 @@
   "command" : "follow",
   "user" : "grace25",
   "timestamp" : 7050,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "henry26",
@@ -7475,7 +7475,7 @@
   "command" : "follow",
   "user" : "irene33",
   "timestamp" : 7070,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -7523,7 +7523,7 @@
   "command" : "follow",
   "user" : "bob35",
   "timestamp" : 7100,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -8131,7 +8131,7 @@
   "command" : "follow",
   "user" : "jack29",
   "timestamp" : 7480,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -8195,7 +8195,7 @@
   "command" : "follow",
   "user" : "david27",
   "timestamp" : 7520,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -8483,7 +8483,7 @@
   "command" : "follow",
   "user" : "bob35",
   "timestamp" : 7700,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -8819,7 +8819,7 @@
   "command" : "follow",
   "user" : "carol19",
   "timestamp" : 7910,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "david27",
@@ -9235,7 +9235,7 @@
   "command" : "follow",
   "user" : "irene33",
   "timestamp" : 8170,
-  "message" : "Playlist followed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "jack29",
@@ -9603,7 +9603,7 @@
   "command" : "follow",
   "user" : "bob35",
   "timestamp" : 8400,
-  "message" : "Playlist unfollowed successfully."
+  "message" : "You cannot follow or unfollow your own playlist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -9765,7 +9765,7 @@
     "name" : "Electric Harmonies Odyssey #2",
     "songs" : [ "Dream On", "Big Pimpin'", "Sad But True", "Shape of You", "Don't" ],
     "visibility" : "public",
-    "followers" : 2
+    "followers" : 1
   } ]
 }, {
   "command" : "showPreferredSongs",
@@ -9780,7 +9780,7 @@
     "name" : "Groovy Grooves Dream #1",
     "songs" : [ "Maps", "Under Pressure", "Stairway to Heaven", "Start Me Up", "Shape of You" ],
     "visibility" : "private",
-    "followers" : 1
+    "followers" : 0
   }, {
     "name" : "Groovy Grooves Expedition #2",
     "songs" : [ "Love Story", "Don't", "Money Trees", "Maps" ],
@@ -9800,7 +9800,7 @@
     "name" : "Breezy Bangers Quest #1",
     "songs" : [ "Blank Space", "Big Pimpin'", "Begin Again", "Paint It Black", "Love Story" ],
     "visibility" : "public",
-    "followers" : 4
+    "followers" : 3
   }, {
     "name" : "Stellar Tunes Quest #2",
     "songs" : [ "Start Me Up", "Dream On", "Angie", "Gimme Shelter", "Begin Again", "Black Dog", "Stairway to Heaven" ],
@@ -9845,7 +9845,7 @@
     "name" : "Classic Grooves Trek #2",
     "songs" : [ "Gimme Shelter", "Bohemian Rhapsody", "Love Story", "Black Dog", "Thinking Out Loud" ],
     "visibility" : "public",
-    "followers" : 3
+    "followers" : 2
   } ]
 }, {
   "command" : "showPreferredSongs",
@@ -9860,7 +9860,7 @@
     "name" : "Groovy Vibes Odyssey #1",
     "songs" : [ "Delicate", "Under Pressure", "Money Trees", "Love Story", "The Man", "Shape of You" ],
     "visibility" : "public",
-    "followers" : 5
+    "followers" : 4
   }, {
     "name" : "Dynamic Tracks Adventure #2",
     "songs" : [ "Begin Again", "Gimme Shelter", "Start Me Up" ],
@@ -9900,12 +9900,12 @@
     "name" : "Chill Sounds Voyage #1",
     "songs" : [ "The Man", "Blank Space", "Shape of You", "Sad But True", "Don't", "Money Trees", "Happier", "Paint It Black", "Begin Again" ],
     "visibility" : "public",
-    "followers" : 4
+    "followers" : 3
   }, {
     "name" : "Electric Melodies Escape #2",
     "songs" : [ "Dream On", "Don't", "Thinking Out Loud", "Black Dog" ],
     "visibility" : "private",
-    "followers" : 1
+    "followers" : 0
   } ]
 }, {
   "command" : "showPreferredSongs",
@@ -9920,7 +9920,7 @@
     "name" : "Vibey Bangers Safari #1",
     "songs" : [ "Don't", "Start Me Up", "Stairway to Heaven", "Thinking Out Loud", "Black Dog", "The Man" ],
     "visibility" : "public",
-    "followers" : 3
+    "followers" : 2
   }, {
     "name" : "Groovy Rhythms Dream #2",
     "songs" : [ "Shape of You", "Money Trees", "Delicate", "Start Me Up", "Blank Space", "Begin Again", "Sad But True" ],
@@ -9935,7 +9935,7 @@
 }, {
   "command" : "getTop5Playlists",
   "timestamp" : 8580,
-  "result" : [ "Chill Melodies Voyage #1", "Dynamic Tracks Adventure #2", "Stellar Tunes Quest #2", "Groovy Vibes Odyssey #1", "Breezy Rhythms Trek #1" ]
+  "result" : [ "Chill Melodies Voyage #1", "Dynamic Tracks Adventure #2", "Stellar Tunes Quest #2", "Breezy Rhythms Trek #1", "Chill Sounds Journey #1" ]
 }, {
   "command" : "getTop5Songs",
   "timestamp" : 8580,
