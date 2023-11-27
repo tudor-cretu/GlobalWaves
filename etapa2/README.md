@@ -1,4 +1,4 @@
-# Proiect GlobalWaves  - Etapa 1
+# Proiect GlobalWaves  - Etapa 2
 
 <div align="center"><img src="https://tenor.com/view/listening-to-music-spongebob-gif-8009182.gif" width="300px"></div>
 
