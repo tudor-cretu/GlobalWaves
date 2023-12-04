@@ -374,14 +374,14 @@
   "command" : "removeAlbum",
   "user" : "melodymaster",
   "timestamp" : 3000,
-  "message" : "melodymaster deleted the album successfully."
+  "message" : "melodymaster can't delete this album."
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 3250,
   "stats" : {
-    "name" : "Begin Again",
-    "remainedTime" : 173,
+    "name" : "Hustle Hard",
+    "remainedTime" : 167,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -422,7 +422,7 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 3900,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]"
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]"
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -470,14 +470,14 @@
   "user" : "david27",
   "command" : "printCurrentPage",
   "timestamp" : 4400,
-  "message" : "Albums:\n\t[]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]"
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]"
 }, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 4410,
   "stats" : {
-    "name" : "Elevate",
-    "remainedTime" : 168,
+    "name" : "Retro Rhythms",
+    "remainedTime" : 163,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -487,17 +487,17 @@
   "user" : "bob35",
   "timestamp" : 4750,
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Hustle Hard",
+    "remainedTime" : 55,
     "repeat" : "No Repeat",
-    "shuffle" : false,
-    "paused" : true
+    "shuffle" : true,
+    "paused" : false
   }
 }, {
   "user" : "carol19",
   "command" : "printCurrentPage",
   "timestamp" : 5000,
-  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My playlist - bob35]"
+  "message" : "Liked songs:\n\t[Digital Dreams - melodymaster]\n\nFollowed playlists:\n\t[My playlist - bob35]"
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -515,7 +515,7 @@
   "timestamp" : 6000,
   "result" : [ {
     "name" : "My playlist",
-    "songs" : [ "Elevate", "I Don't Wanna Live Forever", "Hustle Hard", "Begin Again" ],
+    "songs" : [ "Retro Rhythms", "Elevate", "I Don't Wanna Live Forever", "Hustle Hard", "Begin Again" ],
     "visibility" : "public",
     "followers" : 1
   } ]
