@@ -26050,7 +26050,7 @@
 }, {
   "command" : "getTop5Albums",
   "timestamp" : 14849,
-  "result" : [ "Bad Guide", "Teen Dreams", "Heroic Hood", "Bad Hood", "Groovy View" ]
+  "result" : [ "Bad Guide", "Teen Dreams", "Bad Hood", "Heroic Hood", "Groovy View" ]
 }, {
   "command" : "getTop5Artists",
   "timestamp" : 14849,
