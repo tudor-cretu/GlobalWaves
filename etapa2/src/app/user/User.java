@@ -16,6 +16,9 @@ import lombok.Getter;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The type User.
+ */
 public class User {
     @Getter
     private String username;
@@ -33,7 +36,14 @@ public class User {
     private final SearchBar searchBar;
     private boolean lastSearched;
 
-    public User(String username, int age, String city) {
+    /**
+     * Instantiates a new User.
+     *
+     * @param username the username
+     * @param age      the age
+     * @param city     the city
+     */
+    public User(final String username, final int age, final String city) {
         this.username = username;
         this.age = age;
         this.city = city;
@@ -45,7 +55,14 @@ public class User {
         lastSearched = false;
     }
 
-    public ArrayList<String> search(Filters filters, String type) {
+    /**
+     * Search array list.
+     *
+     * @param filters the filters
+     * @param type    the type
+     * @return the array list
+     */
+    public ArrayList<String> search(final Filters filters, final String type) {
         searchBar.clearSelection();
         player.stop();
 
@@ -59,25 +76,40 @@ public class User {
         return results;
     }
 
-    public String select(int itemNumber) {
-        if (!lastSearched)
+    /**
+     * Select string.
+     *
+     * @param itemNumber the item number
+     * @return the string
+     */
+    public String select(final int itemNumber) {
+        if (!lastSearched) {
             return "Please conduct a search before making a selection.";
+        }
 
         lastSearched = false;
 
         LibraryEntry selected = searchBar.select(itemNumber);
 
-        if (selected == null)
+        if (selected == null) {
             return "The selected ID is too high.";
+        }
 
         return "Successfully selected %s.".formatted(selected.getName());
     }
 
+    /**
+     * Load string.
+     *
+     * @return the string
+     */
     public String load() {
-        if (searchBar.getLastSelected() == null)
+        if (searchBar.getLastSelected() == null) {
             return "Please select a source before attempting to load.";
+        }
 
-        if (!searchBar.getLastSearchType().equals("song") && ((AudioCollection)searchBar.getLastSelected()).getNumberOfTracks() == 0) {
+        if (!searchBar.getLastSearchType().equals("song")
+            && ((AudioCollection) searchBar.getLastSelected()).getNumberOfTracks() == 0) {
             return "You can't load an empty audio collection!";
         }
 
@@ -89,80 +121,136 @@ public class User {
         return "Playback loaded successfully.";
     }
 
+    /**
+     * Play pause string.
+     *
+     * @return the string
+     */
     public String playPause() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before attempting to pause or resume playback.";
+        }
 
         player.pause();
 
-        if (player.getPaused())
+        if (player.getPaused()) {
             return "Playback paused successfully.";
-        else
+        } else {
             return "Playback resumed successfully.";
+        }
     }
 
+    /**
+     * Repeat string.
+     *
+     * @return the string
+     */
     public String repeat() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before setting the repeat status.";
+        }
 
         Enums.RepeatMode repeatMode = player.repeat();
         String repeatStatus = "";
 
-        switch(repeatMode) {
-            case NO_REPEAT -> repeatStatus = "no repeat";
-            case REPEAT_ONCE -> repeatStatus = "repeat once";
-            case REPEAT_ALL -> repeatStatus = "repeat all";
-            case REPEAT_INFINITE -> repeatStatus = "repeat infinite";
-            case REPEAT_CURRENT_SONG -> repeatStatus = "repeat current song";
+        switch (repeatMode) {
+            case NO_REPEAT -> {
+                repeatStatus = "no repeat";
+            }
+            case REPEAT_ONCE -> {
+                repeatStatus = "repeat once";
+            }
+            case REPEAT_ALL -> {
+                repeatStatus = "repeat all";
+            }
+            case REPEAT_INFINITE -> {
+                repeatStatus = "repeat infinite";
+            }
+            case REPEAT_CURRENT_SONG -> {
+                repeatStatus = "repeat current song";
+            }
+            default -> {
+                repeatStatus = "";
+            }
         }
 
         return "Repeat mode changed to %s.".formatted(repeatStatus);
     }
 
-    public String shuffle(Integer seed) {
-        if (player.getCurrentAudioFile() == null)
+    /**
+     * Shuffle string.
+     *
+     * @param seed the seed
+     * @return the string
+     */
+    public String shuffle(final Integer seed) {
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before using the shuffle function.";
+        }
 
-        if (!player.getType().equals("playlist"))
+        if (!player.getType().equals("playlist")) {
             return "The loaded source is not a playlist.";
+        }
 
         player.shuffle(seed);
 
-        if (player.getShuffle())
+        if (player.getShuffle()) {
             return "Shuffle function activated successfully.";
+        }
         return "Shuffle function deactivated successfully.";
     }
 
+    /**
+     * Forward string.
+     *
+     * @return the string
+     */
     public String forward() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before attempting to forward.";
+        }
 
-        if (!player.getType().equals("podcast"))
+        if (!player.getType().equals("podcast")) {
             return "The loaded source is not a podcast.";
+        }
 
         player.skipNext();
 
         return "Skipped forward successfully.";
     }
 
+    /**
+     * Backward string.
+     *
+     * @return the string
+     */
     public String backward() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please select a source before rewinding.";
+        }
 
-        if (!player.getType().equals("podcast"))
+        if (!player.getType().equals("podcast")) {
             return "The loaded source is not a podcast.";
+        }
 
         player.skipPrev();
 
         return "Rewound successfully.";
     }
 
+    /**
+     * Like string.
+     *
+     * @return the string
+     */
     public String like() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before liking or unliking.";
+        }
 
-        if (!player.getType().equals("song") && !player.getType().equals("playlist"))
+        if (!player.getType().equals("song") && !player.getType().equals("playlist")) {
             return "Loaded source is not a song.";
+        }
 
         Song song = (Song) player.getCurrentAudioFile();
 
@@ -178,60 +266,99 @@ public class User {
         return "Like registered successfully.";
     }
 
+    /**
+     * Next string.
+     *
+     * @return the string
+     */
     public String next() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before skipping to the next track.";
+        }
 
         player.next();
 
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before skipping to the next track.";
+        }
 
-        return "Skipped to next track successfully. The current track is %s.".formatted(player.getCurrentAudioFile().getName());
+        return "Skipped to next track successfully. The current track is %s."
+                .formatted(player.getCurrentAudioFile().getName());
     }
 
+    /**
+     * Prev string.
+     *
+     * @return the string
+     */
     public String prev() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before returning to the previous track.";
+        }
 
         player.prev();
 
-        return "Returned to previous track successfully. The current track is %s.".formatted(player.getCurrentAudioFile().getName());
+        return "Returned to previous track successfully. The current track is %s."
+                .formatted(player.getCurrentAudioFile().getName());
     }
 
-    public String createPlaylist(String name, int timestamp) {
-        if (playlists.stream().anyMatch(playlist -> playlist.getName().equals(name)))
+    /**
+     * Create playlist string.
+     *
+     * @param name      the name
+     * @param timestamp the timestamp
+     * @return the string
+     */
+    public String createPlaylist(final String name, final int timestamp) {
+        if (playlists.stream().anyMatch(playlist -> playlist.getName().equals(name))) {
             return "A playlist with the same name already exists.";
+        }
 
         playlists.add(new Playlist(name, username, timestamp));
 
         return "Playlist created successfully.";
     }
 
-    public String addRemoveInPlaylist(int Id) {
-        if (player.getCurrentAudioFile() == null)
+    /**
+     * Add remove in playlist string.
+     *
+     * @param id the id
+     * @return the string
+     */
+    public String addRemoveInPlaylist(final int id) {
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before adding to or removing from the playlist.";
+        }
 
-        if (player.getType().equals("podcast"))
+        if (player.getType().equals("podcast")) {
             return "The loaded source is not a song.";
+        }
 
-        if (Id > playlists.size())
+        if (id > playlists.size()) {
             return "The specified playlist does not exist.";
+        }
 
-        Playlist playlist = playlists.get(Id - 1);
+        Playlist playlist = playlists.get(id - 1);
 
-        if (playlist.containsSong((Song)player.getCurrentAudioFile())) {
-            playlist.removeSong((Song)player.getCurrentAudioFile());
+        if (playlist.containsSong((Song) player.getCurrentAudioFile())) {
+            playlist.removeSong((Song) player.getCurrentAudioFile());
             return "Successfully removed from playlist.";
         }
 
-        playlist.addSong((Song)player.getCurrentAudioFile());
+        playlist.addSong((Song) player.getCurrentAudioFile());
         return "Successfully added to playlist.";
     }
 
-    public String switchPlaylistVisibility(Integer playlistId) {
-        if (playlistId > playlists.size())
+    /**
+     * Switch playlist visibility string.
+     *
+     * @param playlistId the playlist id
+     * @return the string
+     */
+    public String switchPlaylistVisibility(final Integer playlistId) {
+        if (playlistId > playlists.size()) {
             return "The specified playlist ID is too high.";
+        }
 
         Playlist playlist = playlists.get(playlistId - 1);
         playlist.switchVisibility();
@@ -243,6 +370,11 @@ public class User {
         return "Visibility status updated successfully to private.";
     }
 
+    /**
+     * Show playlists array list.
+     *
+     * @return the array list
+     */
     public ArrayList<PlaylistOutput> showPlaylists() {
         ArrayList<PlaylistOutput> playlistOutputs = new ArrayList<>();
         for (Playlist playlist : playlists) {
@@ -252,20 +384,28 @@ public class User {
         return playlistOutputs;
     }
 
+    /**
+     * Follow string.
+     *
+     * @return the string
+     */
     public String follow() {
         LibraryEntry selection = searchBar.getLastSelected();
         String type = searchBar.getLastSearchType();
 
-        if (selection == null)
+        if (selection == null) {
             return "Please select a source before following or unfollowing.";
+        }
 
-        if (!type.equals("playlist"))
+        if (!type.equals("playlist")) {
             return "The selected source is not a playlist.";
+        }
 
-        Playlist playlist = (Playlist)selection;
+        Playlist playlist = (Playlist) selection;
 
-        if (playlist.getOwner().equals(username))
+        if (playlist.getOwner().equals(username)) {
             return "You cannot follow or unfollow your own playlist.";
+        }
 
         if (followedPlaylists.contains(playlist)) {
             followedPlaylists.remove(playlist);
@@ -281,10 +421,20 @@ public class User {
         return "Playlist followed successfully.";
     }
 
+    /**
+     * Gets player stats.
+     *
+     * @return the player stats
+     */
     public PlayerStats getPlayerStats() {
         return player.getStats();
     }
 
+    /**
+     * Show preferred songs array list.
+     *
+     * @return the array list
+     */
     public ArrayList<String> showPreferredSongs() {
         ArrayList<String> results = new ArrayList<>();
         for (AudioFile audioFile : likedSongs) {
@@ -294,6 +444,11 @@ public class User {
         return results;
     }
 
+    /**
+     * Gets preferred genre.
+     *
+     * @return the preferred genre
+     */
     public String getPreferredGenre() {
         String[] genres = {"pop", "rock", "rap"};
         int[] counts = new int[genres.length];
@@ -317,7 +472,12 @@ public class User {
         return "This user's preferred genre is %s.".formatted(preferredGenre);
     }
 
-    public void simulateTime(int time) {
+    /**
+     * Simulate time.
+     *
+     * @param time the time
+     */
+    public void simulateTime(final int time) {
         player.simulatePlayer(time);
     }
 }
