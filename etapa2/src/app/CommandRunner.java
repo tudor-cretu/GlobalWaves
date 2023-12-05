@@ -1,6 +1,7 @@
 package app;
 
 import app.audio.Collections.PlaylistOutput;
+import app.player.Player;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.user.User;
@@ -33,9 +34,15 @@ public final class CommandRunner {
         User user = Admin.getUser(commandInput.getUsername());
         Filters filters = new Filters(commandInput.getFilters());
         String type = commandInput.getType();
+        ArrayList<String> results = null;
+        String message = null;
 
-        ArrayList<String> results = user.search(filters, type);
-        String message = "Search returned " + results.size() + " results";
+        if (user != null) {
+            results = user.search(filters, type);
+        }
+        if (results != null) {
+            message = "Search returned " + results.size() + " results";
+        }
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
@@ -55,8 +62,10 @@ public final class CommandRunner {
      */
     public static ObjectNode select(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
-
-        String message = user.select(commandInput.getItemNumber());
+        String message = null;
+        if (user != null) {
+            message = user.select(commandInput.getItemNumber());
+        }
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
@@ -75,7 +84,11 @@ public final class CommandRunner {
      */
     public static ObjectNode load(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
-        String message = user.load();
+
+        String message = null;
+        if (user != null) {
+            message = user.load();
+        }
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
@@ -113,7 +126,11 @@ public final class CommandRunner {
      */
     public static ObjectNode repeat(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
-        String message = user.repeat();
+        String message = null;
+
+        if (user != null) {
+            message = user.repeat();
+        }
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
@@ -152,7 +169,11 @@ public final class CommandRunner {
      */
     public static ObjectNode forward(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
-        String message = user.forward();
+        String message = null;
+
+        if (user != null) {
+            message = user.forward();
+        }
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
@@ -190,7 +211,11 @@ public final class CommandRunner {
      */
     public static ObjectNode like(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
-        String message = user.like();
+        String message = null;
+
+        if (user != null) {
+            message = user.like();
+        }
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
@@ -247,8 +272,12 @@ public final class CommandRunner {
      */
     public static ObjectNode createPlaylist(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
-        String message = user.createPlaylist(commandInput.getPlaylistName(),
-                                             commandInput.getTimestamp());
+        String message = null;
+
+        if (user != null) {
+            message = user.createPlaylist(commandInput.getPlaylistName(),
+                    commandInput.getTimestamp());
+        }
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
@@ -267,7 +296,11 @@ public final class CommandRunner {
      */
     public static ObjectNode addRemoveInPlaylist(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
-        String message = user.addRemoveInPlaylist(commandInput.getPlaylistId());
+        String message = null;
+
+        if (user != null) {
+            message = user.addRemoveInPlaylist(commandInput.getPlaylistId());
+        }
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
@@ -324,7 +357,11 @@ public final class CommandRunner {
      */
     public static ObjectNode follow(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
-        String message = user.follow();
+        String message = null;
+
+        if (user != null) {
+            message = user.follow();
+        }
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
@@ -343,7 +380,10 @@ public final class CommandRunner {
      */
     public static ObjectNode status(final CommandInput commandInput) {
         User user = Admin.getUser(commandInput.getUsername());
-        PlayerStats stats = user.getPlayerStats();
+        PlayerStats stats = null;
+        if (user != null) {
+            stats = user.getPlayerStats();
+        }
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());

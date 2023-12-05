@@ -224,4 +224,21 @@ public class PlayerSource {
         this.audioFile = audioFile;
     }
 
+    public AudioFile getAudioFile() {
+        return audioFile;
+    }
+
+    public AudioCollection getAudioCollection() {
+        return audioCollection;
+    }
+
+    public int getIndex() {
+        return index;
+    }
+
+    public Enums.PlayerSourceType getType() {
+        return type;
+    }
+
+
 }

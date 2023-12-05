@@ -119,4 +119,8 @@ public abstract class LibraryEntry {
     public boolean matchesFollowers(final String followers) {
         return false;
     }
+
+    public String getName() {
+        return name;
+    }
 }

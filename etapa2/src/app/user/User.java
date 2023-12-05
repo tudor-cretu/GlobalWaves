@@ -12,6 +12,7 @@ import app.searchBar.Filters;
 import app.searchBar.SearchBar;
 import app.utils.Enums;
 import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,18 +20,14 @@ import java.util.List;
 /**
  * The type User.
  */
+@Getter
+@Setter
 public class User {
-    @Getter
     private String username;
-    @Getter
     private int age;
-    @Getter
     private String city;
-    @Getter
     private ArrayList<Playlist> playlists;
-    @Getter
     private ArrayList<Song> likedSongs;
-    @Getter
     private ArrayList<Playlist> followedPlaylists;
     private final Player player;
     private final SearchBar searchBar;
@@ -480,4 +477,13 @@ public class User {
     public void simulateTime(final int time) {
         player.simulatePlayer(time);
     }
+
+    public ArrayList<Playlist> getPlaylists() {
+        return playlists;
+    }
+
+    public String getUsername() {
+        return username;
+    }
 }
+

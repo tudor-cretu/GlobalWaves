@@ -105,4 +105,37 @@ public final class Song extends AudioFile {
     public void dislike() {
         likes--;
     }
+
+    public Integer getLikes() {
+        return likes;
+    }
+
+    @Override
+    public String getName() {
+        return super.getName();
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public String getAlbum() {
+        return album;
+    }
+
+    public ArrayList<String> getTags() {
+        return tags;
+    }
+
+    public String getLyrics() {
+        return lyrics;
+    }
+
+    public String getArtist() {
+        return artist;
+    }
+
+    public Integer getReleaseYear() {
+        return releaseYear;
+    }
 }

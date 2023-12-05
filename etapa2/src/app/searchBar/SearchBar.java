@@ -26,10 +26,7 @@ public final class SearchBar {
     private List<LibraryEntry> results;
     private final String user;
     private static final Integer MAX_RESULTS = 5;
-    @Getter
     private String lastSearchType;
-
-    @Getter
     private LibraryEntry lastSelected;
 
     /**
@@ -154,4 +151,14 @@ public final class SearchBar {
             return lastSelected;
         }
     }
+
+    public LibraryEntry getLastSelected() {
+        return lastSelected;
+    }
+
+    public String getLastSearchType() {
+        return lastSearchType;
+    }
+
+
 }

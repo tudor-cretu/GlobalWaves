@@ -1,5 +1,10 @@
 package fileio.input;
 
+import app.audio.Files.Episode;
+import app.audio.Files.Song;
+
+import java.util.ArrayList;
+
 public final class CommandInput {
     private String command;
     private String username;
@@ -11,6 +16,16 @@ public final class CommandInput {
     private Integer playlistId; // pentru add/remove song
     private String playlistName; // pentru create playlist
     private Integer seed; // pentru shuffle
+    private Integer age;
+    private String city;
+    private String name;
+    private String releaseYear;
+    private String description;
+    private ArrayList<SongInput> songs;
+    private String date;
+    private String price;
+    private ArrayList<EpisodeInput> episodes;
+    private String nextPage;
 
     public CommandInput() {
     }
@@ -89,6 +104,46 @@ public final class CommandInput {
 
     public Integer getSeed() {
         return seed;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getReleaseYear() {
+        return releaseYear;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public ArrayList<SongInput> getSongs() {
+        return songs;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public ArrayList<EpisodeInput> getEpisodes() {
+        return episodes;
+    }
+
+    public String getNextPage() {
+        return nextPage;
     }
 
     public void setSeed(final Integer seed) {

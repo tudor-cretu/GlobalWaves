@@ -24,4 +24,16 @@ public final class PodcastBookmark {
                 + ", timestamp=" + timestamp
                 + '}';
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public int getTimestamp() {
+        return timestamp;
+    }
 }

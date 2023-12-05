@@ -28,4 +28,40 @@ public class Filters {
         this.owner = filters.getOwner();
         this.followers = filters.getFollowers();
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAlbum() {
+        return album;
+    }
+
+    public ArrayList<String> getTags() {
+        return tags;
+    }
+
+    public String getLyrics() {
+        return lyrics;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public String getReleaseYear() {
+        return releaseYear;
+    }
+
+    public String getArtist() {
+        return artist;
+    }
+
+    public String getFollowers() {
+        return followers;
+    }
+
+    public String getOwner() {
+        return owner;
+    }
 }

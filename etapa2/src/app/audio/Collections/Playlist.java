@@ -135,4 +135,30 @@ public final class Playlist extends AudioCollection {
             return count == Integer.parseInt(query);
         }
     }
+
+    public Integer getFollowers() {
+        return followers;
+    }
+
+    public int getTimestamp() {
+        return timestamp;
+    }
+
+    @Override
+    public String getName() {
+        return super.getName();
+    }
+
+    public Enums.Visibility getVisibility() {
+        return visibility;
+    }
+
+    @Override
+    public String getOwner() {
+        return super.getOwner();
+    }
+
+    public ArrayList<Song> getSongs() {
+        return songs;
+    }
 }
