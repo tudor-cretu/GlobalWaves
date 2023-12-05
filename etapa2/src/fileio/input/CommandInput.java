@@ -14,11 +14,12 @@ public final class CommandInput {
 
     public CommandInput() {
     }
+
     public String getType() {
         return type;
     }
 
-    public void setType(String type) {
+    public void setType(final String type) {
         this.type = type;
     }
 
@@ -26,7 +27,7 @@ public final class CommandInput {
         return command;
     }
 
-    public void setCommand(String command) {
+    public void setCommand(final String command) {
         this.command = command;
     }
 
@@ -34,7 +35,7 @@ public final class CommandInput {
         return username;
     }
 
-    public void setUsername(String username) {
+    public void setUsername(final String username) {
         this.username = username;
     }
 
@@ -42,7 +43,7 @@ public final class CommandInput {
         return timestamp;
     }
 
-    public void setTimestamp(Integer timestamp) {
+    public void setTimestamp(final Integer timestamp) {
         this.timestamp = timestamp;
     }
 
@@ -50,7 +51,7 @@ public final class CommandInput {
         return filters;
     }
 
-    public void setFilters(FiltersInput filters) {
+    public void setFilters(final FiltersInput filters) {
         this.filters = filters;
     }
 
@@ -58,7 +59,7 @@ public final class CommandInput {
         return itemNumber;
     }
 
-    public void setItemNumber(Integer itemNumber) {
+    public void setItemNumber(final Integer itemNumber) {
         this.itemNumber = itemNumber;
     }
 
@@ -66,7 +67,7 @@ public final class CommandInput {
         return repeatMode;
     }
 
-    public void setRepeatMode(Integer repeatMode) {
+    public void setRepeatMode(final Integer repeatMode) {
         this.repeatMode = repeatMode;
     }
 
@@ -74,7 +75,7 @@ public final class CommandInput {
         return playlistId;
     }
 
-    public void setPlaylistId(Integer playlistId) {
+    public void setPlaylistId(final Integer playlistId) {
         this.playlistId = playlistId;
     }
 
@@ -82,7 +83,7 @@ public final class CommandInput {
         return playlistName;
     }
 
-    public void setPlaylistName(String playlistName) {
+    public void setPlaylistName(final String playlistName) {
         this.playlistName = playlistName;
     }
 
@@ -90,23 +91,23 @@ public final class CommandInput {
         return seed;
     }
 
-    public void setSeed(Integer seed) {
+    public void setSeed(final Integer seed) {
         this.seed = seed;
     }
 
     @Override
     public String toString() {
-        return "CommandInput{" +
-                "command='" + command + '\'' +
-                ", username='" + username + '\'' +
-                ", timestamp=" + timestamp +
-                ", type='" + type + '\'' +
-                ", filters=" + filters +
-                ", itemNumber=" + itemNumber +
-                ", repeatMode=" + repeatMode +
-                ", playlistId=" + playlistId +
-                ", playlistName='" + playlistName + '\'' +
-                ", seed=" + seed +
-                '}';
+        return "CommandInput{"
+                + "command='" + command + '\''
+                + ", username='" + username + '\''
+                + ", timestamp=" + timestamp
+                + ", type='" + type + '\''
+                + ", filters=" + filters
+                + ", itemNumber=" + itemNumber
+                + ", repeatMode=" + repeatMode
+                + ", playlistId=" + playlistId
+                + ", playlistName='" + playlistName + '\''
+                + ", seed=" + seed
+                + '}';
     }
 }
