@@ -12,6 +12,7 @@ import fileio.input.UserInput;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -39,7 +40,7 @@ public final class Admin {
     public static void setUsers(final List<UserInput> userInputList) {
         users = new ArrayList<>();
         for (UserInput userInput : userInputList) {
-            users.add(new User(userInput.getUsername(), userInput.getAge(), userInput.getCity()));
+            users.add(new User(userInput.getUsername(), userInput.getType(), userInput.getAge(), userInput.getCity()));
         }
     }
 
@@ -180,6 +181,54 @@ public final class Admin {
         }
         return topPlaylists;
     }
+
+    public static List<String> getOnlineUsers() {
+        List<String> onlineUsers = new ArrayList<>();
+        for (User user : users) {
+            if (user.getConnectionStatus().equals("ONLINE")) {
+                onlineUsers.add(user.getUsername());
+            }
+        }
+        return onlineUsers;
+    }
+
+    public static String addUser(String username, String type, Integer age, String city) {
+        for (User user : users) {
+            if (user.getUsername().equals(username)) {
+                return "The username " + username + " is already taken.";
+            }
+        }
+        users.add(new User(username, type, age, city));
+        return "The username " + username + " has been added successfully.";
+    }
+
+    public static String addAlbum(String username, String name, int timestamp,
+                                  String releaseYear, ArrayList<SongInput> songs, String description) {
+        User user = getUser(username);
+        ArrayList<Song> tracks = new ArrayList<>();
+        for (SongInput song : songs) {
+            Song track = new Song(song.getName(), song.getDuration(), song.getAlbum(),
+                    song.getTags(), song.getLyrics(), song.getGenre(), song.getReleaseYear(), song.getArtist());
+            tracks.add(track);
+        }
+        if (user == null) {
+            return "The username " + username + " doesn't exist.";
+        }
+        if (user.getType() != null && !user.getType().equals("artist")) {
+            return username + " is not an artist.";
+        }
+        for (Song track : tracks) {
+            if (!track.getArtist().equals(username)) {
+                return "The artist of the song " + track.getName() + " is not " + username + "!";
+            }
+        }
+
+        String owner = username;
+        user.addAlbum(username, name, owner, timestamp, releaseYear, tracks, description);
+        return username + " has added new album successfully.";
+    }
+
+
 
     /**
      * Reset.

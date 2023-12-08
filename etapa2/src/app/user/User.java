@@ -1,5 +1,6 @@
 package app.user;
 
+import app.audio.Collections.Album;
 import app.audio.Collections.AudioCollection;
 import app.audio.Collections.Playlist;
 import app.audio.Collections.PlaylistOutput;
@@ -11,11 +12,13 @@ import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.searchBar.SearchBar;
 import app.utils.Enums;
+import fileio.input.SongInput;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * The type User.
@@ -24,32 +27,38 @@ import java.util.List;
 @Setter
 public class User {
     private String username;
+    private String type;
     private int age;
     private String city;
     private ArrayList<Playlist> playlists;
+    private ArrayList<Album> albums;
     private ArrayList<Song> likedSongs;
     private ArrayList<Playlist> followedPlaylists;
     private final Player player;
     private final SearchBar searchBar;
     private boolean lastSearched;
+    private Enums.ConnectionStatus connectionStatus;
 
     /**
      * Instantiates a new User.
      *
      * @param username the username
+     * @param type
      * @param age      the age
      * @param city     the city
      */
-    public User(final String username, final int age, final String city) {
+    public User(final String username, String type, final int age, final String city) {
         this.username = username;
         this.age = age;
         this.city = city;
         playlists = new ArrayList<>();
+        albums = new ArrayList<>();
         likedSongs = new ArrayList<>();
         followedPlaylists = new ArrayList<>();
         player = new Player();
         searchBar = new SearchBar(username);
         lastSearched = false;
+        connectionStatus = Enums.ConnectionStatus.ONLINE;
     }
 
     /**
@@ -65,6 +74,9 @@ public class User {
 
         lastSearched = true;
         ArrayList<String> results = new ArrayList<>();
+        if (connectionStatus == Enums.ConnectionStatus.OFFLINE) {
+            results.add(0, "OFFLINE");
+        }
         List<LibraryEntry> libraryEntries = searchBar.search(filters, type);
 
         for (LibraryEntry libraryEntry : libraryEntries) {
@@ -241,6 +253,9 @@ public class User {
      * @return the string
      */
     public String like() {
+        if (Objects.equals(getConnectionStatus(), "OFFLINE")) {
+            return username + " is offline.";
+        }
         if (player.getCurrentAudioFile() == null) {
             return "Please load a source before liking or unliking.";
         }
@@ -484,6 +499,28 @@ public class User {
 
     public String getUsername() {
         return username;
+    }
+
+    public String switchConnectionStatus() {
+        if (connectionStatus == Enums.ConnectionStatus.OFFLINE) {
+            connectionStatus = Enums.ConnectionStatus.ONLINE;
+        } else if (connectionStatus == Enums.ConnectionStatus.ONLINE) {
+            connectionStatus = Enums.ConnectionStatus.OFFLINE;
+            if (!player.getPaused()) {
+                player.pause();
+                player.userOffline = true;
+            }
+        }
+        return username + " has changed status successfully.";
+    }
+
+    public String getConnectionStatus() {
+        return connectionStatus.toString();
+    }
+
+    public void addAlbum(final String username, final String name, final String owner,
+                         final int timestamp, final String releaseYear, final ArrayList<Song> songs, final String description) {
+        albums.add(new Album(username, name, owner, timestamp, releaseYear, songs, description));
     }
 }
 

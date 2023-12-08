@@ -20,6 +20,7 @@ public final class Player {
     @Getter
     private String type;
     private final int skipTime = 90;
+    public boolean userOffline = false;
 
     private ArrayList<PodcastBookmark> bookmarks = new ArrayList<>();
 
@@ -167,14 +168,14 @@ public final class Player {
     public void simulatePlayer(final int time) {
         int elapsedTime = time;
         if (!paused) {
-            while (elapsedTime >= source.getDuration()) {
+            while (source != null && elapsedTime >= source.getDuration()) {
                 elapsedTime -= source.getDuration();
                 next();
                 if (paused) {
                     break;
                 }
             }
-            if (!paused) {
+            if (!paused && source != null) {
                 source.skip(-elapsedTime);
             }
         }
@@ -268,6 +269,10 @@ public final class Player {
             duration = source.getDuration();
         } else {
             stop();
+        }
+
+        if (source != null && userOffline) {
+            pause();
         }
 
         return new PlayerStats(filename, duration, repeatMode, shuffle, paused);

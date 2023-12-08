@@ -26,16 +26,46 @@
     "paused" : false
   }
 }, {
+  "command" : "switchConnectionStatus",
+  "timestamp" : 240,
+  "message" : "alice22 has changed status successfully.",
+  "user" : "alice22"
+}, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 280,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "alice22 is offline."
+}, {
+  "command" : "addUser",
+  "timestamp" : 295,
+  "user" : "melodymaster",
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 305,
+  "user" : "melodymaster",
+  "message" : "melodymaster has added new album successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 380,
+  "user" : "alice22",
+  "message" : "The username alice22 is already taken."
+}, {
+  "command" : "switchConnectionStatus",
+  "timestamp" : 390,
+  "message" : "alice22 has changed status successfully.",
+  "user" : "alice22"
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 395,
   "message" : "Search returned 1 results",
   "results" : [ "Radio Ga Ga" ]
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 400,
+  "user" : "melodymaster",
+  "message" : "melodymaster has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -57,4 +87,14 @@
   "user" : "alice22",
   "timestamp" : 460,
   "message" : "Please load a source before liking or unliking."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 515,
+  "user" : "melodymaster",
+  "message" : "melodymaster has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 560,
+  "user" : "melodymaster",
+  "message" : "melodymaster has added new album successfully."
 } ]

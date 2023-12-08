@@ -40,4 +40,8 @@ public final class UserInput {
                 + ", city='" + city + '\''
                 + '}';
     }
+
+    public String getType() {
+        return null;
+    }
 }

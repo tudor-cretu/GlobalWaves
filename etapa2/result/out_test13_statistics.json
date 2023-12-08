@@ -4,6 +4,26 @@
   "timestamp" : 130,
   "message" : "Playlist created successfully."
 }, {
+  "command" : "addUser",
+  "timestamp" : 140,
+  "user" : "melodymaster",
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 142,
+  "user" : "melodymaster",
+  "message" : "melodymaster has added new album successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 143,
+  "user" : "melodymaster 2",
+  "message" : "The username melodymaster 2 has been added successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 144,
+  "user" : "melodymaster 2",
+  "message" : "The artist of the song Vibrant Echoes 2 is not melodymaster 2!"
+}, {
   "command" : "createPlaylist",
   "user" : "bob35",
   "timestamp" : 150,
