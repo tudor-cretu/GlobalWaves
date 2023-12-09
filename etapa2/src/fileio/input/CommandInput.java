@@ -9,7 +9,7 @@ public final class CommandInput {
     private String command;
     private String username;
     private Integer timestamp;
-    private String type; // song / playlist / podcast
+    private String type; // song / playlist / podcast / album
     private FiltersInput filters; // pentru search
     private Integer itemNumber; // pentru select
     private Integer repeatMode; // pentru repeat

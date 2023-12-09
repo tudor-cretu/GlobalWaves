@@ -1,10 +1,13 @@
 package app;
 
+import app.audio.Collections.Album;
 import app.audio.Collections.Playlist;
 import app.audio.Collections.Podcast;
 import app.audio.Files.Episode;
 import app.audio.Files.Song;
+import app.user.Artist;
 import app.user.User;
+import app.utils.show.ShowAlbum;
 import fileio.input.EpisodeInput;
 import fileio.input.PodcastInput;
 import fileio.input.SongInput;
@@ -12,10 +15,10 @@ import fileio.input.UserInput;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * The type Admin.
@@ -24,8 +27,10 @@ import java.util.List;
 @Getter
 public final class Admin {
     private static List<User> users = new ArrayList<>();
+    private static List<Artist> artists = new ArrayList<>();
     private static List<Song> songs = new ArrayList<>();
     private static List<Podcast> podcasts = new ArrayList<>();
+    private static List<Album> albums = new ArrayList<>();
     private static int timestamp = 0;
     private static final int LIMIT = 5;
 
@@ -109,6 +114,15 @@ public final class Admin {
     }
 
     /**
+     * Gets albums.
+     *
+     * @return the albums
+     */
+    public static ArrayList<Album> getAlbums() {
+        return new ArrayList<>(albums);
+    }
+
+    /**
      * Gets user.
      *
      * @param username the username
@@ -118,6 +132,21 @@ public final class Admin {
         for (User user : users) {
             if (user.getUsername().equals(username)) {
                 return user;
+            }
+        }
+        return null;
+    }
+
+    /**
+     * Gets artist.
+     *
+     * @param username the username
+     * @return the artist
+     */
+    private static Artist getArtist(String username) {
+        for (Artist artist : artists) {
+            if (artist.getUsername().equals(username)) {
+                return artist;
             }
         }
         return null;
@@ -199,17 +228,21 @@ public final class Admin {
             }
         }
         users.add(new User(username, type, age, city));
+        if (Objects.equals(type, "artist")) {
+            artists.add(new Artist(username, type, age, city));
+        }
         return "The username " + username + " has been added successfully.";
     }
 
     public static String addAlbum(String username, String name, int timestamp,
-                                  String releaseYear, ArrayList<SongInput> songs, String description) {
+                                  String releaseYear, ArrayList<SongInput> albumSongs, String description) {
         User user = getUser(username);
         ArrayList<Song> tracks = new ArrayList<>();
-        for (SongInput song : songs) {
+        for (SongInput song : albumSongs) {
             Song track = new Song(song.getName(), song.getDuration(), song.getAlbum(),
                     song.getTags(), song.getLyrics(), song.getGenre(), song.getReleaseYear(), song.getArtist());
             tracks.add(track);
+            songs.add(track);
         }
         if (user == null) {
             return "The username " + username + " doesn't exist.";
@@ -224,11 +257,29 @@ public final class Admin {
         }
 
         String owner = username;
-        user.addAlbum(username, name, owner, timestamp, releaseYear, tracks, description);
+        if (Objects.equals(user.getType(), "artist")) {
+            Artist artist = getArtist(username);
+            if (!artists.contains(artist)) {
+                artists.add(artist);
+            }
+            if (artist != null) {
+                artist.addAlbum(username, name, owner, timestamp, releaseYear, tracks, description);
+            }
+        }
+
+        Album album = new Album(username, name, owner, timestamp, releaseYear, tracks, description);
+        albums.add(album);
         return username + " has added new album successfully.";
     }
 
+    public static ArrayList<ShowAlbum> showAlbums(String username) {
+        Artist artist = getArtist(username);
 
+        if (artist == null) {
+            return null;
+        }
+        return artist.showAlbums();
+    }
 
     /**
      * Reset.

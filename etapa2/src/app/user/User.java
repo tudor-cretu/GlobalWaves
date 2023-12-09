@@ -49,6 +49,7 @@ public class User {
      */
     public User(final String username, String type, final int age, final String city) {
         this.username = username;
+        this.type = type;
         this.age = age;
         this.city = city;
         playlists = new ArrayList<>();
@@ -516,11 +517,6 @@ public class User {
 
     public String getConnectionStatus() {
         return connectionStatus.toString();
-    }
-
-    public void addAlbum(final String username, final String name, final String owner,
-                         final int timestamp, final String releaseYear, final ArrayList<Song> songs, final String description) {
-        albums.add(new Album(username, name, owner, timestamp, releaseYear, songs, description));
     }
 }
 

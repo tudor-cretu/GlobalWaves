@@ -46,6 +46,14 @@
   "user" : "melodymaster",
   "message" : "melodymaster has added new album successfully."
 }, {
+  "command" : "showAlbums",
+  "result" : [ {
+    "name" : "Harmonic Horizons",
+    "songs" : [ "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse" ]
+  } ],
+  "timestamp" : 350,
+  "user" : "melodymaster"
+}, {
   "command" : "addUser",
   "timestamp" : 380,
   "user" : "alice22",
@@ -59,8 +67,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 395,
-  "message" : "Search returned 1 results",
-  "results" : [ "Radio Ga Ga" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Radio Ga Ga", "Retro Rhythms" ]
 }, {
   "command" : "addAlbum",
   "timestamp" : 400,
@@ -70,28 +78,42 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 420,
-  "message" : "Search returned 3 results",
-  "results" : [ "Money Trees", "Maps", "Moves Like Jagger" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Money Trees", "Maps", "Moves Like Jagger", "Melodic Mirage" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 430,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Melodic Mirage."
 }, {
   "command" : "load",
   "user" : "alice22",
   "timestamp" : 440,
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "user" : "alice22",
   "timestamp" : 460,
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "addAlbum",
   "timestamp" : 515,
   "user" : "melodymaster",
   "message" : "melodymaster has added new album successfully."
+}, {
+  "command" : "showAlbums",
+  "result" : [ {
+    "name" : "Harmonic Horizons",
+    "songs" : [ "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse" ]
+  }, {
+    "name" : "Echoes of Harmony",
+    "songs" : [ "Melodic Mirage", "Pop Serenade" ]
+  }, {
+    "name" : "Echoes of Harmony",
+    "songs" : [ "Harmony Heights", "Rhythmic Reverie", "Echoing Euphoria" ]
+  } ],
+  "timestamp" : 550,
+  "user" : "melodymaster"
 }, {
   "command" : "addAlbum",
   "timestamp" : 560,

@@ -6,7 +6,7 @@ import app.utils.Enums;
 
 import java.util.ArrayList;
 
-public final class Album extends AudioCollection {
+public class Album extends AudioCollection {
     private final ArrayList<Song> songs;
     private final String description;
     private final String username;
@@ -54,5 +54,13 @@ public final class Album extends AudioCollection {
     @Override
     public AudioFile getTrackByIndex(final int index) {
         return songs.get(index);
+    }
+
+    public ArrayList<String> getSongsNames() {
+        ArrayList<String> songsNames = new ArrayList<>();
+        for (Song song : songs) {
+            songsNames.add(song.getName());
+        }
+        return songsNames;
     }
 }

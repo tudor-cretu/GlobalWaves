@@ -123,4 +123,14 @@ public abstract class LibraryEntry {
     public String getName() {
         return name;
     }
+
+    /**
+     * Matches description boolean.
+     *
+     * @param descriptionFilter the description filter
+     * @return the boolean
+     */
+    public boolean matchesDescription(String descriptionFilter) {
+        return getName().toLowerCase().startsWith(descriptionFilter.toLowerCase());
+    }
 }

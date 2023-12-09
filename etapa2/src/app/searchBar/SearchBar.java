@@ -8,16 +8,7 @@ import lombok.Getter;
 import java.util.ArrayList;
 import java.util.List;
 
-import static app.searchBar.FilterUtils.filterByAlbum;
-import static app.searchBar.FilterUtils.filterByArtist;
-import static app.searchBar.FilterUtils.filterByFollowers;
-import static app.searchBar.FilterUtils.filterByGenre;
-import static app.searchBar.FilterUtils.filterByLyrics;
-import static app.searchBar.FilterUtils.filterByName;
-import static app.searchBar.FilterUtils.filterByOwner;
-import static app.searchBar.FilterUtils.filterByPlaylistVisibility;
-import static app.searchBar.FilterUtils.filterByReleaseYear;
-import static app.searchBar.FilterUtils.filterByTags;
+import static app.searchBar.FilterUtils.*;
 
 /**
  * The type Search bar.
@@ -120,6 +111,20 @@ public final class SearchBar {
                 }
 
                 break;
+            case "album":
+                entries = new ArrayList<>(Admin.getAlbums());
+
+                if (filters.getName() != null) {
+                    entries = filterByName(entries, filters.getName());
+                }
+
+                if (filters.getOwner() != null) {
+                    entries = filterByOwner(entries, filters.getOwner());
+                }
+
+                if (filters.getDescription() != null) {
+                    entries = filterByDescription(entries, filters.getDescription());
+                }
             default:
                 entries = new ArrayList<>();
         }

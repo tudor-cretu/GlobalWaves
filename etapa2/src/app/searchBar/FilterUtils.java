@@ -31,6 +31,15 @@ public final class FilterUtils {
         return result;
     }
 
+    public static List<LibraryEntry> filterByDescription(List<LibraryEntry> entries, String description) {
+        List<LibraryEntry> result = new ArrayList<>();
+        for (LibraryEntry entry : entries) {
+            if (entry.matchesDescription(description)) {
+                result.add(entry);
+            }
+        }
+        return result;
+    }
     /**
      * Filter by album list.
      *

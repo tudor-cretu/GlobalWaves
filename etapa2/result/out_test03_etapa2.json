@@ -28,6 +28,11 @@
   "user" : "melodymaster",
   "message" : "melodymaster has added new album successfully."
 }, {
+  "command" : "showAlbums",
+  "result" : [ ],
+  "timestamp" : 40,
+  "user" : "beatblazer"
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 65,

@@ -5,6 +5,7 @@ import app.player.Player;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.user.User;
+import app.utils.show.ShowAlbum;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import fileio.input.CommandInput;
@@ -522,6 +523,17 @@ public final class CommandRunner {
         objectNode.put("timestamp", commandInput.getTimestamp());
         objectNode.put("user", commandInput.getUsername());
         objectNode.put("message", message);
+
+        return objectNode;
+    }
+
+    public static ObjectNode showAlbums(CommandInput commandInput) {
+        ArrayList<ShowAlbum> result = Admin.showAlbums(commandInput.getUsername());
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("result", objectMapper.valueToTree(result));
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("user", commandInput.getUsername());
 
         return objectNode;
     }
