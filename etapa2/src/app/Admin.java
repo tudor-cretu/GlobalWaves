@@ -7,6 +7,9 @@ import app.audio.Files.Episode;
 import app.audio.Files.Song;
 import app.user.Artist;
 import app.user.User;
+import app.utils.Enums;
+import app.utils.Event;
+import app.utils.Merch;
 import app.utils.show.ShowAlbum;
 import fileio.input.EpisodeInput;
 import fileio.input.PodcastInput;
@@ -75,8 +78,8 @@ public final class Admin {
             List<Episode> episodes = new ArrayList<>();
             for (EpisodeInput episodeInput : podcastInput.getEpisodes()) {
                 episodes.add(new Episode(episodeInput.getName(),
-                                         episodeInput.getDuration(),
-                                         episodeInput.getDescription()));
+                        episodeInput.getDuration(),
+                        episodeInput.getDescription()));
             }
             podcasts.add(new Podcast(podcastInput.getName(), podcastInput.getOwner(), episodes));
         }
@@ -120,6 +123,15 @@ public final class Admin {
      */
     public static ArrayList<Album> getAlbums() {
         return new ArrayList<>(albums);
+    }
+
+    /**
+     * Gets artists.
+     *
+     * @return the artists
+     */
+    public static ArrayList<Artist> getArtists() {
+        return new ArrayList<>(artists);
     }
 
     /**
@@ -214,23 +226,55 @@ public final class Admin {
     public static List<String> getOnlineUsers() {
         List<String> onlineUsers = new ArrayList<>();
         for (User user : users) {
-            if (user.getConnectionStatus().equals("ONLINE")) {
+            if (!Objects.equals(user.getType(), "artist") && user.getConnectionStatus().equals("ONLINE")) {
                 onlineUsers.add(user.getUsername());
             }
         }
         return onlineUsers;
     }
 
+    private static List<String> getOfflineUsers() {
+        List<String> offlineUsernames = new ArrayList<>();
+        for (User user : users) {
+            if (user.getConnectionStatus().equals("OFFLINE")) {
+                offlineUsernames.add(user.getUsername());
+            }
+        }
+        return offlineUsernames;
+    }
+
+    public static List<String> getUsers() {
+        List<String> simpleUserUsernames = new ArrayList<>();
+        for (User user : users) {
+            if (user.getType() == null || user.getType().equals("user")) {
+                simpleUserUsernames.add(user.getUsername());
+            }
+        }
+        List<String> artistUsernames = new ArrayList<>();
+        for (Artist artist : artists) {
+            artistUsernames.add(artist.getUsername());
+        }
+        List<String> hostUsernames = new ArrayList<>();
+        // TO BE ADDED
+        List<String> allUsernames = new ArrayList<>();
+        allUsernames.addAll(simpleUserUsernames);
+        allUsernames.addAll(artistUsernames);
+        allUsernames.addAll(hostUsernames);
+        return allUsernames;
+    }
+
     public static String addUser(String username, String type, Integer age, String city) {
+        User toBeAddedUser = new User(username, type, age, city);
+        toBeAddedUser.setConnectionStatus(Enums.ConnectionStatus.ONLINE);
         for (User user : users) {
             if (user.getUsername().equals(username)) {
                 return "The username " + username + " is already taken.";
             }
         }
-        users.add(new User(username, type, age, city));
-        if (Objects.equals(type, "artist")) {
+        if (type.equals("artist")) {
             artists.add(new Artist(username, type, age, city));
         }
+        users.add(toBeAddedUser);
         return "The username " + username + " has been added successfully.";
     }
 
@@ -241,6 +285,11 @@ public final class Admin {
         for (SongInput song : albumSongs) {
             Song track = new Song(song.getName(), song.getDuration(), song.getAlbum(),
                     song.getTags(), song.getLyrics(), song.getGenre(), song.getReleaseYear(), song.getArtist());
+            for (Song auxTrack : tracks) {
+                if (auxTrack.getName().equals(track.getName())) {
+                    return username + " has the same song at least twice in this album.";
+                }
+            }
             tracks.add(track);
             songs.add(track);
         }
@@ -259,10 +308,12 @@ public final class Admin {
         String owner = username;
         if (Objects.equals(user.getType(), "artist")) {
             Artist artist = getArtist(username);
-            if (!artists.contains(artist)) {
-                artists.add(artist);
-            }
             if (artist != null) {
+                for (Album album : artist.getAlbums()) {
+                    if (album.getName().equals(name)) {
+                        return username + " has another album with the same name.";
+                    }
+                }
                 artist.addAlbum(username, name, owner, timestamp, releaseYear, tracks, description);
             }
         }
@@ -281,13 +332,105 @@ public final class Admin {
         return artist.showAlbums();
     }
 
+    public static String addEvent(String username, String name, String date, String description) {
+        if (!verifyArtist(username).equals("is artist.")) {
+            return verifyArtist(username);
+        } else {
+            Artist artist = getArtist(username);
+            if (artist != null) {
+                for (Event event : artist.getEvents()) {
+                    if (event.getName().equals(name)) {
+                        return username + " has another event with the same name.";
+                    }
+                }
+
+                int day = Integer.parseInt(date.split("-")[0]);
+                if (day < 1 || day > 31) {
+                    return "Event for " + username + " does not have a valid date.";
+                }
+                int month = Integer.parseInt(date.split("-")[1]);
+                if (month < 1 || month > 12) {
+                    return "Event for " + username + " does not have a valid date.";
+                }
+                if (month == 2 && day > 29) {
+                    return "Event for " + username + " does not have a valid date.";
+                }
+                int year = Integer.parseInt(date.split("-")[2]);
+                if (year < 1900 || year > 2023) {
+                    return "Event for " + username + " does not have a valid date.";
+                }
+
+                artist.addEvent(name, date, description);
+            }
+            return username + " has added new event successfully.";
+        }
+    }
+
+    public static String addMerch(String username, String name, String price, String description) {
+        if (!verifyArtist(username).equals("is artist.")) {
+            return verifyArtist(username);
+        } else {
+            Artist artist = getArtist(username);
+            if (artist != null) {
+                for (Merch merch : artist.getMerch()) {
+                    if (merch.getName().equals(name)) {
+                        return username + " has merchandise with the same name.";
+                    }
+                }
+                int priceInt = Integer.parseInt(price);
+                if (priceInt < 0) {
+                    return "Price for merchandise can not be negative.";
+                }
+                artist.addMerch(name, description, priceInt);
+            }
+            return username + " has added new merchandise successfully.";
+        }
+    }
+
+    /***
+     * Verify if the user is an artist.
+     * @param username - name of user
+     * @return a string with the result of the verification
+     */
+    public static String verifyArtist(String username) {
+        User user = getUser(username);
+        if (user == null) {
+            return "The username " + username + " doesn't exist.";
+        }
+        if (user.getType() != null && !user.getType().equals("artist")) {
+            return username + " is not an artist.";
+        }
+        Artist artist = new Artist(username, user.getType(), user.getAge(), user.getCity());
+        boolean found = false;
+        for (Artist auxArtist : artists) {
+            if (auxArtist.getUsername().equals(artist.getUsername())) {
+                found = true;
+                break;
+            }
+        }
+        if (!found) {
+            return username + " is not an artist.";
+        } else return "is artist.";
+    }
+
+    public static String deleteUser(String username) {
+        User user = getUser(username);
+        if (user == null) {
+            return "The username " + username + " doesn't exist.";
+        }
+
+
+    }
+
     /**
      * Reset.
      */
     public static void reset() {
         users = new ArrayList<>();
+        artists = new ArrayList<>();
         songs = new ArrayList<>();
         podcasts = new ArrayList<>();
+        albums = new ArrayList<>();
         timestamp = 0;
     }
 }

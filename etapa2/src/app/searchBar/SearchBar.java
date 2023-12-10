@@ -125,6 +125,16 @@ public final class SearchBar {
                 if (filters.getDescription() != null) {
                     entries = filterByDescription(entries, filters.getDescription());
                 }
+
+                break;
+            case "artist":
+                entries = new ArrayList<>(Admin.getArtists());
+
+                if (filters.getName() != null) {
+                    entries = filterByName(entries, filters.getName());
+                }
+
+                break;
             default:
                 entries = new ArrayList<>();
         }

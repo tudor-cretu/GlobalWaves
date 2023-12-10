@@ -537,4 +537,70 @@ public final class CommandRunner {
 
         return objectNode;
     }
+
+    public static ObjectNode printCurrentPage(CommandInput commandInput) {
+        User user = Admin.getUser(commandInput.getUsername());
+        String message = null;
+
+        if (user != null) {
+            message = user.printCurrentPage();
+        } else {
+            message = "The username " + commandInput.getUsername() + " doesn't exist.";
+        }
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("message", message);
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("user", commandInput.getUsername());
+
+        return objectNode;
+    }
+
+    public static ObjectNode addEvent(CommandInput commandInput) {
+        String message = Admin.addEvent(commandInput.getUsername(), commandInput.getName(),
+               commandInput.getDate(), commandInput.getDescription());
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("message", message);
+
+        return objectNode;
+    }
+
+    public static ObjectNode addMerch(CommandInput commandInput) {
+        String message = Admin.addMerch(commandInput.getUsername(), commandInput.getName(),
+                commandInput.getPrice(), commandInput.getDescription());
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("message", message);
+        objectNode.put("timestamp", commandInput.getTimestamp());
+
+        return objectNode;
+    }
+
+    public static ObjectNode getAllUsers(CommandInput commandInput) {
+        List<String> users = Admin.getUsers();
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("result", objectMapper.valueToTree(users));
+        objectNode.put("timestamp", commandInput.getTimestamp());
+
+        return objectNode;
+    }
+
+    public static ObjectNode deleteUser(CommandInput commandInput) {
+        String message = Admin.deleteUser(commandInput.getUsername());
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("result", objectMapper.valueToTree(users));
+        objectNode.put("timestamp", commandInput.getTimestamp());
+
+        return objectNode;
+    }
 }

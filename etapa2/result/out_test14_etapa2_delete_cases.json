@@ -39,6 +39,10 @@
   "user" : "musicmaven",
   "message" : "The username musicmaven has been added successfully."
 }, {
+  "command" : "getAllUsers",
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "soundseeker21", "melodicwanderer", "sonicpainter", "echoexplorer", "rhythmweaver" ],
+  "timestamp" : 85
+}, {
   "command" : "createPlaylist",
   "user" : "melodicwanderer",
   "timestamp" : 305,
@@ -128,6 +132,11 @@
   "timestamp" : 480,
   "message" : "Repeat mode changed to repeat once."
 }, {
+  "command" : "printCurrentPage",
+  "message" : "Liked songs:\n\t[Aurora Harmony]\n\nFollowed playlists:\n\t[Playlist bengos]",
+  "timestamp" : 525,
+  "user" : "bob35"
+}, {
   "command" : "search",
   "user" : "soundseeker21",
   "timestamp" : 625,
@@ -163,8 +172,8 @@
   "command" : "search",
   "user" : "david27",
   "timestamp" : 760,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "sonicpainter" ]
 }, {
   "command" : "repeat",
   "user" : "carol19",
@@ -174,7 +183,7 @@
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1225,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected sonicpainter's page."
 }, {
   "command" : "repeat",
   "user" : "carol19",
@@ -185,4 +194,9 @@
   "user" : "carol19",
   "timestamp" : 7505,
   "message" : "Repeat mode changed to no repeat."
+}, {
+  "command" : "printCurrentPage",
+  "message" : "Liked songs:\n\t[Aurora Harmony]\n\nFollowed playlists:\n\t[Playlist bengos]",
+  "timestamp" : 7900,
+  "user" : "bob35"
 } ]

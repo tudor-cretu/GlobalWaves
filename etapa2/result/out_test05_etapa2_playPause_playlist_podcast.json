@@ -42,6 +42,11 @@
   "timestamp" : 57,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "printCurrentPage",
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]",
+  "timestamp" : 58,
+  "user" : "alice22"
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 60,
@@ -195,6 +200,11 @@
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "command" : "printCurrentPage",
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]",
+  "timestamp" : 3275,
+  "user" : "alice22"
 }, {
   "command" : "status",
   "user" : "alice22",

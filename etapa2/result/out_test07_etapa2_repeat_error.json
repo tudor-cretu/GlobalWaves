@@ -225,6 +225,11 @@
   "timestamp" : 3295,
   "message" : "Please load a source before setting the repeat status."
 }, {
+  "command" : "printCurrentPage",
+  "message" : "Liked songs:\n\t[Synth Symphony]\n\nFollowed playlists:\n\t[My favourite songs]",
+  "timestamp" : 3300,
+  "user" : "rhythmicrider58"
+}, {
   "command" : "status",
   "user" : "emily30",
   "timestamp" : 3310,
@@ -298,4 +303,9 @@
   "user" : "rhythmicrider58",
   "timestamp" : 3445,
   "message" : "Like registered successfully."
+}, {
+  "command" : "printCurrentPage",
+  "message" : "Liked songs:\n\t[Synth Symphony, Shape of You]\n\nFollowed playlists:\n\t[My favourite songs]",
+  "timestamp" : 7000,
+  "user" : "rhythmicrider58"
 } ]

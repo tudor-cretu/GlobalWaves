@@ -1,5 +1,6 @@
 package app.user;
 
+import app.Admin;
 import app.audio.Collections.Album;
 import app.audio.Collections.AudioCollection;
 import app.audio.Collections.Playlist;
@@ -7,12 +8,14 @@ import app.audio.Collections.PlaylistOutput;
 import app.audio.Files.AudioFile;
 import app.audio.Files.Song;
 import app.audio.LibraryEntry;
+import app.utils.Event;
+import app.utils.Merch;
+import app.utils.Page;
 import app.player.Player;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.searchBar.SearchBar;
 import app.utils.Enums;
-import fileio.input.SongInput;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -25,41 +28,42 @@ import java.util.Objects;
  */
 @Getter
 @Setter
-public class User {
+public class User extends LibraryEntry {
     private String username;
     private String type;
     private int age;
     private String city;
     private ArrayList<Playlist> playlists;
-    private ArrayList<Album> albums;
     private ArrayList<Song> likedSongs;
     private ArrayList<Playlist> followedPlaylists;
     private final Player player;
     private final SearchBar searchBar;
     private boolean lastSearched;
     private Enums.ConnectionStatus connectionStatus;
+    private Page currentPage;
 
     /**
      * Instantiates a new User.
      *
      * @param username the username
-     * @param type
+     * @param type     the type
      * @param age      the age
      * @param city     the city
      */
     public User(final String username, String type, final int age, final String city) {
+        super(username);
         this.username = username;
         this.type = type;
         this.age = age;
         this.city = city;
         playlists = new ArrayList<>();
-        albums = new ArrayList<>();
         likedSongs = new ArrayList<>();
         followedPlaylists = new ArrayList<>();
         player = new Player();
         searchBar = new SearchBar(username);
         lastSearched = false;
         connectionStatus = Enums.ConnectionStatus.ONLINE;
+        currentPage = new Page("home");
     }
 
     /**
@@ -105,6 +109,12 @@ public class User {
             return "The selected ID is too high.";
         }
 
+        for (Artist artist : Admin.getArtists()) {
+            if (Objects.equals(selected.getName(), artist.getName())) {
+                currentPage = new Page("artist");
+                return "Successfully selected " + selected.getName() + "'s page.";
+            }
+        }
         return "Successfully selected %s.".formatted(selected.getName());
     }
 
@@ -517,6 +527,67 @@ public class User {
 
     public String getConnectionStatus() {
         return connectionStatus.toString();
+    }
+
+    public String printCurrentPage() {
+        String message = null;
+        if (connectionStatus == Enums.ConnectionStatus.OFFLINE) {
+            return username + " is offline.";
+        }
+        if (Objects.equals(currentPage.getType(), "home")) {
+            String likedSongsNames = "[";
+            String followedPlaylistsNames = "[";
+            for (Song likedSong : likedSongs) {
+                likedSongsNames = likedSongsNames.concat(likedSong.getName());
+                if (likedSongs.indexOf(likedSong) != likedSongs.size() - 1) {
+                    likedSongsNames = likedSongsNames.concat(", ");
+                }
+            }
+            for (Playlist followedPlaylist : followedPlaylists) {
+                followedPlaylistsNames = followedPlaylistsNames.concat(followedPlaylist.getName());
+                if (followedPlaylists.indexOf(followedPlaylist) != followedPlaylists.size() - 1) {
+                    followedPlaylistsNames = followedPlaylistsNames.concat(", ");
+                }
+            }
+            likedSongsNames = likedSongsNames.concat("]");
+            followedPlaylistsNames = followedPlaylistsNames.concat("]");
+            message = "Liked songs:\n\t" + likedSongsNames + "\n\nFollowed playlists:\n\t" + followedPlaylistsNames;
+        }
+        if (Objects.equals(currentPage.getType(), "artist")) {
+            String albumNames = "[";
+            String eventDetails = "[";
+            String merchDetails = "[";
+            for (Artist artist : Admin.getArtists()) {
+                if (searchBar.getLastSelected() != null) {
+                    if (Objects.equals(artist.getName(), searchBar.getLastSelected().getName())) {
+                        for (Album album : artist.getAlbums()) {
+                            albumNames = albumNames.concat(album.getName());
+                            if (artist.getAlbums().indexOf(album) != artist.getAlbums().size() - 1) {
+                                albumNames = albumNames.concat(", ");
+                            }
+                        }
+                        for (Event event : artist.getEvents()) {
+                            eventDetails = eventDetails.concat(event.getName() + " - " + event.getDate() + ":\n\t" + event.getDescription());
+                            if (artist.getEvents().indexOf(event) != artist.getEvents().size() - 1) {
+                                eventDetails = eventDetails.concat(", ");
+                            }
+                        }
+                        for (Merch merch : artist.getMerch()) {
+                            merchDetails = merchDetails.concat(merch.getName() + " - " + merch.getPrice() + ":\n\t" + merch.getDescription());
+                            if (artist.getMerch().indexOf(merch) != artist.getMerch().size() - 1) {
+                                merchDetails = merchDetails.concat(", ");
+                            }
+                        }
+                    }
+                }
+            }
+            albumNames = albumNames.concat("]");
+            eventDetails = eventDetails.concat("]");
+            merchDetails = merchDetails.concat("]");
+            message = "Albums:\n\t" + albumNames + "\n\nMerch:\n\t" + merchDetails + "\n\nEvents:\n\t" + eventDetails;
+        }
+
+        return message;
     }
 }
 

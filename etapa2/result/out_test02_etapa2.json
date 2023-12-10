@@ -96,10 +96,15 @@
   "timestamp" : 460,
   "message" : "Like registered successfully."
 }, {
+  "command" : "printCurrentPage",
+  "message" : "Liked songs:\n\t[Melodic Mirage]\n\nFollowed playlists:\n\t[]",
+  "timestamp" : 480,
+  "user" : "alice22"
+}, {
   "command" : "addAlbum",
   "timestamp" : 515,
   "user" : "melodymaster",
-  "message" : "melodymaster has added new album successfully."
+  "message" : "melodymaster has another album with the same name."
 }, {
   "command" : "showAlbums",
   "result" : [ {
@@ -108,9 +113,6 @@
   }, {
     "name" : "Echoes of Harmony",
     "songs" : [ "Melodic Mirage", "Pop Serenade" ]
-  }, {
-    "name" : "Echoes of Harmony",
-    "songs" : [ "Harmony Heights", "Rhythmic Reverie", "Echoing Euphoria" ]
   } ],
   "timestamp" : 550,
   "user" : "melodymaster"
@@ -118,5 +120,5 @@
   "command" : "addAlbum",
   "timestamp" : 560,
   "user" : "melodymaster",
-  "message" : "melodymaster has added new album successfully."
+  "message" : "melodymaster has the same song at least twice in this album."
 } ]

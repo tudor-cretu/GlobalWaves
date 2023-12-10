@@ -37,6 +37,11 @@
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
+  "command" : "printCurrentPage",
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]",
+  "timestamp" : 53,
+  "user" : "jack29"
+}, {
   "command" : "select",
   "user" : "jack29",
   "timestamp" : 57,
@@ -95,6 +100,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "printCurrentPage",
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]",
+  "timestamp" : 90,
+  "user" : "jack29"
 }, {
   "command" : "playPause",
   "user" : "alice22",
