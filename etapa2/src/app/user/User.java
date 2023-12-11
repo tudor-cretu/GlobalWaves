@@ -1,21 +1,16 @@
 package app.user;
 
 import app.Admin;
-import app.audio.Collections.Album;
-import app.audio.Collections.AudioCollection;
-import app.audio.Collections.Playlist;
-import app.audio.Collections.PlaylistOutput;
+import app.audio.Collections.*;
 import app.audio.Files.AudioFile;
+import app.audio.Files.Episode;
 import app.audio.Files.Song;
 import app.audio.LibraryEntry;
-import app.utils.Event;
-import app.utils.Merch;
-import app.utils.Page;
+import app.utils.*;
 import app.player.Player;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.searchBar.SearchBar;
-import app.utils.Enums;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -41,6 +36,8 @@ public class User extends LibraryEntry {
     private boolean lastSearched;
     private Enums.ConnectionStatus connectionStatus;
     private Page currentPage;
+    private Artist lastSelectedArtist;
+    private Host lastSelectedHost;
 
     /**
      * Instantiates a new User.
@@ -64,6 +61,8 @@ public class User extends LibraryEntry {
         lastSearched = false;
         connectionStatus = Enums.ConnectionStatus.ONLINE;
         currentPage = new Page("home");
+        lastSelectedArtist = null;
+        lastSelectedHost = null;
     }
 
     /**
@@ -112,9 +111,19 @@ public class User extends LibraryEntry {
         for (Artist artist : Admin.getArtists()) {
             if (Objects.equals(selected.getName(), artist.getName())) {
                 currentPage = new Page("artist");
+                lastSelectedArtist = artist;
                 return "Successfully selected " + selected.getName() + "'s page.";
             }
         }
+
+        for (Host host : Admin.getHosts()) {
+            if (Objects.equals(selected.getName(), host.getName())) {
+                currentPage = new Page("host");
+                lastSelectedHost = host;
+                return "Successfully selected " + selected.getName() + "'s page.";
+            }
+        }
+
         return "Successfully selected %s.".formatted(selected.getName());
     }
 
@@ -534,6 +543,7 @@ public class User extends LibraryEntry {
         if (connectionStatus == Enums.ConnectionStatus.OFFLINE) {
             return username + " is offline.";
         }
+
         if (Objects.equals(currentPage.getType(), "home")) {
             String likedSongsNames = "[";
             String followedPlaylistsNames = "[";
@@ -553,6 +563,7 @@ public class User extends LibraryEntry {
             followedPlaylistsNames = followedPlaylistsNames.concat("]");
             message = "Liked songs:\n\t" + likedSongsNames + "\n\nFollowed playlists:\n\t" + followedPlaylistsNames;
         }
+
         if (Objects.equals(currentPage.getType(), "artist")) {
             String albumNames = "[";
             String eventDetails = "[";
@@ -579,6 +590,25 @@ public class User extends LibraryEntry {
                             }
                         }
                     }
+                } else if (lastSelectedArtist != null) {
+                    for (Album album : lastSelectedArtist.getAlbums()) {
+                        albumNames = albumNames.concat(album.getName());
+                        if (artist.getAlbums().indexOf(album) != artist.getAlbums().size() - 1) {
+                            albumNames = albumNames.concat(", ");
+                        }
+                    }
+                    for (Event event : artist.getEvents()) {
+                        eventDetails = eventDetails.concat(event.getName() + " - " + event.getDate() + ":\n\t" + event.getDescription());
+                        if (artist.getEvents().indexOf(event) != artist.getEvents().size() - 1) {
+                            eventDetails = eventDetails.concat(", ");
+                        }
+                    }
+                    for (Merch merch : artist.getMerch()) {
+                        merchDetails = merchDetails.concat(merch.getName() + " - " + merch.getPrice() + ":\n\t" + merch.getDescription());
+                        if (artist.getMerch().indexOf(merch) != artist.getMerch().size() - 1) {
+                            merchDetails = merchDetails.concat(", ");
+                        }
+                    }
                 }
             }
             albumNames = albumNames.concat("]");
@@ -587,6 +617,69 @@ public class User extends LibraryEntry {
             message = "Albums:\n\t" + albumNames + "\n\nMerch:\n\t" + merchDetails + "\n\nEvents:\n\t" + eventDetails;
         }
 
+        if (Objects.equals(currentPage.getType(), "host")) {
+            message = "Podcasts:\n\t[";
+            String episodeDetails = "[";
+            String announcementDetails = "[";
+            for (Host host : Admin.getHosts()) {
+                if (searchBar.getLastSelected() != null) {
+                    if (Objects.equals(host.getName(), searchBar.getLastSelected().getName())) {
+                        for (Podcast podcast : host.getPodcasts()) {
+                            message = message.concat(podcast.getName() + ":\n\t");
+                            for (Episode episode : podcast.getEpisodes()) {
+                                episodeDetails = episodeDetails.concat(episode.getName() + " - " + episode.getDescription());
+                                if (podcast.getEpisodes().indexOf(episode) != podcast.getEpisodes().size() - 1) {
+                                    episodeDetails = episodeDetails.concat(", ");
+                                }
+                            }
+                            message = message.concat(episodeDetails + "]\n");
+                            episodeDetails = "[";
+                            if (host.getPodcasts().indexOf(podcast) != host.getPodcasts().size() - 1) {
+                                message = message.concat(", ");
+                            }
+                        }
+                        message = message.concat("]\n\nAnnouncements:\n\t");
+                        if (host.getAnnouncements() != null) {
+                            for (Announcement announcement : host.getAnnouncements()) {
+                                announcementDetails = announcementDetails.concat(announcement.getName() + ":\n\t" + announcement.getDescription());
+                                if (host.getAnnouncements().indexOf(announcement) != host.getAnnouncements().size() - 1) {
+                                    announcementDetails = announcementDetails.concat("\n, ");
+                                }
+                            }
+                        }
+                        message = message.concat(announcementDetails + "\n]");
+                        break;
+                    }
+                }
+                else if (lastSelectedHost != null) {
+                    for (Podcast podcast : lastSelectedHost.getPodcasts()) {
+                        message = message.concat(podcast.getName() + ":\n\t");
+                        for (Episode episode : podcast.getEpisodes()) {
+                            episodeDetails = episodeDetails.concat(episode.getName() + " - " + episode.getDescription());
+                            if (podcast.getEpisodes().indexOf(episode) != podcast.getEpisodes().size() - 1) {
+                                episodeDetails = episodeDetails.concat(", ");
+                            }
+                        }
+                        message = message.concat(episodeDetails + "]\n");
+                        episodeDetails = "[";
+                        if (host.getPodcasts().indexOf(podcast) != host.getPodcasts().size() - 1) {
+                            message = message.concat(", ");
+                        }
+                    }
+                    message = message.concat("]\n\nAnnouncements:\n\t");
+                    if (host.getAnnouncements() != null) {
+                        for (Announcement announcement : host.getAnnouncements()) {
+                            announcementDetails = announcementDetails.concat(announcement.getName() + ":\n\t" + announcement.getDescription());
+                            if (host.getAnnouncements().indexOf(announcement) != host.getAnnouncements().size() - 1) {
+                                announcementDetails = announcementDetails.concat("\n, ");
+                            }
+                        }
+                    }
+                    message = message.concat(announcementDetails + "\n]");
+                    break;
+                }
+            }
+        }
         return message;
     }
 }

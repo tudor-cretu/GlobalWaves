@@ -135,6 +135,14 @@ public final class SearchBar {
                 }
 
                 break;
+            case "host":
+                entries = new ArrayList<>(Admin.getHosts());
+
+                if (filters.getName() != null) {
+                    entries = filterByName(entries, filters.getName());
+                }
+
+                break;
             default:
                 entries = new ArrayList<>();
         }

@@ -95,6 +95,11 @@
   "timestamp" : 135,
   "user" : "melodicmind42"
 }, {
+  "command" : "deleteUser",
+  "message" : "beatblazer can't be deleted.",
+  "timestamp" : 150,
+  "user" : "beatblazer"
+}, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 190,
@@ -111,16 +116,26 @@
   "timestamp" : 285,
   "message" : "Playback loaded successfully."
 }, {
+  "command" : "deleteUser",
+  "message" : "beatblazer can't be deleted.",
+  "timestamp" : 1158,
+  "user" : "beatblazer"
+}, {
   "command" : "prev",
   "user" : "alice22",
   "timestamp" : 1159,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Melodic Motion."
+}, {
+  "command" : "deleteUser",
+  "message" : "beatblazer was successfully deleted.",
+  "timestamp" : 1380,
+  "user" : "beatblazer"
 }, {
   "command" : "search",
   "user" : "melodicmind42",
   "timestamp" : 1385,
-  "message" : "Search returned 2 results",
-  "results" : [ "Rapid Rhythms", "Rapid Fire" ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Rapid Rhythms" ]
 }, {
   "command" : "select",
   "user" : "melodicmind42",
@@ -138,7 +153,7 @@
   "message" : "Like registered successfully."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Rhythmic Revolution, Rapid Rhythms]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Rapid Rhythms]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 1480,
   "user" : "melodicmind42"
 } ]

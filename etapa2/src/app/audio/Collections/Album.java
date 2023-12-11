@@ -12,6 +12,7 @@ public class Album extends AudioCollection {
     private final String username;
     private int timestamp;
     private String releaseYear;
+    private int likes;
 
 
     public Album(final String username, final String name, final String owner,
@@ -62,5 +63,17 @@ public class Album extends AudioCollection {
             songsNames.add(song.getName());
         }
         return songsNames;
+    }
+
+    public ArrayList<Song> getSongs() {
+        return songs;
+    }
+
+    public void setLikes(final int likes) {
+        this.likes = likes;
+    }
+
+    public int getLikes() {
+        return likes;
     }
 }
