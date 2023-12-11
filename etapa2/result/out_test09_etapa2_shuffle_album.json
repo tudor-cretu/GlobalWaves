@@ -104,6 +104,11 @@
   "message" : "Search returned 1 results",
   "results" : [ "Elevate" ]
 }, {
+  "command" : "removeAlbum",
+  "message" : "The username Ed Sheeran doesn't exist.",
+  "timestamp" : 375,
+  "user" : "Ed Sheeran"
+}, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 390,
@@ -128,6 +133,11 @@
   "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[Event1 - 01-01-2022:\n\tPrimul Event adaugat!]",
   "timestamp" : 430,
   "user" : "david27"
+}, {
+  "command" : "removeAlbum",
+  "message" : "melodymaster doesn't have an album with the given name.",
+  "timestamp" : 430,
+  "user" : "melodymaster"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -169,7 +179,7 @@
   "command" : "shuffle",
   "user" : "bob35",
   "timestamp" : 440,
-  "message" : "The loaded source is not a playlist."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -178,7 +188,7 @@
     "name" : "Vibrant Echoes",
     "remainedTime" : 237,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -201,10 +211,10 @@
   "user" : "bob35",
   "timestamp" : 1000,
   "stats" : {
-    "name" : "Retro Rhythms",
-    "remainedTime" : 203,
+    "name" : "Digital Dreams",
+    "remainedTime" : 243,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -212,6 +222,11 @@
   "user" : "carol19",
   "timestamp" : 1115,
   "message" : "Like registered successfully."
+}, {
+  "command" : "removeAlbum",
+  "message" : "melodymaster can't delete this album.",
+  "timestamp" : 1200,
+  "user" : "melodymaster"
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -234,6 +249,11 @@
   "user" : "carol19",
   "timestamp" : 2435,
   "message" : "Successfully selected My playlist."
+}, {
+  "command" : "removeEvent",
+  "message" : "melodymaster deleted the event successfully.",
+  "timestamp" : 2440,
+  "user" : "melodymaster"
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -351,6 +371,11 @@
     "paused" : false
   }
 }, {
+  "command" : "removeAlbum",
+  "message" : "melodymaster can't delete this album.",
+  "timestamp" : 3000,
+  "user" : "melodymaster"
+}, {
   "command" : "status",
   "user" : "bob35",
   "timestamp" : 3250,
@@ -361,6 +386,11 @@
     "shuffle" : true,
     "paused" : false
   }
+}, {
+  "command" : "changePage",
+  "message" : "carol19 accessed LikedContent successfully.",
+  "timestamp" : 3251,
+  "user" : "carol19"
 }, {
   "command" : "status",
   "user" : "bob35",
@@ -390,7 +420,7 @@
   }
 }, {
   "command" : "printCurrentPage",
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
   "timestamp" : 3900,
   "user" : "david27"
 }, {
@@ -438,7 +468,7 @@
   "message" : "Shuffle function activated successfully."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
   "timestamp" : 4400,
   "user" : "david27"
 }, {
@@ -465,7 +495,7 @@
   }
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Digital Dreams]\n\nFollowed playlists:\n\t[My playlist]",
+  "message" : "Liked songs:\n\t[Digital Dreams - melodymaster]\n\nFollowed playlists:\n\t[My playlist - bob35]",
   "timestamp" : 5000,
   "user" : "carol19"
 }, {

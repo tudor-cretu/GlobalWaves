@@ -130,6 +130,11 @@
   "timestamp" : 2555,
   "message" : "The loaded source is not a podcast."
 }, {
+  "command" : "changePage",
+  "message" : "rhythmicrider58 accessed LikedContent successfully.",
+  "timestamp" : 2755,
+  "user" : "rhythmicrider58"
+}, {
   "command" : "deleteUser",
   "message" : "melodymaster can't be deleted.",
   "timestamp" : 2760,
@@ -231,7 +236,7 @@
   "message" : "Please load a source before setting the repeat status."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Synth Symphony]\n\nFollowed playlists:\n\t[My favourite songs]",
+  "message" : "Liked songs:\n\t[Synth Symphony - melodymaster]\n\nFollowed playlists:\n\t[My favourite songs - emily30]",
   "timestamp" : 3300,
   "user" : "rhythmicrider58"
 }, {
@@ -245,6 +250,11 @@
     "shuffle" : false,
     "paused" : true
   }
+}, {
+  "command" : "changePage",
+  "message" : "rhythmicrider58 accessed Home successfully.",
+  "timestamp" : 3320,
+  "user" : "rhythmicrider58"
 }, {
   "command" : "repeat",
   "user" : "emily30",
@@ -320,7 +330,7 @@
   "message" : "Like registered successfully."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Shape of You]\n\nFollowed playlists:\n\t[My favourite songs]",
+  "message" : "Liked songs:\n\t[Shape of You]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 7000,
   "user" : "rhythmicrider58"
 } ]

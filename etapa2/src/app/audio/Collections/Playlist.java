@@ -161,4 +161,8 @@ public final class Playlist extends AudioCollection {
     public ArrayList<Song> getSongs() {
         return songs;
     }
+
+    public void setFollowers(int i) {
+        followers = i;
+    }
 }

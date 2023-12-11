@@ -76,7 +76,7 @@ public final class Player {
         } else if ("podcast".equals(type)) {
             return createPodcastSource((AudioCollection) entry, bookmarks);
         } else if ("album".equals(type)) {
-            return new PlayerSource(Enums.PlayerSourceType.PLAYLIST, (AudioCollection) entry);
+            return new PlayerSource(Enums.PlayerSourceType.ALBUM, (AudioCollection) entry);
         }
 
         return null;
@@ -128,6 +128,13 @@ public final class Player {
         }
 
         if (source.getType() == Enums.PlayerSourceType.PLAYLIST) {
+            shuffle = !shuffle;
+            if (shuffle) {
+                source.updateShuffleIndex();
+            }
+        }
+
+        if (source.getType() == Enums.PlayerSourceType.ALBUM) {
             shuffle = !shuffle;
             if (shuffle) {
                 source.updateShuffleIndex();

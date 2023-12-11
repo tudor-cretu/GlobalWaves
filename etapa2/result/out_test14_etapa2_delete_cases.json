@@ -40,7 +40,7 @@
   "message" : "The username musicmaven has been added successfully."
 }, {
   "command" : "getAllUsers",
-  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "soundseeker21", "melodicwanderer", "sonicpainter", "echoexplorer", "rhythmweaver" ],
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "soundseeker21", "melodicwanderer", "sonicpainter", "echoexplorer", "rhythmweaver", "audiosage", "soundcurator", "musicmaven" ],
   "timestamp" : 85
 }, {
   "command" : "addPodcast",
@@ -211,12 +211,17 @@
   "user" : "sonicpainter"
 }, {
   "command" : "deleteUser",
-  "message" : "audiosage was successfully deleted.",
+  "message" : "audiosage can't be deleted.",
   "timestamp" : 930,
   "user" : "audiosage"
 }, {
+  "command" : "changePage",
+  "message" : "soundseeker21 accessed Home successfully.",
+  "timestamp" : 955,
+  "user" : "soundseeker21"
+}, {
   "command" : "deleteUser",
-  "message" : "melodicwanderer was successfully deleted.",
+  "message" : "melodicwanderer can't be deleted.",
   "timestamp" : 960,
   "user" : "melodicwanderer"
 }, {
@@ -230,8 +235,13 @@
   "timestamp" : 975,
   "user" : "sonicpainter"
 }, {
+  "command" : "removePodcast",
+  "message" : "musicmaven can't delete this podcast.",
+  "timestamp" : 980,
+  "user" : "musicmaven"
+}, {
   "command" : "deleteUser",
-  "message" : "The username audiosage doesn't exist.",
+  "message" : "audiosage was successfully deleted.",
   "timestamp" : 1100,
   "user" : "audiosage"
 }, {
@@ -241,12 +251,12 @@
   "message" : "Successfully selected sonicpainter's page."
 }, {
   "command" : "deleteUser",
-  "message" : "The username melodicwanderer doesn't exist.",
+  "message" : "melodicwanderer can't be deleted.",
   "timestamp" : 1500,
   "user" : "melodicwanderer"
 }, {
   "command" : "deleteUser",
-  "message" : "musicmaven was successfully deleted.",
+  "message" : "musicmaven can't be deleted.",
   "timestamp" : 6900,
   "user" : "musicmaven"
 }, {
@@ -266,7 +276,7 @@
   "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "deleteUser",
-  "message" : "The username melodicwanderer doesn't exist.",
+  "message" : "melodicwanderer was successfully deleted.",
   "timestamp" : 7855,
   "user" : "melodicwanderer"
 }, {
@@ -275,13 +285,18 @@
   "timestamp" : 7860,
   "user" : "sonicpainter"
 }, {
+  "command" : "changePage",
+  "message" : "david27 accessed Home successfully.",
+  "timestamp" : 7885,
+  "user" : "david27"
+}, {
   "command" : "deleteUser",
-  "message" : "sonicpainter can't be deleted.",
+  "message" : "sonicpainter was successfully deleted.",
   "timestamp" : 7890,
   "user" : "sonicpainter"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Aurora Harmony]\n\nFollowed playlists:\n\t[Playlist bengos]",
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 7900,
   "user" : "bob35"
 } ]

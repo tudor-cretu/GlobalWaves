@@ -667,4 +667,56 @@ public final class CommandRunner {
 
         return objectNode;
     }
+
+    public static ObjectNode removeAlbum(CommandInput commandInput) {
+        String message = Admin.removeAlbum(commandInput.getUsername(), commandInput.getName());
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("message", message);
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("user", commandInput.getUsername());
+
+        return objectNode;
+    }
+
+    public static ObjectNode changePage(CommandInput commandInput) {
+        User user = Admin.getUser(commandInput.getUsername());
+        String message = null;
+        if (user != null) {
+            message = user.changePage(commandInput.getNextPage());
+        }
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("message", message);
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("user", commandInput.getUsername());
+
+        return objectNode;
+    }
+
+    public static ObjectNode removePodcast(CommandInput commandInput) {
+        String message = Admin.removePodcast(commandInput.getUsername(), commandInput.getName());
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("message", message);
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("user", commandInput.getUsername());
+
+        return objectNode;
+    }
+
+    public static ObjectNode removeEvent(CommandInput commandInput) {
+        String message = Admin.removeEvent(commandInput.getUsername(), commandInput.getName());
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("message", message);
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("user", commandInput.getUsername());
+
+        return objectNode;
+    }
 }

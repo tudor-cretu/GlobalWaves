@@ -217,8 +217,8 @@ public class User extends LibraryEntry {
             return "Please load a source before using the shuffle function.";
         }
 
-        if (!player.getType().equals("playlist")) {
-            return "The loaded source is not a playlist.";
+        if (!player.getType().equals("playlist") && !player.getType().equals("album")) {
+            return "The loaded source is not a playlist or an album.";
         }
 
         player.shuffle(seed);
@@ -280,8 +280,8 @@ public class User extends LibraryEntry {
             return "Please load a source before liking or unliking.";
         }
 
-        if (!player.getType().equals("song") && !player.getType().equals("playlist")) {
-            return "Loaded source is not a song.";
+        if (player.getType().equals("podcast")) {
+            return "The loaded source is not a song.";
         }
 
         Song song = (Song) player.getCurrentAudioFile();
@@ -522,14 +522,17 @@ public class User extends LibraryEntry {
     }
 
     public String switchConnectionStatus() {
+        if (Objects.equals(type, "artist") || Objects.equals(type, "host")) {
+            return username + " is not a normal user.";
+        }
         if (connectionStatus == Enums.ConnectionStatus.OFFLINE) {
             connectionStatus = Enums.ConnectionStatus.ONLINE;
+            player.userOffline = false;
         } else if (connectionStatus == Enums.ConnectionStatus.ONLINE) {
             connectionStatus = Enums.ConnectionStatus.OFFLINE;
-            if (!player.getPaused()) {
-                player.pause();
-                player.userOffline = true;
-            }
+            player.pause();
+            player.simulatePlayer(getPlayerStats().getRemainedTime());
+            player.userOffline = true;
         }
         return username + " has changed status successfully.";
     }
@@ -680,7 +683,32 @@ public class User extends LibraryEntry {
                 }
             }
         }
+        if (Objects.equals(currentPage.getType(), "likedcontent")) {
+            message = "Liked songs:\n\t[";
+            for (Song song : likedSongs) {
+                message = message.concat(song.getName() + " - " + song.getArtist());
+                if (likedSongs.indexOf(song) != likedSongs.size() - 1) {
+                    message = message.concat(", ");
+                }
+            }
+            message = message.concat("]\n\nFollowed playlists:\n\t[");
+            for (Playlist playlist : followedPlaylists) {
+                message = message.concat(playlist.getName() + " - " + playlist.getOwner());
+                if (followedPlaylists.indexOf(playlist) != followedPlaylists.size() - 1) {
+                    message = message.concat(", ");
+                }
+            }
+            message = message.concat("]");
+        }
         return message;
+    }
+
+    public String changePage(String nextPage) {
+        currentPage = new Page(nextPage.toLowerCase());
+        if (!nextPage.equals("Home") && !nextPage.equals("LikedContent")) {
+            return username + " is trying to access a non-existent page.";
+        }
+        return username + " accessed " + nextPage + " successfully.";
     }
 }
 
