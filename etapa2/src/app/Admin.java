@@ -163,7 +163,7 @@ public final class Admin {
      * @param username the username
      * @return the artist
      */
-    private static Artist getArtist(String username) {
+    private static Artist getArtist(final String username) {
         for (Artist artist : artists) {
             if (artist.getUsername().equals(username)) {
                 return artist;
@@ -177,7 +177,7 @@ public final class Admin {
      * @param username the username
      * @return the host
      */
-    private static Host getHost(String username) {
+    private static Host getHost(final String username) {
         for (Host host : hosts) {
             if (host.getUsername().equals(username)) {
                 return host;
@@ -255,16 +255,6 @@ public final class Admin {
         return onlineUsers;
     }
 
-    private static List<String> getOfflineUsers() {
-        List<String> offlineUsernames = new ArrayList<>();
-        for (User user : users) {
-            if (user.getConnectionStatus().equals("OFFLINE")) {
-                offlineUsernames.add(user.getUsername());
-            }
-        }
-        return offlineUsernames;
-    }
-
     public static List<String> getUsers() {
         List<String> simpleUserUsernames = new ArrayList<>();
         for (User user : users) {
@@ -287,7 +277,15 @@ public final class Admin {
         return allUsernames;
     }
 
-    public static String addUser(String username, String type, Integer age, String city) {
+    /**
+     * Add user.
+     * @param username  the username
+     * @param type      the type
+     * @param age       the age
+     * @param city      the city
+     * @return          the message of the operation
+     */
+    public static String addUser(final String username, final String type, final Integer age, final String city) {
         User toBeAddedUser = new User(username, type, age, city);
         toBeAddedUser.setConnectionStatus(Enums.ConnectionStatus.ONLINE);
         for (User user : users) {
@@ -306,8 +304,18 @@ public final class Admin {
         return "The username " + username + " has been added successfully.";
     }
 
-    public static String addAlbum(String username, String name, int timestamp,
-                                  String releaseYear, ArrayList<SongInput> albumSongs, String description) {
+    /**
+     * Add album of an artist.
+     * @param username      the username
+     * @param name          the name of the album
+     * @param timestamp     the timestamp
+     * @param releaseYear   the release year of the album
+     * @param albumSongs    the songs of the album
+     * @param description   the description of the album
+     * @return              the message of the operation
+     */
+    public static String addAlbum(final String username, final String name, final int timestamp,
+                                  final String releaseYear, final ArrayList<SongInput> albumSongs, final String description) {
         User user = getUser(username);
         String message = verifyArtist(username);
         if (message.equals("is artist.")) {
@@ -349,6 +357,11 @@ public final class Admin {
         return message;
     }
 
+    /**
+     * Show the albums of an artist
+     * @param username  the username of the artist
+     * @return          the array list of albums
+     */
     public static ArrayList<ShowAlbum> showAlbums(String username) {
         Artist artist = getArtist(username);
 
@@ -358,7 +371,15 @@ public final class Admin {
         return artist.showAlbums();
     }
 
-    public static String addEvent(String username, String name, String date, String description) {
+    /**
+     * Add event of an artist.
+     * @param username          the username
+     * @param name              the name of the event
+     * @param date              the date of the event
+     * @param description       the description of the event
+     * @return                  the message of the operation
+     */
+    public static String addEvent(final String username, final String name, final String date, final String description) {
         if (!verifyArtist(username).equals("is artist.")) {
             return verifyArtist(username);
         } else {
@@ -392,7 +413,16 @@ public final class Admin {
         }
     }
 
-    public static String addMerch(String username, String name, String price, String description) {
+    /**
+     * Add merch of an artist.
+     *
+     * @param username    the username
+     * @param name        the name
+     * @param price       the price
+     * @param description the description
+     * @return            the message of the operation
+     */
+    public static String addMerch(final String username, final String name, final String price, final String description) {
         if (!verifyArtist(username).equals("is artist.")) {
             return verifyArtist(username);
         } else {
@@ -418,7 +448,7 @@ public final class Admin {
      * @param username - name of user
      * @return a string with the result of the verification
      */
-    public static String verifyArtist(String username) {
+    public static String verifyArtist(final String username) {
         User user = getUser(username);
         if (user == null) {
             return "The username " + username + " doesn't exist.";
@@ -439,7 +469,12 @@ public final class Admin {
         } else return "is artist.";
     }
 
-    public static String verifyHost(String username) {
+    /**
+     * Verify if the user is a host.
+     * @param username      the username
+     * @return              the message of the operation
+     */
+    public static String verifyHost(final String username) {
         User user = getUser(username);
         if (user == null) {
             return "The username " + username + " doesn't exist.";
@@ -460,7 +495,12 @@ public final class Admin {
         } else return "is host.";
     }
 
-    public static String deleteUser(String username) {
+    /**
+     * Delete a user.
+     * @param username  the username
+     * @return          the message of the operation
+     */
+    public static String deleteUser(final String username) {
         User user = getUser(username);
         if (user == null) {
             return "The username " + username + " doesn't exist.";
@@ -547,6 +587,11 @@ public final class Admin {
         return username + " was successfully deleted.";
     }
 
+    /**
+     * Gets the top 5 Albums on the platform
+     * based on the number of likes
+     * @return              the top 5 Albums
+     */
     public static ArrayList<String> getTop5Albums() {
         for (Album album : albums) {
             for (Song song : album.getSongs()) {
@@ -574,13 +619,22 @@ public final class Admin {
         return top5Albums;
     }
 
-    public static String addPodcast(String username, String name, ArrayList<EpisodeInput> episodes) {
+    /**
+     * Add a podcast for a host.
+     * @param username      the username of the host
+     * @param name          the name of the podcast to be added
+     * @param episodes      the episodes of the podcast
+     * @return              the message of the operation
+     */
+    public static String addPodcast(final String username,
+                                    final String name, final ArrayList<EpisodeInput> episodes) {
         String message = verifyHost(username);
         if (message.equals("is host.")) {
 
             List<Episode> toBeAddedEpisodes = new ArrayList<>();
             for (EpisodeInput episodeInput : episodes) {
-                Episode episode = new Episode(episodeInput.getName(), episodeInput.getDuration(), episodeInput.getDescription());
+                Episode episode = new Episode(episodeInput.getName(),
+                        episodeInput.getDuration(), episodeInput.getDescription());
                 if (toBeAddedEpisodes.contains(episode)) {
                     return username + " has the same episode in this podcast.";
                 }
@@ -605,7 +659,12 @@ public final class Admin {
         return message;
     }
 
-    public static ArrayList<ShowPodcast> showPodcasts(String username) {
+    /**
+     * Show the podcasts of a host
+     * @param username  the username
+     * @return          the array list of podcasts
+     */
+    public static ArrayList<ShowPodcast> showPodcasts(final String username) {
         Host host = getHost(username);
         if (host == null) {
             return null;
@@ -613,7 +672,15 @@ public final class Admin {
         return host.showPodcasts();
     }
 
-    public static String addAnnouncement(String username, String name, String description) {
+    /**
+     * Add announcement of a host.
+     * @param username      the username
+     * @param name          the name of the announcement
+     * @param description   the description of the announcement
+     * @return              the message of the operation
+     */
+    public static String addAnnouncement(final String username,
+                                         final String name, final String description) {
         String message = verifyHost(username);
         if (message.equals("is host.")) {
             Host host = getHost(username);
@@ -630,7 +697,13 @@ public final class Admin {
         return message;
     }
 
-    public static String removeAnnouncement(String username, String name) {
+    /**
+     * Remove announcement of a host.
+     * @param username      the username
+     * @param name          the name of the announcement
+     * @return              the message of the operation
+     */
+    public static String removeAnnouncement(final String username, final String name) {
         String message = verifyHost(username);
         if (message.equals("is host.")) {
             for (Host host : hosts) {
@@ -648,7 +721,13 @@ public final class Admin {
         return message;
     }
 
-    public static String removeAlbum(String username, String name) {
+    /**
+     * Remove album of an artist.
+     * @param username    the username
+     * @param name        the name of the album
+     * @return            the message of the operation
+     */
+    public static String removeAlbum(final String username, final String name) {
         String message = verifyArtist(username);
         if (message.equals("is artist.")) {
             for (Artist artist : artists) {
@@ -657,9 +736,11 @@ public final class Admin {
                         if (album.getName().equals(name)) {
                             for (Song song : album.getSongs()) {
                                 for (User user : users) {
-                                    if (user.getPlayer().getCurrentAudioFile() != null &&
-                                            user.getPlayer().getCurrentAudioFile().getName() != null &&
-                                            Objects.equals(user.getPlayer().getCurrentAudioFile().getName(), song.getName())) {
+                                    if (user.getPlayer().getCurrentAudioFile() != null
+                                            && user.getPlayer().getCurrentAudioFile()
+                                            .getName() != null && Objects.equals(
+                                            user.getPlayer().getCurrentAudioFile()
+                                            .getName(), song.getName())) {
                                         return username + " can't delete this album.";
                                     }
                                     for (Playlist playlist : user.getPlaylists()) {
@@ -683,7 +764,13 @@ public final class Admin {
         return message;
     }
 
-    public static String removePodcast(String username, String name) {
+    /**
+     * Remove podcast of a host.
+     * @param username    the username
+     * @param name        the name of the podcast
+     * @return            the message of the operation
+     */
+    public static String removePodcast(final String username, final String name) {
         String message = verifyHost(username);
         if (message.equals("is host.")) {
             for (Host host : hosts) {
@@ -692,9 +779,11 @@ public final class Admin {
                         if (podcast.getName().equals(name)) {
                             for (User user : users) {
                                 for (Episode episode : podcast.getEpisodes()) {
-                                    if (user.getPlayer().getCurrentAudioFile() != null &&
-                                            user.getPlayer().getCurrentAudioFile().getName() != null &&
-                                            Objects.equals(user.getPlayer().getCurrentAudioFile().getName(), episode.getName())) {
+                                    if (user.getPlayer().getCurrentAudioFile() != null
+                                            && user.getPlayer()
+                                            .getCurrentAudioFile().getName() != null
+                                            && Objects.equals(user.getPlayer()
+                                            .getCurrentAudioFile().getName(), episode.getName())) {
                                         return username + " can't delete this podcast.";
                                     }
                                 }
@@ -711,7 +800,13 @@ public final class Admin {
         return message;
     }
 
-    public static String removeEvent(String username, String name) {
+    /**
+     * Remove event of an artist.
+     * @param username      the username
+     * @param name          the name of the event
+     * @return              the message of the operation
+     */
+    public static String removeEvent(final String username, final String name) {
         String message = verifyArtist(username);
         if (message.equals("is artist.")) {
             for (Artist artist : artists) {

@@ -19,6 +19,7 @@ import java.util.Objects;
  * The type Command runner.
  */
 public final class CommandRunner {
+
     /**
      * The Object mapper.
      */
@@ -148,26 +149,6 @@ public final class CommandRunner {
     }
 
     /**
-     * Shuffle object node.
-     *
-     * @param commandInput the command input
-     * @return the object node
-     */
-    public static ObjectNode shuffle(final CommandInput commandInput) {
-        User user = Admin.getUser(commandInput.getUsername());
-        Integer seed = commandInput.getSeed();
-        String message = user.shuffle(seed);
-
-        ObjectNode objectNode = objectMapper.createObjectNode();
-        objectNode.put("command", commandInput.getCommand());
-        objectNode.put("user", commandInput.getUsername());
-        objectNode.put("timestamp", commandInput.getTimestamp());
-        objectNode.put("message", message);
-
-        return objectNode;
-    }
-
-    /**
      * Forward object node.
      *
      * @param commandInput the command input
@@ -180,6 +161,26 @@ public final class CommandRunner {
         if (user != null) {
             message = user.forward();
         }
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("user", commandInput.getUsername());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("message", message);
+
+        return objectNode;
+    }
+
+    /**
+     * Shuffle object node.
+     *
+     * @param commandInput the command input
+     * @return the object node
+     */
+    public static ObjectNode shuffle(final CommandInput commandInput) {
+        User user = Admin.getUser(commandInput.getUsername());
+        Integer seed = commandInput.getSeed();
+        String message = user.shuffle(seed);
 
         ObjectNode objectNode = objectMapper.createObjectNode();
         objectNode.put("command", commandInput.getCommand());
