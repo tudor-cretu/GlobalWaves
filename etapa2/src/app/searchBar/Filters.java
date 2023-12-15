@@ -2,9 +2,11 @@ package app.searchBar;
 
 import fileio.input.FiltersInput;
 import lombok.Data;
+import lombok.Getter;
 
 import java.util.ArrayList;
 
+@Getter
 @Data
 public class Filters {
     private String name;
@@ -30,43 +32,4 @@ public class Filters {
         this.followers = filters.getFollowers();
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getAlbum() {
-        return album;
-    }
-
-    public ArrayList<String> getTags() {
-        return tags;
-    }
-
-    public String getLyrics() {
-        return lyrics;
-    }
-
-    public String getGenre() {
-        return genre;
-    }
-
-    public String getReleaseYear() {
-        return releaseYear;
-    }
-
-    public String getArtist() {
-        return artist;
-    }
-
-    public String getFollowers() {
-        return followers;
-    }
-
-    public String getOwner() {
-        return owner;
-    }
-
-    public String getDescription() {
-        return description;
-    }
 }

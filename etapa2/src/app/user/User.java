@@ -47,7 +47,7 @@ public class User extends LibraryEntry {
      * @param age      the age
      * @param city     the city
      */
-    public User(final String username, String type, final int age, final String city) {
+    public User(final String username, final String type, final int age, final String city) {
         super(username);
         this.username = username;
         this.type = type;
@@ -513,14 +513,10 @@ public class User extends LibraryEntry {
         player.simulatePlayer(time);
     }
 
-    public ArrayList<Playlist> getPlaylists() {
-        return playlists;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
+    /**
+     * Switch connection status from online to offline and vice-versa
+     * @return the string
+     */
     public String switchConnectionStatus() {
         if (Objects.equals(type, "artist") || Objects.equals(type, "host")) {
             return username + " is not a normal user.";
@@ -537,10 +533,18 @@ public class User extends LibraryEntry {
         return username + " has changed status successfully.";
     }
 
+    /**
+     * Gets connection status.
+     * @return the connection status
+     */
     public String getConnectionStatus() {
         return connectionStatus.toString();
     }
 
+    /**
+     * Print the page that the user is on.
+     * @return the current page.
+     */
     public String printCurrentPage() {
         String message = null;
         if (connectionStatus == Enums.ConnectionStatus.OFFLINE) {
@@ -548,162 +552,167 @@ public class User extends LibraryEntry {
         }
 
         if (Objects.equals(currentPage.getType(), "home")) {
-            String likedSongsNames = "[";
-            String followedPlaylistsNames = "[";
-            for (Song likedSong : likedSongs) {
-                likedSongsNames = likedSongsNames.concat(likedSong.getName());
-                if (likedSongs.indexOf(likedSong) != likedSongs.size() - 1) {
-                    likedSongsNames = likedSongsNames.concat(", ");
-                }
-            }
-            for (Playlist followedPlaylist : followedPlaylists) {
-                followedPlaylistsNames = followedPlaylistsNames.concat(followedPlaylist.getName());
-                if (followedPlaylists.indexOf(followedPlaylist) != followedPlaylists.size() - 1) {
-                    followedPlaylistsNames = followedPlaylistsNames.concat(", ");
-                }
-            }
-            likedSongsNames = likedSongsNames.concat("]");
-            followedPlaylistsNames = followedPlaylistsNames.concat("]");
-            message = "Liked songs:\n\t" + likedSongsNames + "\n\nFollowed playlists:\n\t" + followedPlaylistsNames;
+            message = printHomePage();
         }
 
         if (Objects.equals(currentPage.getType(), "artist")) {
-            String albumNames = "[";
-            String eventDetails = "[";
-            String merchDetails = "[";
-            for (Artist artist : Admin.getArtists()) {
-                if (searchBar.getLastSelected() != null) {
-                    if (Objects.equals(artist.getName(), searchBar.getLastSelected().getName())) {
-                        for (Album album : artist.getAlbums()) {
-                            albumNames = albumNames.concat(album.getName());
-                            if (artist.getAlbums().indexOf(album) != artist.getAlbums().size() - 1) {
-                                albumNames = albumNames.concat(", ");
-                            }
-                        }
-                        for (Event event : artist.getEvents()) {
-                            eventDetails = eventDetails.concat(event.getName() + " - " + event.getDate() + ":\n\t" + event.getDescription());
-                            if (artist.getEvents().indexOf(event) != artist.getEvents().size() - 1) {
-                                eventDetails = eventDetails.concat(", ");
-                            }
-                        }
-                        for (Merch merch : artist.getMerch()) {
-                            merchDetails = merchDetails.concat(merch.getName() + " - " + merch.getPrice() + ":\n\t" + merch.getDescription());
-                            if (artist.getMerch().indexOf(merch) != artist.getMerch().size() - 1) {
-                                merchDetails = merchDetails.concat(", ");
-                            }
-                        }
-                    }
-                } else if (lastSelectedArtist != null) {
-                    for (Album album : lastSelectedArtist.getAlbums()) {
+            message = printArtistPage();
+        }
+
+        if (Objects.equals(currentPage.getType(), "host")) {
+            message = printHostPage();
+        }
+        if (Objects.equals(currentPage.getType(), "likedcontent")) {
+            message = printLikedContentPage();
+        }
+        return message;
+    }
+
+    /**
+     * Prints the home page
+     * @return the home page
+     */
+    public String printHomePage() {
+        String likedSongsNames = "[";
+        String followedPlaylistsNames = "[";
+        for (Song likedSong : likedSongs) {
+            likedSongsNames = likedSongsNames.concat(likedSong.getName());
+            if (likedSongs.indexOf(likedSong) != likedSongs.size() - 1) {
+                likedSongsNames = likedSongsNames.concat(", ");
+            }
+        }
+        for (Playlist followedPlaylist : followedPlaylists) {
+            followedPlaylistsNames = followedPlaylistsNames.concat(followedPlaylist.getName());
+            if (followedPlaylists.indexOf(followedPlaylist) != followedPlaylists.size() - 1) {
+                followedPlaylistsNames = followedPlaylistsNames.concat(", ");
+            }
+        }
+        likedSongsNames = likedSongsNames.concat("]");
+        followedPlaylistsNames = followedPlaylistsNames.concat("]");
+        return "Liked songs:\n\t" + likedSongsNames
+                + "\n\nFollowed playlists:\n\t" + followedPlaylistsNames;
+    }
+
+    /**
+     * Prints the artist page
+     * @return the artist page
+     */
+    public String printArtistPage() {
+        String albumNames = "[";
+        String eventDetails = "[";
+        String merchDetails = "[";
+        for (Artist artist : Admin.getArtists()) {
+            if (searchBar.getLastSelected() != null) {
+                if (Objects.equals(artist.getName(),
+                        searchBar.getLastSelected().getName())) {
+                    for (Album album : artist.getAlbums()) {
                         albumNames = albumNames.concat(album.getName());
-                        if (artist.getAlbums().indexOf(album) != artist.getAlbums().size() - 1) {
+                        if (artist.getAlbums().indexOf(album)
+                                != artist.getAlbums().size() - 1) {
                             albumNames = albumNames.concat(", ");
                         }
                     }
                     for (Event event : artist.getEvents()) {
-                        eventDetails = eventDetails.concat(event.getName() + " - " + event.getDate() + ":\n\t" + event.getDescription());
-                        if (artist.getEvents().indexOf(event) != artist.getEvents().size() - 1) {
+                        eventDetails = eventDetails.concat(
+                                event.getName() + " - " + event.getDate()
+                                        + ":\n\t" + event.getDescription());
+                        if (artist.getEvents().indexOf(event)
+                                != artist.getEvents().size() - 1) {
                             eventDetails = eventDetails.concat(", ");
                         }
                     }
                     for (Merch merch : artist.getMerch()) {
-                        merchDetails = merchDetails.concat(merch.getName() + " - " + merch.getPrice() + ":\n\t" + merch.getDescription());
+                        merchDetails = merchDetails.concat(
+                                merch.getName() + " - " + merch.getPrice()
+                                        + ":\n\t" + merch.getDescription());
                         if (artist.getMerch().indexOf(merch) != artist.getMerch().size() - 1) {
                             merchDetails = merchDetails.concat(", ");
                         }
                     }
                 }
             }
-            albumNames = albumNames.concat("]");
-            eventDetails = eventDetails.concat("]");
-            merchDetails = merchDetails.concat("]");
-            message = "Albums:\n\t" + albumNames + "\n\nMerch:\n\t" + merchDetails + "\n\nEvents:\n\t" + eventDetails;
         }
+        albumNames = albumNames.concat("]");
+        eventDetails = eventDetails.concat("]");
+        merchDetails = merchDetails.concat("]");
+        return "Albums:\n\t" + albumNames + "\n\nMerch:\n\t"
+                + merchDetails + "\n\nEvents:\n\t" + eventDetails;
+    }
 
-        if (Objects.equals(currentPage.getType(), "host")) {
-            message = "Podcasts:\n\t[";
-            String episodeDetails = "[";
-            String announcementDetails = "[";
-            for (Host host : Admin.getHosts()) {
-                if (searchBar.getLastSelected() != null) {
-                    if (Objects.equals(host.getName(), searchBar.getLastSelected().getName())) {
-                        for (Podcast podcast : host.getPodcasts()) {
-                            message = message.concat(podcast.getName() + ":\n\t");
-                            for (Episode episode : podcast.getEpisodes()) {
-                                episodeDetails = episodeDetails.concat(episode.getName() + " - " + episode.getDescription());
-                                if (podcast.getEpisodes().indexOf(episode) != podcast.getEpisodes().size() - 1) {
-                                    episodeDetails = episodeDetails.concat(", ");
-                                }
-                            }
-                            message = message.concat(episodeDetails + "]\n");
-                            episodeDetails = "[";
-                            if (host.getPodcasts().indexOf(podcast) != host.getPodcasts().size() - 1) {
-                                message = message.concat(", ");
-                            }
-                        }
-                        message = message.concat("]\n\nAnnouncements:\n\t");
-                        if (host.getAnnouncements() != null) {
-                            for (Announcement announcement : host.getAnnouncements()) {
-                                announcementDetails = announcementDetails.concat(announcement.getName() + ":\n\t" + announcement.getDescription());
-                                if (host.getAnnouncements().indexOf(announcement) != host.getAnnouncements().size() - 1) {
-                                    announcementDetails = announcementDetails.concat("\n, ");
-                                }
-                            }
-                        }
-                        message = message.concat(announcementDetails + "\n]");
-                        break;
-                    }
-                }
-                else if (lastSelectedHost != null) {
-                    for (Podcast podcast : lastSelectedHost.getPodcasts()) {
-                        message = message.concat(podcast.getName() + ":\n\t");
-                        for (Episode episode : podcast.getEpisodes()) {
-                            episodeDetails = episodeDetails.concat(episode.getName() + " - " + episode.getDescription());
-                            if (podcast.getEpisodes().indexOf(episode) != podcast.getEpisodes().size() - 1) {
-                                episodeDetails = episodeDetails.concat(", ");
-                            }
-                        }
-                        message = message.concat(episodeDetails + "]\n");
-                        episodeDetails = "[";
-                        if (host.getPodcasts().indexOf(podcast) != host.getPodcasts().size() - 1) {
-                            message = message.concat(", ");
+    /**
+     * Prints the host page
+     * @return  the host page
+     */
+    public String printHostPage() {
+        String message = "Podcasts:\n\t[";
+        String episodeDetails = "[";
+        String announcementDetails = "[";
+        for (Host host : Admin.getHosts()) {
+            if (lastSelectedHost != null) {
+                for (Podcast podcast : lastSelectedHost.getPodcasts()) {
+                    message = message.concat(podcast.getName() + ":\n\t");
+                    for (Episode episode : podcast.getEpisodes()) {
+                        episodeDetails = episodeDetails.concat(
+                                episode.getName() + " - " + episode.getDescription());
+                        if (podcast.getEpisodes().indexOf(episode)
+                                != podcast.getEpisodes().size() - 1) {
+                            episodeDetails = episodeDetails.concat(", ");
                         }
                     }
-                    message = message.concat("]\n\nAnnouncements:\n\t");
-                    if (host.getAnnouncements() != null) {
-                        for (Announcement announcement : host.getAnnouncements()) {
-                            announcementDetails = announcementDetails.concat(announcement.getName() + ":\n\t" + announcement.getDescription());
-                            if (host.getAnnouncements().indexOf(announcement) != host.getAnnouncements().size() - 1) {
-                                announcementDetails = announcementDetails.concat("\n, ");
-                            }
+                    message = message.concat(episodeDetails + "]\n");
+                    episodeDetails = "[";
+                    if (host.getPodcasts().indexOf(podcast) != host.getPodcasts().size() - 1) {
+                        message = message.concat(", ");
+                    }
+                }
+                message = message.concat("]\n\nAnnouncements:\n\t");
+                if (host.getAnnouncements() != null) {
+                    for (Announcement announcement : host.getAnnouncements()) {
+                        announcementDetails = announcementDetails.concat(
+                                announcement.getName() + ":\n\t"
+                                        + announcement.getDescription());
+                        if (host.getAnnouncements().indexOf(announcement)
+                                != host.getAnnouncements().size() - 1) {
+                            announcementDetails = announcementDetails.concat("\n, ");
                         }
                     }
-                    message = message.concat(announcementDetails + "\n]");
-                    break;
                 }
+                message = message.concat(announcementDetails + "\n]");
+                break;
             }
-        }
-        if (Objects.equals(currentPage.getType(), "likedcontent")) {
-            message = "Liked songs:\n\t[";
-            for (Song song : likedSongs) {
-                message = message.concat(song.getName() + " - " + song.getArtist());
-                if (likedSongs.indexOf(song) != likedSongs.size() - 1) {
-                    message = message.concat(", ");
-                }
-            }
-            message = message.concat("]\n\nFollowed playlists:\n\t[");
-            for (Playlist playlist : followedPlaylists) {
-                message = message.concat(playlist.getName() + " - " + playlist.getOwner());
-                if (followedPlaylists.indexOf(playlist) != followedPlaylists.size() - 1) {
-                    message = message.concat(", ");
-                }
-            }
-            message = message.concat("]");
         }
         return message;
     }
 
-    public String changePage(String nextPage) {
+    /**
+     * Prints the liked content page
+     * @return  the liked content page
+     */
+    public String printLikedContentPage() {
+        String message = "Liked songs:\n\t[";
+        for (Song song : likedSongs) {
+            message = message.concat(song.getName() + " - " + song.getArtist());
+            if (likedSongs.indexOf(song) != likedSongs.size() - 1) {
+                message = message.concat(", ");
+            }
+        }
+        message = message.concat("]\n\nFollowed playlists:\n\t[");
+        for (Playlist playlist : followedPlaylists) {
+            message = message.concat(playlist.getName() + " - " + playlist.getOwner());
+            if (followedPlaylists.indexOf(playlist) != followedPlaylists.size() - 1) {
+                message = message.concat(", ");
+            }
+        }
+        message = message.concat("]");
+        return message;
+    }
+
+    /**
+     * Changes the page from Home to LikedContent and vice-versa
+     * @param nextPage the next page
+     * @return  the string
+     */
+    public String changePage(final String nextPage) {
         currentPage = new Page(nextPage.toLowerCase());
         if (!nextPage.equals("Home") && !nextPage.equals("LikedContent")) {
             return username + " is trying to access a non-existent page.";

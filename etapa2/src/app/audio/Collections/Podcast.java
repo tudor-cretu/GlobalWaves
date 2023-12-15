@@ -28,6 +28,10 @@ public final class Podcast extends AudioCollection {
         return episodes.get(index);
     }
 
+    /**
+     * Gets the episode names of a podcast
+     * @return    the list of episode names
+     */
     public ArrayList<String> getEpisodesNames() {
         ArrayList<String> episodesNames = new ArrayList<>();
         for (Episode episode : this.getEpisodes()) {

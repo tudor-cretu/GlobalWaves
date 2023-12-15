@@ -120,6 +120,10 @@ public abstract class LibraryEntry {
         return false;
     }
 
+    /**
+     * Gets name of the library entry
+     * @return    the name
+     */
     public String getName() {
         return name;
     }
@@ -130,7 +134,7 @@ public abstract class LibraryEntry {
      * @param descriptionFilter the description filter
      * @return the boolean
      */
-    public boolean matchesDescription(String descriptionFilter) {
+    public boolean matchesDescription(final String descriptionFilter) {
         return getName().toLowerCase().startsWith(descriptionFilter.toLowerCase());
     }
 }

@@ -31,7 +31,14 @@ public final class FilterUtils {
         return result;
     }
 
-    public static List<LibraryEntry> filterByDescription(List<LibraryEntry> entries, String description) {
+    /**
+     * Filter by description list.
+     * @param entries       the entries
+     * @param description   the description
+     * @return              the result list
+     */
+    public static List<LibraryEntry> filterByDescription(final List<LibraryEntry> entries,
+                                                         final String description) {
         List<LibraryEntry> result = new ArrayList<>();
         for (LibraryEntry entry : entries) {
             if (entry.matchesDescription(description)) {

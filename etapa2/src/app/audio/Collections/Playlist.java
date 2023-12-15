@@ -162,7 +162,7 @@ public final class Playlist extends AudioCollection {
         return songs;
     }
 
-    public void setFollowers(int i) {
+    public void setFollowers(final int i) {
         followers = i;
     }
 }

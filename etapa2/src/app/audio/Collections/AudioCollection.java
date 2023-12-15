@@ -46,6 +46,11 @@ public abstract class AudioCollection extends LibraryEntry {
         return this.getOwner().equals(user);
     }
 
+    /**
+     * Gets owner.
+     *
+     * @return the owner
+     */
     public String getOwner() {
         return owner;
     }
