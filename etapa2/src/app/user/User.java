@@ -14,9 +14,7 @@ import app.searchBar.SearchBar;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 /**
  * The type User.
@@ -510,7 +508,9 @@ public class User extends LibraryEntry {
      * @param time the time
      */
     public void simulateTime(final int time) {
-        player.simulatePlayer(time);
+        if (!this.getPlayer().userOffline) {
+            player.simulatePlayer(time);
+        }
     }
 
     /**
@@ -575,15 +575,23 @@ public class User extends LibraryEntry {
     public String printHomePage() {
         String likedSongsNames = "[";
         String followedPlaylistsNames = "[";
-        for (Song likedSong : likedSongs) {
+
+        List<Song> top5LikedSongs = new ArrayList<>(likedSongs);
+        top5LikedSongs.sort(Comparator.comparingInt(Song::getLikes).reversed());
+        List<Song> top5SortedSongs = top5LikedSongs.subList(0, Math.min(5, top5LikedSongs.size()));
+        for (Song likedSong : top5SortedSongs) {
             likedSongsNames = likedSongsNames.concat(likedSong.getName());
-            if (likedSongs.indexOf(likedSong) != likedSongs.size() - 1) {
+            if (top5SortedSongs.indexOf(likedSong) != top5SortedSongs.size() - 1) {
                 likedSongsNames = likedSongsNames.concat(", ");
             }
         }
-        for (Playlist followedPlaylist : followedPlaylists) {
+
+        List<Playlist> top5FollowedPlaylists = new ArrayList<>(followedPlaylists);
+        top5FollowedPlaylists.sort(Comparator.comparingInt(Playlist::getFollowers).reversed());
+        List<Playlist> top5SortedPlaylists = top5FollowedPlaylists.subList(0, Math.min(5, top5FollowedPlaylists.size()));
+        for (Playlist followedPlaylist : top5SortedPlaylists) {
             followedPlaylistsNames = followedPlaylistsNames.concat(followedPlaylist.getName());
-            if (followedPlaylists.indexOf(followedPlaylist) != followedPlaylists.size() - 1) {
+            if (top5SortedPlaylists.indexOf(followedPlaylist) != top5SortedPlaylists.size() - 1) {
                 followedPlaylistsNames = followedPlaylistsNames.concat(", ");
             }
         }

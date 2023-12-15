@@ -2,11 +2,18 @@ Starting audit...
 [ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\Admin.java:24:17: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
 [ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\Admin.java:26:39: Using the '.*' form of import should be avoided - checker.CheckerConstants.*. [AvoidStarImport]
 [ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\Admin.java:333:87: 'timestamp' hides a field. [HiddenField]
+[ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\Admin.java:671: Line is longer than 100 characters (found 116). [LineLength]
+[ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\Admin.java:705: Line is longer than 100 characters (found 123). [LineLength]
+[ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\CommandRunner.java:823:45: Parameter commandInput should be final. [FinalParameters]
 [ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\player\Player.java:23:20: Variable 'userOffline' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\searchBar\SearchBar.java:10:40: Using the '.*' form of import should be avoided - app.searchBar.FilterUtils.*. [AvoidStarImport]
 [ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\user\User.java:4:29: Using the '.*' form of import should be avoided - app.audio.Collections.*. [AvoidStarImport]
 [ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\user\User.java:9:17: Using the '.*' form of import should be avoided - app.utils.*. [AvoidStarImport]
-[ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\user\User.java:75:73: 'type' hides a field. [HiddenField]
-[ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\user\User.java:426:16: 'type' hides a field. [HiddenField]
+[ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\user\User.java:17:17: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
+[ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\user\User.java:73:73: 'type' hides a field. [HiddenField]
+[ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\user\User.java:424:16: 'type' hides a field. [HiddenField]
+[ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\user\User.java:581:73: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\user\User.java:591: Line is longer than 100 characters (found 121). [LineLength]
+[ERROR] C:\Users\acer\Documents\POO\GlobalWaves\etapa2\.\src\app\user\User.java:591:88: '5' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 16 errors.

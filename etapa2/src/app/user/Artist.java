@@ -16,6 +16,7 @@ public final class Artist extends User {
     private ArrayList<Album> albums;
     private ArrayList<Event> events;
     private ArrayList<Merch> merch;
+    private int likes;
 
     public Artist(final String username, final String type, final int age, final String city) {
         super(username, type, age, city);

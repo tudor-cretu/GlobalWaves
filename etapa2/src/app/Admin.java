@@ -336,6 +336,14 @@ public final class Admin {
         User user = getUser(username);
         String message = verifyArtist(username);
         if (message.equals("is artist.")) {
+            Artist artist = getArtist(username);
+            if (artist != null) {
+                for (Album album : artist.getAlbums()) {
+                    if (album.getName().equals(name)) {
+                        return username + " has another album with the same name.";
+                    }
+                }
+            }
             ArrayList<Song> tracks = new ArrayList<>();
             for (SongInput song : albumSongs) {
                 Song track = new Song(song.getName(), song.getDuration(), song.getAlbum(),
@@ -357,7 +365,7 @@ public final class Admin {
             }
 
             if (Objects.equals(user.getType(), "artist")) {
-                Artist artist = getArtist(username);
+                artist = getArtist(username);
                 if (artist != null) {
                     for (Album album : artist.getAlbums()) {
                         if (album.getName().equals(name)) {
@@ -558,7 +566,7 @@ public final class Admin {
                 }
             }
         }
-        
+
         for (Playlist playlist : user.getPlaylists()) {
             for (User auxUser : users) {
                 auxUser.getFollowedPlaylists().remove(playlist);
@@ -660,7 +668,8 @@ public final class Admin {
             }
         }
 
-        Collections.sort(albums, Comparator.comparingInt(Album::getLikes).reversed());
+        Collections.sort(albums, Comparator.comparingInt(Album::getLikes)
+                .reversed().thenComparing(Album::getName));
 
         ArrayList<String> top5Albums = new ArrayList<>();
         int counter = 0;
@@ -674,6 +683,41 @@ public final class Admin {
         }
 
         return top5Albums;
+    }
+
+    /**
+     * Gets the top 5 artists on the platform based on
+     * the number of likes
+     * @return             the top 5 artists
+     */
+    public static ArrayList<String> getTop5Artists() {
+        for (Artist artist : artists) {
+            for (Album album : artist.getAlbums()) {
+                for (Song song : album.getSongs()) {
+                    for (User user : users) {
+                        if (user.getLikedSongs().contains(song)) {
+                            artist.setLikes(artist.getLikes() + 1);
+                        }
+                    }
+                }
+            }
+        }
+
+        Collections.sort(artists, Comparator.comparingInt(Artist::getLikes)
+                .reversed().thenComparing(Artist::getUsername));
+
+        ArrayList<String> top5Artists = new ArrayList<>();
+        int counter = 0;
+        for (Artist artist : artists) {
+            if (counter < LIMIT) {
+                top5Artists.add(artist.getUsername());
+                counter++;
+            } else {
+                break;
+            }
+        }
+
+        return top5Artists;
     }
 
     /**

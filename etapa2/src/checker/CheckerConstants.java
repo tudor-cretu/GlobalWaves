@@ -35,4 +35,5 @@ public final class CheckerConstants {
     public static final int MIN_DAY = 1;
     public static final int MAX_DAY_FEB = 29;
     public static final int FEB = 2;
+    public static final int LIMITFIVE = 5;
 }

@@ -4935,7 +4935,7 @@
   "timestamp" : 5434,
   "stats" : {
     "name" : "Serendipity Serendipity",
-    "remainedTime" : 234,
+    "remainedTime" : 239,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5034,7 +5034,7 @@
   "timestamp" : 5745,
   "stats" : {
     "name" : "Whisper Pulse",
-    "remainedTime" : 249,
+    "remainedTime" : 254,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5138,7 +5138,7 @@
   "timestamp" : 6056,
   "stats" : {
     "name" : "Heart Bliss",
-    "remainedTime" : 152,
+    "remainedTime" : 157,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5336,7 +5336,7 @@
   "timestamp" : 6678,
   "stats" : {
     "name" : "Serendipity Serendipity",
-    "remainedTime" : 234,
+    "remainedTime" : 239,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5435,7 +5435,7 @@
   "timestamp" : 6989,
   "stats" : {
     "name" : "Luminescence Crescendo",
-    "remainedTime" : 219,
+    "remainedTime" : 224,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5534,7 +5534,7 @@
   "timestamp" : 7300,
   "stats" : {
     "name" : "Love Love",
-    "remainedTime" : 226,
+    "remainedTime" : 231,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5633,7 +5633,7 @@
   "timestamp" : 7611,
   "stats" : {
     "name" : "Luminescence Crescendo",
-    "remainedTime" : 219,
+    "remainedTime" : 224,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5732,7 +5732,7 @@
   "timestamp" : 7922,
   "stats" : {
     "name" : "Celestial Soul",
-    "remainedTime" : 208,
+    "remainedTime" : 213,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -5831,7 +5831,7 @@
   "timestamp" : 8233,
   "stats" : {
     "name" : "Heart Bliss",
-    "remainedTime" : 152,
+    "remainedTime" : 157,
     "repeat" : "No Repeat",
     "shuffle" : true,
     "paused" : false
@@ -8943,7 +8943,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Soul Love, Love Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10279,
   "user" : "alice22"
 }, {
@@ -9065,7 +9065,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whirlwind Serenade]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10299,
   "user" : "carol19"
 }, {
@@ -9248,7 +9248,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Serendipity Serendipity, Melody Sunset, Whatever You Need]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10329,
   "user" : "frank21"
 }, {
@@ -9553,7 +9553,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Soul Love, Love Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10379,
   "user" : "alice22"
 }, {
@@ -9614,7 +9614,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10389,
   "user" : "bob35"
 }, {
@@ -9675,7 +9675,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whirlwind Serenade, Paradox Aurora, Heart Ethereal]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10399,
   "user" : "carol19"
 }, {
@@ -9858,7 +9858,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Serendipity Serendipity, Melody Sunset, Whatever You Need]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10429,
   "user" : "frank21"
 }, {
@@ -10102,7 +10102,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10469,
   "user" : "jack29"
 }, {
@@ -10163,7 +10163,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Soul Love, Celestial Soul, Love Love, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10479,
   "user" : "alice22"
 }, {
@@ -10224,7 +10224,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10489,
   "user" : "bob35"
 }, {
@@ -10285,7 +10285,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whirlwind Serenade, Paradox Aurora, Heart Ethereal]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10499,
   "user" : "carol19"
 }, {
@@ -10346,7 +10346,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Ethereal Rapture, Whirlwind Whirlwind, Luminescence Crescendo]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10509,
   "user" : "david27"
 }, {
@@ -10407,7 +10407,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Dance Pinnacle, Start Me Up]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10519,
   "user" : "emily30"
 }, {
@@ -10468,7 +10468,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Serendipity Serendipity, Melody Sunset, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10529,
   "user" : "frank21"
 }, {
@@ -10529,7 +10529,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Soul Love, Melody Echo, Paradox Echo, Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10539,
   "user" : "grace25"
 }, {
@@ -10590,7 +10590,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Mystique Harmonize, Harmony Mystique, Heart Bliss, Pinnacle Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Mystique Harmonize, Harmony Mystique, Heart Bliss]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10549,
   "user" : "henry26"
 }, {
@@ -10651,7 +10651,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Celestial Soul, Radiance Velvet, Mystique Euphoria, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Soul Love, Celestial Soul, Love Love, Radiance Velvet, Mystique Euphoria]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10559,
   "user" : "irene33"
 }, {
@@ -10773,7 +10773,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Soul Love, Love Love, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10579,
   "user" : "alice22"
 }, {
@@ -10834,7 +10834,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Mystique Harmonize, Harmony Mystique]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Whisper Pulse, Radiance Euphoria, Mystique Harmonize, Harmony Mystique, Dance Harmonize]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10589,
   "user" : "bob35"
 }, {
@@ -10895,7 +10895,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Stairway to Heaven, Whirlwind Serenade, Paradox Aurora, Heart Ethereal]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10599,
   "user" : "carol19"
 }, {
@@ -10956,7 +10956,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10609,
   "user" : "david27"
 }, {
@@ -11017,7 +11017,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Dance Pinnacle, Start Me Up]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10619,
   "user" : "emily30"
 }, {
@@ -11078,7 +11078,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Serendipity Serendipity, Melody Sunset, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10629,
   "user" : "frank21"
 }, {
@@ -11139,7 +11139,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Melody Echo, Paradox Echo, Paradox Aurora, Heart Ethereal]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Soul Love, Paradox Aurora, Heart Ethereal, Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10639,
   "user" : "grace25"
 }, {
@@ -11200,7 +11200,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Mystique Harmonize, Harmony Mystique, Heart Bliss, Pinnacle Euphoria, Luminescence Crescendo, Bliss Rhythm]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Colors Rapture, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10649,
   "user" : "henry26"
 }, {
@@ -11261,7 +11261,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Celestial Soul, Radiance Velvet, Mystique Euphoria, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Soul Love, Celestial Soul, Love Love, Radiance Velvet, Mystique Euphoria]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10659,
   "user" : "irene33"
 }, {
@@ -11322,7 +11322,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Night Utopia, Celestial Harmony, Adventure Cascade]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10669,
   "user" : "jack29"
 }, {
@@ -11383,7 +11383,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Soul Love, Love Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10679,
   "user" : "alice22"
 }, {
@@ -11444,7 +11444,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Mystique Harmonize, Harmony Mystique, Paradox Aurora, Heart Ethereal]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Whisper Pulse, Radiance Euphoria, Mystique Harmonize]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10689,
   "user" : "bob35"
 }, {
@@ -11505,7 +11505,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Stairway to Heaven, Whirlwind Serenade]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10699,
   "user" : "carol19"
 }, {
@@ -11566,7 +11566,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Odyssey Serendipity, Sunset Essence]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10709,
   "user" : "david27"
 }, {
@@ -11627,7 +11627,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Dance Pinnacle, Start Me Up]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10719,
   "user" : "emily30"
 }, {
@@ -11688,7 +11688,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Colors Rapture, Stairway to Heaven, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10729,
   "user" : "frank21"
 }, {
@@ -11749,7 +11749,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Melody Echo, Paradox Echo, Paradox Aurora, Heart Ethereal]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Soul Love, Paradox Aurora, Heart Ethereal, Under Pressure, Dream On]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10739,
   "user" : "grace25"
 }, {
@@ -11810,7 +11810,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Mystique Harmonize, Harmony Mystique, Heart Bliss, Pinnacle Euphoria, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Colors Rapture, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10749,
   "user" : "henry26"
 }, {
@@ -11932,7 +11932,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Serendipity Serendipity, Melody Sunset, Heart Bliss, Pinnacle Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Night Utopia, Celestial Harmony, Heart Bliss]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10769,
   "user" : "jack29"
 }, {
@@ -11993,7 +11993,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Soul Love, Love Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10779,
   "user" : "alice22"
 }, {
@@ -12054,7 +12054,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Mystique Harmonize, Harmony Mystique, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10789,
   "user" : "bob35"
 }, {
@@ -12115,7 +12115,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Stairway to Heaven, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10799,
   "user" : "carol19"
 }, {
@@ -12176,7 +12176,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Odyssey Serendipity, Sunset Essence, Heart Bliss, Pinnacle Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10809,
   "user" : "david27"
 }, {
@@ -12237,7 +12237,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind, Dance Pinnacle]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10819,
   "user" : "emily30"
 }, {
@@ -12298,7 +12298,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Colors Rapture, Stairway to Heaven, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10829,
   "user" : "frank21"
 }, {
@@ -12359,7 +12359,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Melody Echo, Paradox Echo, Paradox Aurora, Heart Ethereal, Mystique Harmonize, Harmony Mystique]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Mystique Harmonize, Harmony Mystique, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10839,
   "user" : "grace25"
 }, {
@@ -12420,7 +12420,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Mystique Harmonize, Harmony Mystique, Heart Bliss, Pinnacle Euphoria, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Mystique Harmonize, Harmony Mystique, Heart Bliss, Pinnacle Euphoria, Luminescence Crescendo]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10849,
   "user" : "henry26"
 }, {
@@ -12542,7 +12542,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Serendipity Serendipity, Melody Sunset, Heart Bliss, Pinnacle Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Serendipity Serendipity, Melody Sunset, Heart Bliss]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10869,
   "user" : "jack29"
 }, {
@@ -12603,7 +12603,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Luminescence Crescendo, Bliss Rhythm, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10879,
   "user" : "alice22"
 }, {
@@ -12664,7 +12664,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10889,
   "user" : "bob35"
 }, {
@@ -12725,7 +12725,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Stairway to Heaven, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10899,
   "user" : "carol19"
 }, {
@@ -12786,7 +12786,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Odyssey Serendipity, Sunset Essence, Heart Bliss, Pinnacle Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Luminescence Crescendo, Bliss Rhythm, Heart Bliss]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10909,
   "user" : "david27"
 }, {
@@ -12847,7 +12847,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Paradox Aurora, Heart Ethereal]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10919,
   "user" : "emily30"
 }, {
@@ -12908,7 +12908,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Colors Rapture, Stairway to Heaven, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10929,
   "user" : "frank21"
 }, {
@@ -12969,7 +12969,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Melody Echo, Paradox Echo, Paradox Aurora, Heart Ethereal, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Soul Love, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10939,
   "user" : "grace25"
 }, {
@@ -13030,7 +13030,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Heart Bliss, Pinnacle Euphoria, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Heart Bliss, Pinnacle Euphoria, Luminescence Crescendo, Bliss Rhythm, Colors Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10949,
   "user" : "henry26"
 }, {
@@ -13091,7 +13091,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Celestial Soul, Radiance Velvet, Mystique Euphoria, Heart Bliss, Pinnacle Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Heart Bliss, Pinnacle Euphoria, Celestial Soul, Radiance Velvet, Mystique Euphoria]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10959,
   "user" : "irene33"
 }, {
@@ -13152,7 +13152,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Serendipity Serendipity, Melody Sunset, Heart Bliss, Pinnacle Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Heart Bliss, Pinnacle Euphoria, Night Utopia, Celestial Harmony, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10969,
   "user" : "jack29"
 }, {
@@ -13213,7 +13213,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10979,
   "user" : "alice22"
 }, {
@@ -13274,7 +13274,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10989,
   "user" : "bob35"
 }, {
@@ -13335,7 +13335,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Stairway to Heaven, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 10999,
   "user" : "carol19"
 }, {
@@ -13396,7 +13396,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Heart Bliss, Pinnacle Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Heart Bliss, Pinnacle Euphoria, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11009,
   "user" : "david27"
 }, {
@@ -13457,7 +13457,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Paradox Aurora, Heart Ethereal]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11019,
   "user" : "emily30"
 }, {
@@ -13518,7 +13518,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Celestial Lullaby, Harmonize Eclipse, Colors Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11029,
   "user" : "frank21"
 }, {
@@ -13579,7 +13579,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Soul Love, Whisper Paradox, Radiance Voyage]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11039,
   "user" : "grace25"
 }, {
@@ -13640,7 +13640,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Heart Bliss, Pinnacle Euphoria, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Heart Bliss, Pinnacle Euphoria, Luminescence Crescendo, Bliss Rhythm, Colors Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11049,
   "user" : "henry26"
 }, {
@@ -13701,7 +13701,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Celestial Soul, Radiance Velvet, Mystique Euphoria, Heart Bliss, Pinnacle Euphoria, Night Utopia, Celestial Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Soul]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11059,
   "user" : "irene33"
 }, {
@@ -13762,7 +13762,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Serendipity Serendipity, Melody Sunset, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11069,
   "user" : "jack29"
 }, {
@@ -13823,7 +13823,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11079,
   "user" : "alice22"
 }, {
@@ -13884,7 +13884,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11089,
   "user" : "bob35"
 }, {
@@ -13945,7 +13945,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Stairway to Heaven]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11099,
   "user" : "carol19"
 }, {
@@ -14006,7 +14006,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Heart Bliss, Pinnacle Euphoria, Mystique Harmonize, Harmony Mystique]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Heart Bliss, Pinnacle Euphoria, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11109,
   "user" : "david27"
 }, {
@@ -14067,7 +14067,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Paradox Aurora, Heart Ethereal]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Paradox Aurora, Heart Ethereal, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11119,
   "user" : "emily30"
 }, {
@@ -14128,7 +14128,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Colors Rapture, Stairway to Heaven, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11129,
   "user" : "frank21"
 }, {
@@ -14189,7 +14189,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Odyssey Serendipity, Sunset Essence, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11139,
   "user" : "grace25"
 }, {
@@ -14250,7 +14250,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Heart Bliss, Pinnacle Euphoria, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Heart Bliss, Pinnacle Euphoria, Luminescence Crescendo, Bliss Rhythm, Celestial Soul]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11149,
   "user" : "henry26"
 }, {
@@ -14311,7 +14311,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Celestial Soul, Radiance Velvet, Mystique Euphoria, Heart Bliss, Pinnacle Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Soul]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11159,
   "user" : "irene33"
 }, {
@@ -14372,7 +14372,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Serendipity Serendipity, Melody Sunset, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11169,
   "user" : "jack29"
 }, {
@@ -14433,7 +14433,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11179,
   "user" : "alice22"
 }, {
@@ -14494,7 +14494,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11189,
   "user" : "bob35"
 }, {
@@ -14555,7 +14555,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Mystique Harmonize]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11199,
   "user" : "carol19"
 }, {
@@ -14616,7 +14616,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Heart Bliss, Pinnacle Euphoria, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Heart Bliss, Pinnacle Euphoria, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11209,
   "user" : "david27"
 }, {
@@ -14677,7 +14677,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Paradox Aurora, Heart Ethereal, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Paradox Aurora, Heart Ethereal, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11219,
   "user" : "emily30"
 }, {
@@ -14738,7 +14738,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset, Odyssey Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11229,
   "user" : "frank21"
 }, {
@@ -14799,7 +14799,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11239,
   "user" : "grace25"
 }, {
@@ -14860,7 +14860,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Heart Bliss, Pinnacle Euphoria, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Heart Bliss, Pinnacle Euphoria, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11249,
   "user" : "henry26"
 }, {
@@ -14921,7 +14921,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Celestial Soul, Radiance Velvet, Mystique Euphoria, Heart Bliss, Pinnacle Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11259,
   "user" : "irene33"
 }, {
@@ -14982,7 +14982,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Serendipity Serendipity, Melody Sunset, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11269,
   "user" : "jack29"
 }, {
@@ -15043,7 +15043,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11279,
   "user" : "alice22"
 }, {
@@ -15104,7 +15104,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11289,
   "user" : "bob35"
 }, {
@@ -15165,7 +15165,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Stairway to Heaven]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11299,
   "user" : "carol19"
 }, {
@@ -15226,7 +15226,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Heart Bliss, Pinnacle Euphoria, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Heart Bliss, Pinnacle Euphoria, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11309,
   "user" : "david27"
 }, {
@@ -15287,7 +15287,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind, Melody Echo]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11319,
   "user" : "emily30"
 }, {
@@ -15348,7 +15348,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset, Odyssey Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11329,
   "user" : "frank21"
 }, {
@@ -15409,7 +15409,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11339,
   "user" : "grace25"
 }, {
@@ -15470,7 +15470,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Heart Bliss, Pinnacle Euphoria, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Whisper Pulse, Radiance Euphoria, Heart Bliss, Pinnacle Euphoria, Luminescence Crescendo]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11349,
   "user" : "henry26"
 }, {
@@ -15531,7 +15531,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Celestial Soul, Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Celestial Soul]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11359,
   "user" : "irene33"
 }, {
@@ -15592,7 +15592,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Serendipity Serendipity, Melody Sunset, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11369,
   "user" : "jack29"
 }, {
@@ -15653,7 +15653,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Luminescence Crescendo]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11379,
   "user" : "alice22"
 }, {
@@ -15714,7 +15714,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Whisper Pulse, Radiance Euphoria, Night Utopia, Celestial Harmony, Celestial Lullaby]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11389,
   "user" : "bob35"
 }, {
@@ -15775,7 +15775,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Celestial Lullaby]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11399,
   "user" : "carol19"
 }, {
@@ -15836,7 +15836,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Serendipity Serendipity, Melody Sunset, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Serendipity Serendipity, Melody Sunset, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11409,
   "user" : "david27"
 }, {
@@ -15897,7 +15897,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind, Melody Echo]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11419,
   "user" : "emily30"
 }, {
@@ -15958,7 +15958,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset, Odyssey Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11429,
   "user" : "frank21"
 }, {
@@ -16019,7 +16019,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11439,
   "user" : "grace25"
 }, {
@@ -16080,7 +16080,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Whisper Pulse, Radiance Euphoria, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11449,
   "user" : "henry26"
 }, {
@@ -16141,7 +16141,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Celestial Soul, Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Celestial Soul]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11459,
   "user" : "irene33"
 }, {
@@ -16202,7 +16202,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Serendipity Serendipity, Melody Sunset, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11469,
   "user" : "jack29"
 }, {
@@ -16263,7 +16263,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Night Utopia, Celestial Harmony, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11479,
   "user" : "alice22"
 }, {
@@ -16324,7 +16324,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Celestial Lullaby, Harmonize Eclipse, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Celestial Lullaby]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11489,
   "user" : "bob35"
 }, {
@@ -16385,7 +16385,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Celestial Lullaby]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11499,
   "user" : "carol19"
 }, {
@@ -16446,7 +16446,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11509,
   "user" : "david27"
 }, {
@@ -16507,7 +16507,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Whisper Paradox, Radiance Voyage, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11519,
   "user" : "emily30"
 }, {
@@ -16568,7 +16568,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Odyssey Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11529,
   "user" : "frank21"
 }, {
@@ -16629,7 +16629,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11539,
   "user" : "grace25"
 }, {
@@ -16690,7 +16690,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11549,
   "user" : "henry26"
 }, {
@@ -16751,7 +16751,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Celestial Soul, Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11559,
   "user" : "irene33"
 }, {
@@ -16812,7 +16812,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Serendipity Serendipity, Melody Sunset, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11569,
   "user" : "jack29"
 }, {
@@ -16873,7 +16873,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Night Utopia, Celestial Harmony, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11579,
   "user" : "alice22"
 }, {
@@ -16934,7 +16934,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Celestial Lullaby, Harmonize Eclipse, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11589,
   "user" : "bob35"
 }, {
@@ -16995,7 +16995,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Celestial Lullaby]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11599,
   "user" : "carol19"
 }, {
@@ -17056,7 +17056,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11609,
   "user" : "david27"
 }, {
@@ -17117,7 +17117,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11619,
   "user" : "emily30"
 }, {
@@ -17178,7 +17178,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Whisper Pulse, Radiance Euphoria]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11629,
   "user" : "frank21"
 }, {
@@ -17239,7 +17239,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11639,
   "user" : "grace25"
 }, {
@@ -17300,7 +17300,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Celestial Soul, Whisper Paradox, Radiance Voyage]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11649,
   "user" : "henry26"
 }, {
@@ -17361,7 +17361,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11659,
   "user" : "irene33"
 }, {
@@ -17422,7 +17422,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Serendipity Serendipity, Melody Sunset, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Serendipity Serendipity]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11669,
   "user" : "jack29"
 }, {
@@ -17483,7 +17483,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Night Utopia, Celestial Harmony, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11679,
   "user" : "alice22"
 }, {
@@ -17544,7 +17544,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11689,
   "user" : "bob35"
 }, {
@@ -17605,7 +17605,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Luminescence Crescendo, Bliss Rhythm, Celestial Soul, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11699,
   "user" : "carol19"
 }, {
@@ -17666,7 +17666,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11709,
   "user" : "david27"
 }, {
@@ -17727,7 +17727,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11719,
   "user" : "emily30"
 }, {
@@ -17788,7 +17788,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11729,
   "user" : "frank21"
 }, {
@@ -17849,7 +17849,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11739,
   "user" : "grace25"
 }, {
@@ -17910,7 +17910,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11749,
   "user" : "henry26"
 }, {
@@ -17971,7 +17971,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11759,
   "user" : "irene33"
 }, {
@@ -18032,7 +18032,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11769,
   "user" : "jack29"
 }, {
@@ -18068,7 +18068,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11769,
   "user" : "alice22"
 }, {
@@ -18104,7 +18104,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11779,
   "user" : "bob35"
 }, {
@@ -18140,7 +18140,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11789,
   "user" : "carol19"
 }, {
@@ -18176,7 +18176,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11799,
   "user" : "david27"
 }, {
@@ -18212,7 +18212,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11809,
   "user" : "emily30"
 }, {
@@ -18228,7 +18228,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11819,
   "user" : "frank21"
 }, {
@@ -18238,7 +18238,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11819,
   "user" : "frank21"
 }, {
@@ -18248,7 +18248,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11819,
   "user" : "frank21"
 }, {
@@ -18284,7 +18284,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11829,
   "user" : "grace25"
 }, {
@@ -18320,7 +18320,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11839,
   "user" : "henry26"
 }, {
@@ -18356,7 +18356,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11849,
   "user" : "irene33"
 }, {
@@ -18392,7 +18392,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11859,
   "user" : "jack29"
 }, {
@@ -18408,7 +18408,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11869,
   "user" : "alice22"
 }, {
@@ -18418,7 +18418,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11869,
   "user" : "alice22"
 }, {
@@ -18428,7 +18428,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11869,
   "user" : "alice22"
 }, {
@@ -18464,7 +18464,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11879,
   "user" : "bob35"
 }, {
@@ -18500,7 +18500,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11889,
   "user" : "carol19"
 }, {
@@ -18536,7 +18536,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11899,
   "user" : "david27"
 }, {
@@ -18572,7 +18572,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11909,
   "user" : "emily30"
 }, {
@@ -18608,7 +18608,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11919,
   "user" : "frank21"
 }, {
@@ -18644,7 +18644,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11929,
   "user" : "grace25"
 }, {
@@ -18680,7 +18680,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11939,
   "user" : "henry26"
 }, {
@@ -18696,7 +18696,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11949,
   "user" : "irene33"
 }, {
@@ -18706,7 +18706,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11949,
   "user" : "irene33"
 }, {
@@ -18716,7 +18716,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11949,
   "user" : "irene33"
 }, {
@@ -18752,7 +18752,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11959,
   "user" : "jack29"
 }, {
@@ -18788,7 +18788,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11969,
   "user" : "alice22"
 }, {
@@ -18824,7 +18824,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11979,
   "user" : "bob35"
 }, {
@@ -18860,7 +18860,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11989,
   "user" : "carol19"
 }, {
@@ -18896,7 +18896,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 11999,
   "user" : "david27"
 }, {
@@ -18932,7 +18932,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12009,
   "user" : "emily30"
 }, {
@@ -18968,7 +18968,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12019,
   "user" : "frank21"
 }, {
@@ -19004,7 +19004,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12029,
   "user" : "grace25"
 }, {
@@ -19020,7 +19020,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12039,
   "user" : "henry26"
 }, {
@@ -19030,7 +19030,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12039,
   "user" : "henry26"
 }, {
@@ -19040,7 +19040,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12039,
   "user" : "henry26"
 }, {
@@ -19076,7 +19076,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12049,
   "user" : "irene33"
 }, {
@@ -19112,7 +19112,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12059,
   "user" : "jack29"
 }, {
@@ -19148,7 +19148,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12069,
   "user" : "alice22"
 }, {
@@ -19184,7 +19184,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12079,
   "user" : "bob35"
 }, {
@@ -19200,7 +19200,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12089,
   "user" : "carol19"
 }, {
@@ -19210,7 +19210,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12089,
   "user" : "carol19"
 }, {
@@ -19220,7 +19220,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12089,
   "user" : "carol19"
 }, {
@@ -19256,7 +19256,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12099,
   "user" : "david27"
 }, {
@@ -19292,7 +19292,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12109,
   "user" : "emily30"
 }, {
@@ -19308,7 +19308,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12119,
   "user" : "frank21"
 }, {
@@ -19318,7 +19318,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12119,
   "user" : "frank21"
 }, {
@@ -19328,7 +19328,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12119,
   "user" : "frank21"
 }, {
@@ -19364,7 +19364,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12129,
   "user" : "grace25"
 }, {
@@ -19380,7 +19380,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12139,
   "user" : "henry26"
 }, {
@@ -19390,7 +19390,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12139,
   "user" : "henry26"
 }, {
@@ -19400,7 +19400,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12139,
   "user" : "henry26"
 }, {
@@ -19436,7 +19436,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12149,
   "user" : "irene33"
 }, {
@@ -19452,7 +19452,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12159,
   "user" : "jack29"
 }, {
@@ -19462,7 +19462,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12159,
   "user" : "jack29"
 }, {
@@ -19472,7 +19472,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12159,
   "user" : "jack29"
 }, {
@@ -19508,7 +19508,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12169,
   "user" : "alice22"
 }, {
@@ -19544,7 +19544,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12179,
   "user" : "bob35"
 }, {
@@ -19580,7 +19580,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12189,
   "user" : "carol19"
 }, {
@@ -19616,7 +19616,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12199,
   "user" : "david27"
 }, {
@@ -19652,7 +19652,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12209,
   "user" : "emily30"
 }, {
@@ -19688,7 +19688,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12219,
   "user" : "frank21"
 }, {
@@ -19724,7 +19724,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12229,
   "user" : "grace25"
 }, {
@@ -19760,7 +19760,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12239,
   "user" : "henry26"
 }, {
@@ -19796,7 +19796,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12249,
   "user" : "irene33"
 }, {
@@ -19812,7 +19812,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12259,
   "user" : "jack29"
 }, {
@@ -19822,7 +19822,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12259,
   "user" : "jack29"
 }, {
@@ -19832,7 +19832,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12259,
   "user" : "jack29"
 }, {
@@ -19868,7 +19868,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12269,
   "user" : "alice22"
 }, {
@@ -19904,7 +19904,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12279,
   "user" : "bob35"
 }, {
@@ -19920,7 +19920,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12289,
   "user" : "carol19"
 }, {
@@ -19930,7 +19930,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12289,
   "user" : "carol19"
 }, {
@@ -19940,7 +19940,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12289,
   "user" : "carol19"
 }, {
@@ -19956,7 +19956,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12299,
   "user" : "david27"
 }, {
@@ -19966,7 +19966,7 @@
   "message" : "jenningsbeth is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12299,
   "user" : "david27"
 }, {
@@ -19976,7 +19976,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12299,
   "user" : "david27"
 }, {
@@ -20012,7 +20012,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12309,
   "user" : "emily30"
 }, {
@@ -20048,7 +20048,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12319,
   "user" : "frank21"
 }, {
@@ -20084,7 +20084,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12329,
   "user" : "grace25"
 }, {
@@ -20100,7 +20100,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12339,
   "user" : "henry26"
 }, {
@@ -20110,7 +20110,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12339,
   "user" : "henry26"
 }, {
@@ -20120,7 +20120,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12339,
   "user" : "henry26"
 }, {
@@ -20156,7 +20156,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12349,
   "user" : "irene33"
 }, {
@@ -20192,7 +20192,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12359,
   "user" : "jack29"
 }, {
@@ -20228,7 +20228,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12369,
   "user" : "alice22"
 }, {
@@ -20244,7 +20244,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12379,
   "user" : "bob35"
 }, {
@@ -20254,7 +20254,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12379,
   "user" : "bob35"
 }, {
@@ -20264,7 +20264,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12379,
   "user" : "bob35"
 }, {
@@ -20300,7 +20300,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12389,
   "user" : "carol19"
 }, {
@@ -20336,7 +20336,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12399,
   "user" : "david27"
 }, {
@@ -20372,7 +20372,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12409,
   "user" : "emily30"
 }, {
@@ -20408,7 +20408,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12419,
   "user" : "frank21"
 }, {
@@ -20444,7 +20444,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12429,
   "user" : "grace25"
 }, {
@@ -20480,7 +20480,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12439,
   "user" : "henry26"
 }, {
@@ -20516,7 +20516,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12449,
   "user" : "irene33"
 }, {
@@ -20552,7 +20552,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12459,
   "user" : "jack29"
 }, {
@@ -20568,7 +20568,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12469,
   "user" : "alice22"
 }, {
@@ -20578,7 +20578,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12469,
   "user" : "alice22"
 }, {
@@ -20588,7 +20588,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12469,
   "user" : "alice22"
 }, {
@@ -20624,7 +20624,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12479,
   "user" : "bob35"
 }, {
@@ -20660,7 +20660,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12489,
   "user" : "carol19"
 }, {
@@ -20676,7 +20676,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12499,
   "user" : "david27"
 }, {
@@ -20686,7 +20686,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12499,
   "user" : "david27"
 }, {
@@ -20696,7 +20696,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12499,
   "user" : "david27"
 }, {
@@ -20712,7 +20712,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12509,
   "user" : "emily30"
 }, {
@@ -20722,7 +20722,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12509,
   "user" : "emily30"
 }, {
@@ -20732,7 +20732,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12509,
   "user" : "emily30"
 }, {
@@ -20768,7 +20768,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12519,
   "user" : "frank21"
 }, {
@@ -20804,7 +20804,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12529,
   "user" : "grace25"
 }, {
@@ -20820,7 +20820,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12539,
   "user" : "henry26"
 }, {
@@ -20830,7 +20830,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12539,
   "user" : "henry26"
 }, {
@@ -20840,7 +20840,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12539,
   "user" : "henry26"
 }, {
@@ -20856,7 +20856,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12549,
   "user" : "irene33"
 }, {
@@ -20866,7 +20866,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12549,
   "user" : "irene33"
 }, {
@@ -20876,7 +20876,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12549,
   "user" : "irene33"
 }, {
@@ -20912,7 +20912,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12559,
   "user" : "jack29"
 }, {
@@ -20948,7 +20948,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12569,
   "user" : "alice22"
 }, {
@@ -20984,7 +20984,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12579,
   "user" : "bob35"
 }, {
@@ -21020,7 +21020,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12589,
   "user" : "carol19"
 }, {
@@ -21056,7 +21056,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12599,
   "user" : "david27"
 }, {
@@ -21092,7 +21092,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12609,
   "user" : "emily30"
 }, {
@@ -21128,7 +21128,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12619,
   "user" : "frank21"
 }, {
@@ -21164,7 +21164,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12629,
   "user" : "grace25"
 }, {
@@ -21180,7 +21180,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12639,
   "user" : "henry26"
 }, {
@@ -21190,7 +21190,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12639,
   "user" : "henry26"
 }, {
@@ -21200,7 +21200,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12639,
   "user" : "henry26"
 }, {
@@ -21223,7 +21223,7 @@
   "command" : "addAlbum",
   "timestamp" : 12649,
   "user" : "barmstrong",
-  "message" : "barmstrong has the same song at least twice in this album."
+  "message" : "barmstrong has another album with the same name."
 }, {
   "command" : "printCurrentPage",
   "message" : "Albums:\n\t[Teen Technology, Chill Hood, Blue Dirt, Groovy Revolution, Alone View, Heroic Dreams, Heroic Autumn, Bad Dirt, Breezy Dreams, Alone Hood, Chill Technology, Alone Dirt, Dynamic Guide, Groovy View, Groovy Funeral , Teen Hood, Bad Revolution, Dynamic Harmonies, Groovy Guide]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
@@ -21236,7 +21236,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12649,
   "user" : "irene33"
 }, {
@@ -21272,7 +21272,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12659,
   "user" : "jack29"
 }, {
@@ -21308,7 +21308,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12669,
   "user" : "alice22"
 }, {
@@ -21344,7 +21344,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12679,
   "user" : "bob35"
 }, {
@@ -21380,7 +21380,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12689,
   "user" : "carol19"
 }, {
@@ -21416,7 +21416,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12699,
   "user" : "david27"
 }, {
@@ -21452,7 +21452,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12709,
   "user" : "emily30"
 }, {
@@ -21488,7 +21488,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12719,
   "user" : "frank21"
 }, {
@@ -21504,7 +21504,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12729,
   "user" : "grace25"
 }, {
@@ -21514,7 +21514,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12729,
   "user" : "grace25"
 }, {
@@ -21524,7 +21524,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12729,
   "user" : "grace25"
 }, {
@@ -21560,7 +21560,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12739,
   "user" : "henry26"
 }, {
@@ -21596,7 +21596,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12749,
   "user" : "irene33"
 }, {
@@ -21632,7 +21632,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12759,
   "user" : "jack29"
 }, {
@@ -21668,7 +21668,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12769,
   "user" : "alice22"
 }, {
@@ -21704,7 +21704,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12779,
   "user" : "bob35"
 }, {
@@ -21740,7 +21740,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12789,
   "user" : "carol19"
 }, {
@@ -21776,7 +21776,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12799,
   "user" : "david27"
 }, {
@@ -21812,7 +21812,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12809,
   "user" : "emily30"
 }, {
@@ -21848,7 +21848,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12819,
   "user" : "frank21"
 }, {
@@ -21884,7 +21884,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12829,
   "user" : "grace25"
 }, {
@@ -21920,7 +21920,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12839,
   "user" : "henry26"
 }, {
@@ -21956,7 +21956,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12849,
   "user" : "irene33"
 }, {
@@ -21992,7 +21992,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12859,
   "user" : "jack29"
 }, {
@@ -22008,7 +22008,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12869,
   "user" : "alice22"
 }, {
@@ -22018,7 +22018,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12869,
   "user" : "alice22"
 }, {
@@ -22028,7 +22028,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12869,
   "user" : "alice22"
 }, {
@@ -22064,7 +22064,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12879,
   "user" : "bob35"
 }, {
@@ -22100,7 +22100,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12889,
   "user" : "carol19"
 }, {
@@ -22136,7 +22136,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12899,
   "user" : "david27"
 }, {
@@ -22172,7 +22172,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12909,
   "user" : "emily30"
 }, {
@@ -22208,7 +22208,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12919,
   "user" : "frank21"
 }, {
@@ -22244,7 +22244,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12929,
   "user" : "grace25"
 }, {
@@ -22280,7 +22280,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12939,
   "user" : "henry26"
 }, {
@@ -22316,7 +22316,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12949,
   "user" : "irene33"
 }, {
@@ -22352,7 +22352,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12959,
   "user" : "jack29"
 }, {
@@ -22368,7 +22368,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12969,
   "user" : "alice22"
 }, {
@@ -22378,7 +22378,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12969,
   "user" : "alice22"
 }, {
@@ -22388,7 +22388,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12969,
   "user" : "alice22"
 }, {
@@ -22424,7 +22424,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12979,
   "user" : "bob35"
 }, {
@@ -22460,7 +22460,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12989,
   "user" : "carol19"
 }, {
@@ -22476,7 +22476,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12999,
   "user" : "david27"
 }, {
@@ -22486,7 +22486,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12999,
   "user" : "david27"
 }, {
@@ -22496,7 +22496,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 12999,
   "user" : "david27"
 }, {
@@ -22532,7 +22532,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13009,
   "user" : "emily30"
 }, {
@@ -22568,7 +22568,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13019,
   "user" : "frank21"
 }, {
@@ -22604,7 +22604,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13029,
   "user" : "grace25"
 }, {
@@ -22640,7 +22640,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13039,
   "user" : "henry26"
 }, {
@@ -22676,7 +22676,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13049,
   "user" : "irene33"
 }, {
@@ -22712,7 +22712,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13059,
   "user" : "jack29"
 }, {
@@ -22748,7 +22748,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13069,
   "user" : "alice22"
 }, {
@@ -22784,7 +22784,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13079,
   "user" : "bob35"
 }, {
@@ -22820,7 +22820,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13089,
   "user" : "carol19"
 }, {
@@ -22856,7 +22856,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13099,
   "user" : "david27"
 }, {
@@ -22892,7 +22892,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13109,
   "user" : "emily30"
 }, {
@@ -22908,7 +22908,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13119,
   "user" : "frank21"
 }, {
@@ -22918,7 +22918,7 @@
   "message" : "conniealvarez is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13119,
   "user" : "frank21"
 }, {
@@ -22928,7 +22928,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13119,
   "user" : "frank21"
 }, {
@@ -22944,7 +22944,7 @@
   "message" : "The selected ID is too high."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13129,
   "user" : "grace25"
 }, {
@@ -22954,7 +22954,7 @@
   "message" : "jenningsbeth is not an artist."
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13129,
   "user" : "grace25"
 }, {
@@ -22964,7 +22964,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13129,
   "user" : "grace25"
 }, {
@@ -23000,7 +23000,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13139,
   "user" : "henry26"
 }, {
@@ -23036,7 +23036,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13149,
   "user" : "irene33"
 }, {
@@ -23072,7 +23072,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13159,
   "user" : "jack29"
 }, {
@@ -23108,7 +23108,7 @@
   "user" : "alice22"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Love Love, Soul Love, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Whisper Pulse, Radiance Euphoria, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Celestial Soul, Utopia Harmony, Melody Echo, Paradox Echo]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Night Utopia]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13169,
   "user" : "alice22"
 }, {
@@ -23144,7 +23144,7 @@
   "user" : "bob35"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Harmonize, Black Dog, Sad But True, Paradox Aurora, Heart Ethereal, Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13179,
   "user" : "bob35"
 }, {
@@ -23180,7 +23180,7 @@
   "user" : "carol19"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Whirlwind Serenade, Stairway to Heaven, Paradox Aurora, Heart Ethereal, Celestial Lullaby, Harmonize Eclipse, Radiance Velvet, Mystique Euphoria, Mystique Harmonize, Harmony Mystique, Luminescence Crescendo, Bliss Rhythm, Enigma Glow, Euphoria Twilight, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Paradox Aurora]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13189,
   "user" : "carol19"
 }, {
@@ -23216,7 +23216,7 @@
   "user" : "david27"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture, Whirlwind Whirlwind, Mystique Harmonize, Harmony Mystique, Whisper Paradox, Radiance Voyage, Heart Bliss, Pinnacle Euphoria, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Ethereal Rapture]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13199,
   "user" : "david27"
 }, {
@@ -23252,7 +23252,7 @@
   "user" : "emily30"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Dance Pinnacle, Start Me Up, Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Melody Echo, Paradox Echo, Whisper Paradox, Radiance Voyage, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Ethereal Rapture, Whirlwind Whirlwind, Night Utopia, Celestial Harmony, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13209,
   "user" : "emily30"
 }, {
@@ -23288,7 +23288,7 @@
   "user" : "frank21"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Stairway to Heaven, Whatever You Need, Serendipity Serendipity, Melody Sunset, Whisper Pulse, Radiance Euphoria, Odyssey Serendipity, Sunset Essence, Melody Echo, Paradox Echo, Ethereal Rapture, Whirlwind Whirlwind, Celestial Soul, Utopia Harmony]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Ethereal Rapture, Whirlwind Whirlwind, Whisper Pulse]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13219,
   "user" : "frank21"
 }, {
@@ -23324,7 +23324,7 @@
   "user" : "grace25"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Soul Love, Under Pressure, Dream On, Paradox Aurora, Heart Ethereal, Whisper Paradox, Radiance Voyage, Odyssey Serendipity, Sunset Essence, Celestial Soul, Utopia Harmony, Enigma Glow, Euphoria Twilight]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Paradox Aurora, Heart Ethereal, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13229,
   "user" : "grace25"
 }, {
@@ -23360,7 +23360,7 @@
   "user" : "henry26"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Colors Rapture, Angie, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox, Radiance Voyage, Celestial Soul, Utopia Harmony, Odyssey Serendipity, Sunset Essence, Whisper Pulse, Radiance Euphoria, Serendipity Serendipity, Melody Sunset]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Celestial Soul, Luminescence Crescendo, Bliss Rhythm, Whisper Paradox]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13239,
   "user" : "henry26"
 }, {
@@ -23396,7 +23396,7 @@
   "user" : "irene33"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Radiance Velvet, Mystique Euphoria, Night Utopia, Celestial Harmony, Whisper Pulse, Radiance Euphoria, Ethereal Rapture, Whirlwind Whirlwind, Utopia Harmony, Celestial Lullaby, Harmonize Eclipse]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Utopia Harmony, Night Utopia, Celestial Harmony, Ethereal Rapture, Whirlwind Whirlwind]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13249,
   "user" : "irene33"
 }, {
@@ -23432,7 +23432,7 @@
   "user" : "jack29"
 }, {
   "command" : "printCurrentPage",
-  "message" : "Liked songs:\n\t[Adventure Cascade, The Man, Money Trees, Night Utopia, Celestial Harmony, Heart Bliss, Pinnacle Euphoria, Celestial Lullaby, Harmonize Eclipse, Love Love, Soul Love]\n\nFollowed playlists:\n\t[]",
+  "message" : "Liked songs:\n\t[Night Utopia, Celestial Harmony, Celestial Lullaby, Harmonize Eclipse, Soul Love]\n\nFollowed playlists:\n\t[]",
   "timestamp" : 13259,
   "user" : "jack29"
 }, {
@@ -26050,5 +26050,9 @@
 }, {
   "command" : "getTop5Albums",
   "timestamp" : 14849,
-  "result" : [ "Bad Guide", "Teen Dreams", "Heroic Hood", "Bad Hood", "Groovy View" ]
+  "result" : [ "Bad Guide", "Teen Dreams", "Bad Hood", "Heroic Hood", "Groovy View" ]
+}, {
+  "command" : "getTop5Artists",
+  "timestamp" : 14849,
+  "result" : [ "leslie27", "amanda16", "jacobdean", "barmstrong", "cbutler" ]
 } ]

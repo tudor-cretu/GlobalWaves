@@ -814,4 +814,20 @@ public final class CommandRunner {
 
         return objectNode;
     }
+
+    /**
+     * Get top 5 artists object node
+     * @param command the command input
+     * @return the object node
+     */
+    public static ObjectNode getTop5Artists(CommandInput commandInput) {
+        ArrayList<String> result = Admin.getTop5Artists();
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("result", objectMapper.valueToTree(result));
+
+        return objectNode;
+    }
 }
