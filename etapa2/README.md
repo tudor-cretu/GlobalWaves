@@ -73,3 +73,4 @@ which afterward is done through the `Admin` class.
 The project was a good opportunity to learn about building and upgrading a real world application, 
 with different relations between classes and different functionalities.
 
+P.S: The vmchecker handled me around 380 errors and didn't work for me, because of the Lombok @Getter and I had to do the getters manually. 

@@ -1,10 +1,7 @@
 package fileio.input;
 
-import lombok.Getter;
-
 import java.util.ArrayList;
 
-@Getter
 public final class CommandInput {
     private String command;
     private String username;
@@ -28,6 +25,86 @@ public final class CommandInput {
     private String nextPage;
 
     public CommandInput() {
+    }
+
+    public String getCommand() {
+        return command;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public Integer getTimestamp() {
+        return timestamp;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public FiltersInput getFilters() {
+        return filters;
+    }
+
+    public Integer getItemNumber() {
+        return itemNumber;
+    }
+
+    public Integer getRepeatMode() {
+        return repeatMode;
+    }
+
+    public Integer getPlaylistId() {
+        return playlistId;
+    }
+
+    public String getPlaylistName() {
+        return playlistName;
+    }
+
+    public Integer getSeed() {
+        return seed;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getReleaseYear() {
+        return releaseYear;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public ArrayList<SongInput> getSongs() {
+        return songs;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public ArrayList<EpisodeInput> getEpisodes() {
+        return episodes;
+    }
+
+    public String getNextPage() {
+        return nextPage;
     }
 
     public void setType(final String type) {

@@ -4,7 +4,6 @@ import app.audio.Collections.AudioCollection;
 import app.audio.Files.AudioFile;
 import app.audio.LibraryEntry;
 import app.utils.Enums;
-import lombok.Getter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +16,6 @@ public final class Player {
     private boolean shuffle;
     private boolean paused;
     private PlayerSource source;
-    @Getter
     private String type;
     private final int skipTime = 90;
     public boolean userOffline = false;

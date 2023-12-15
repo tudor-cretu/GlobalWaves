@@ -11,17 +11,13 @@ import app.player.Player;
 import app.player.PlayerStats;
 import app.searchBar.Filters;
 import app.searchBar.SearchBar;
-import lombok.Getter;
 import lombok.Setter;
 
 import java.util.*;
 
-import static checker.CheckerConstants.LIMITFIVE;
-
 /**
  * The type User.
  */
-@Getter
 @Setter
 public class User extends LibraryEntry {
     private String username;
@@ -38,6 +34,7 @@ public class User extends LibraryEntry {
     private Page currentPage;
     private Artist lastSelectedArtist;
     private Host lastSelectedHost;
+    private static final int LIMITFIVE = 5;
 
     User(final Builder builder) {
         super(builder.username);
@@ -207,6 +204,87 @@ public class User extends LibraryEntry {
         public User build() {
             return new User(this);
         }
+    }
+
+    /**
+     * Retrieves the username of the user.
+     *
+     * @return The username of the user.
+     */
+    public String getUsername() {
+        return username;
+    }
+
+    /**
+     * Retrieves the type of the user.
+     *
+     * @return The type of the user.
+     */
+    public String getType() {
+        return type;
+    }
+
+    /**
+     * Retrieves the age of the user.
+     *
+     * @return The age of the user.
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
+     * Retrieves the city of the user.
+     *
+     * @return The city of the user.
+     */
+    public String getCity() {
+        return city;
+    }
+
+    /**
+     * Retrieves the playlists associated with the user.
+     *
+     * @return An ArrayList of playlists belonging to the user.
+     */
+    public ArrayList<Playlist> getPlaylists() {
+        return playlists;
+    }
+
+    /**
+     * Retrieves the liked songs of the user.
+     *
+     * @return An ArrayList of liked songs by the user.
+     */
+    public ArrayList<Song> getLikedSongs() {
+        return likedSongs;
+    }
+
+    /**
+     * Retrieves the playlists followed by the user.
+     *
+     * @return An ArrayList of playlists followed by the user.
+     */
+    public ArrayList<Playlist> getFollowedPlaylists() {
+        return followedPlaylists;
+    }
+
+    /**
+     * Retrieves the player associated with the user.
+     *
+     * @return The player associated with the user.
+     */
+    public Player getPlayer() {
+        return player;
+    }
+
+    /**
+     * Retrieves the current page being viewed by the user.
+     *
+     * @return The current page being viewed by the user.
+     */
+    public Page getCurrentPage() {
+        return currentPage;
     }
 
     /**

@@ -3,7 +3,6 @@ package app.player;
 import app.audio.Collections.AudioCollection;
 import app.audio.Files.AudioFile;
 import app.utils.Enums;
-import lombok.Getter;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -14,13 +13,9 @@ import java.util.Random;
  * The type Player source.
  */
 public class PlayerSource {
-    @Getter
     private Enums.PlayerSourceType type;
-    @Getter
     private AudioCollection audioCollection;
-    @Getter
     private AudioFile audioFile;
-    @Getter
     private int index;
     private int indexShuffled;
     private int remainedDuration;
@@ -36,6 +31,22 @@ public class PlayerSource {
         this.type = type;
         this.audioFile = audioFile;
         this.remainedDuration = audioFile.getDuration();
+    }
+
+    public Enums.PlayerSourceType getType() {
+        return type;
+    }
+
+    public AudioCollection getAudioCollection() {
+        return audioCollection;
+    }
+
+    public AudioFile getAudioFile() {
+        return audioFile;
+    }
+
+    public int getIndex() {
+        return index;
     }
 
     /**

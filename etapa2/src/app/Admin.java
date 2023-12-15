@@ -38,7 +38,15 @@ public final class Admin {
     private static List<Podcast> podcasts = new ArrayList<>();
     private static List<Album> albums = new ArrayList<>();
     private static int timestamp = 0;
-    private static final int LIMIT = 5;
+    private static final int LIMITFIVE = 5;
+    public static final int MAX_DATE = 2023;
+    public static final int MIN_DATE = 1900;
+    public static final int MAX_MONTH = 12;
+    public static final int MIN_MONTH = 1;
+    public static final int MAX_DAY = 31;
+    public static final int MIN_DAY = 1;
+    public static final int MAX_DAY_FEB = 29;
+    public static final int FEB = 2;
 
     private Admin() {
     }
@@ -220,7 +228,7 @@ public final class Admin {
         List<String> topSongs = new ArrayList<>();
         int count = 0;
         for (Song song : sortedSongs) {
-            if (count >= LIMIT) {
+            if (count >= LIMITFIVE) {
                 break;
             }
             topSongs.add(song.getName());
@@ -242,7 +250,7 @@ public final class Admin {
         List<String> topPlaylists = new ArrayList<>();
         int count = 0;
         for (Playlist playlist : sortedPlaylists) {
-            if (count >= LIMIT) {
+            if (count >= LIMITFIVE) {
                 break;
             }
             topPlaylists.add(playlist.getName());
@@ -677,7 +685,7 @@ public final class Admin {
         ArrayList<String> top5Albums = new ArrayList<>();
         int counter = 0;
         for (Album album : albums) {
-            if (counter < LIMIT) {
+            if (counter < LIMITFIVE) {
                 top5Albums.add(album.getName());
                 counter++;
             } else {
@@ -712,7 +720,7 @@ public final class Admin {
         ArrayList<String> top5Artists = new ArrayList<>();
         int counter = 0;
         for (Artist artist : artists) {
-            if (counter < LIMIT) {
+            if (counter < LIMITFIVE) {
                 top5Artists.add(artist.getUsername());
                 counter++;
             } else {
