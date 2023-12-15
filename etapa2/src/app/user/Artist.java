@@ -18,11 +18,76 @@ public final class Artist extends User {
     private ArrayList<Merch> merch;
     private int likes;
 
-    public Artist(final String username, final String type, final int age, final String city) {
-        super(username, type, age, city);
-        this.albums = new ArrayList<>();
-        this.events = new ArrayList<>();
-        this.merch = new ArrayList<>();
+    private Artist(final Builder builder) {
+        super(builder);
+        this.albums = builder.albums;
+        this.events = builder.events;
+        this.merch = builder.merch;
+        this.likes = builder.likes;
+    }
+
+    public static class Builder extends User.Builder {
+        private ArrayList<Album> albums = new ArrayList<>();
+        private ArrayList<Event> events = new ArrayList<>();
+        private ArrayList<Merch> merch = new ArrayList<>();
+        private int likes;
+
+        public Builder(final String username, final String type, final int age, final String city) {
+            super(username, type, age, city);
+        }
+
+        /**
+         * Sets the list of albums for the user being built.
+         *
+         * @param albumsToAssign The list of albums to set.
+         * @return This builder for method chaining.
+         */
+        public Builder albums(final ArrayList<Album> albumsToAssign) {
+            this.albums = albumsToAssign;
+            return this;
+        }
+
+        /**
+         * Sets the list of events for the user being built.
+         *
+         * @param eventsToAssign The list of events to set.
+         * @return This builder for method chaining.
+         */
+        public Builder events(final ArrayList<Event> eventsToAssign) {
+            this.events = eventsToAssign;
+            return this;
+        }
+
+        /**
+         * Sets the list of merchandises for the user being built.
+         *
+         * @param merchToAssign The list of merchandises to set.
+         * @return This builder for method chaining.
+         */
+        public Builder merch(final ArrayList<Merch> merchToAssign) {
+            this.merch = merchToAssign;
+            return this;
+        }
+
+        /**
+         * Sets the number of likes for the user being built.
+         *
+         * @param likesToAssign The number of likes to set.
+         * @return This builder for method chaining.
+         */
+        public Builder likes(final int likesToAssign) {
+            this.likes = likesToAssign;
+            return this;
+        }
+
+        /**
+         * Builds the artist.
+         * @return The built artist.
+         */
+        @Override
+        public Artist build() {
+            return new Artist(this);
+        }
     }
 
     /**

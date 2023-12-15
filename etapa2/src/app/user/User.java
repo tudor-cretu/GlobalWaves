@@ -16,6 +16,8 @@ import lombok.Setter;
 
 import java.util.*;
 
+import static checker.CheckerConstants.LIMITFIVE;
+
 /**
  * The type User.
  */
@@ -37,40 +39,184 @@ public class User extends LibraryEntry {
     private Artist lastSelectedArtist;
     private Host lastSelectedHost;
 
-    /**
-     * Instantiates a new User.
-     *
-     * @param username the username
-     * @param type     the type
-     * @param age      the age
-     * @param city     the city
-     */
-    public User(final String username, final String type, final int age, final String city) {
-        super(username);
-        this.username = username;
-        this.type = type;
-        this.age = age;
-        this.city = city;
-        playlists = new ArrayList<>();
-        likedSongs = new ArrayList<>();
-        followedPlaylists = new ArrayList<>();
-        player = new Player();
-        searchBar = new SearchBar(username);
-        lastSearched = false;
-        connectionStatus = Enums.ConnectionStatus.ONLINE;
-        currentPage = new Page("home");
-        lastSelectedArtist = null;
-        lastSelectedHost = null;
+    User(final Builder builder) {
+        super(builder.username);
+        this.username = builder.username;
+        this.type = builder.type;
+        this.age = builder.age;
+        this.city = builder.city;
+        this.playlists = builder.playlists;
+        this.likedSongs = builder.likedSongs;
+        this.followedPlaylists = builder.followedPlaylists;
+        this.player = builder.player;
+        this.searchBar = builder.searchBar;
+        this.lastSearched = builder.lastSearched;
+        this.connectionStatus = builder.connectionStatus;
+        this.currentPage = builder.currentPage;
+        this.lastSelectedArtist = builder.lastSelectedArtist;
+        this.lastSelectedHost = builder.lastSelectedHost;
+    }
+
+    public static class Builder {
+        private final String username;
+        private final String type;
+        private final int age;
+        private final String city;
+        private ArrayList<Playlist> playlists = new ArrayList<>();
+        private ArrayList<Song> likedSongs = new ArrayList<>();
+        private ArrayList<Playlist> followedPlaylists = new ArrayList<>();
+        private Player player = new Player();
+        private SearchBar searchBar;
+        private boolean lastSearched = false;
+        private Enums.ConnectionStatus connectionStatus = Enums.ConnectionStatus.ONLINE;
+        private Page currentPage = new Page("home");
+        private Artist lastSelectedArtist = null;
+        private Host lastSelectedHost = null;
+
+        /**
+         * Constructs a new builder for creating a {@link User} instance.
+         *
+         * @param username the username of the user.
+         * @param type     the type of the user.
+         * @param age      the age of the user.
+         * @param city     the city of the user.
+         */
+        public Builder(final String username, final String type, final int age, final String city) {
+            this.username = username;
+            this.type = type;
+            this.age = age;
+            this.city = city;
+            this.searchBar = new SearchBar(username);
+        }
+
+        /**
+         * Sets the playlists for the user being built.
+         *
+         * @param playlistsToAssign The list of playlists to set.
+         * @return This builder for method chaining.
+         */
+        public Builder playlists(final ArrayList<Playlist> playlistsToAssign) {
+            this.playlists = playlistsToAssign;
+            return this;
+        }
+
+        /**
+         * Sets the liked songs for the user being built.
+         *
+         * @param likedSongsToAssign The list of liked songs to set.
+         * @return This builder for method chaining.
+         */
+        public Builder likedSongs(final ArrayList<Song> likedSongsToAssign) {
+            this.likedSongs = likedSongsToAssign;
+            return this;
+        }
+
+        /**
+         * Sets the followed playlists for the user being built.
+         *
+         * @param followedPlaylistsToAssign The list of followed playlists to set.
+         * @return This builder for method chaining.
+         */
+        public Builder followedPlaylists(final ArrayList<Playlist> followedPlaylistsToAssign) {
+            this.followedPlaylists = followedPlaylistsToAssign;
+            return this;
+        }
+
+        /**
+         * Sets the player for the user being built.
+         *
+         * @param playerToAssign The player to set.
+         * @return This builder for method chaining.
+         */
+        public Builder player(final Player playerToAssign) {
+            this.player = playerToAssign;
+            return this;
+        }
+
+        /**
+         * Sets the search bar for the user being built.
+         *
+         * @param searchBarToAssign The search bar to set.
+         * @return This builder for method chaining.
+         */
+        public Builder searchBar(final SearchBar searchBarToAssign) {
+            this.searchBar = searchBarToAssign;
+            return this;
+        }
+
+        /**
+         * Sets the last searched status for the user being built.
+         *
+         * @param lastSearchedToAssign The last searched status to set.
+         * @return This builder for method chaining.
+         */
+        public Builder lastSearched(final boolean lastSearchedToAssign) {
+            this.lastSearched = lastSearchedToAssign;
+            return this;
+        }
+
+        /**
+         * Sets the connection status for the user being built.
+         *
+         * @param connectionStatusToAssign The connection status to set.
+         * @return This builder for method chaining.
+         */
+        public Builder connectionStatus(final Enums.ConnectionStatus connectionStatusToAssign) {
+            this.connectionStatus = connectionStatusToAssign;
+            return this;
+        }
+
+        /**
+         * Sets the current page for the user being built.
+         *
+         * @param currentPageToAssign The current page to set.
+         * @return This builder for method chaining.
+         */
+        public Builder currentPage(final Page currentPageToAssign) {
+            this.currentPage = currentPageToAssign;
+            return this;
+        }
+
+        /**
+         * Sets the last selected artist for the user being built.
+         *
+         * @param lastSelectedArtistToAssign The last selected artist to set.
+         * @return This builder for method chaining.
+         */
+        public Builder lastSelectedArtist(final Artist lastSelectedArtistToAssign) {
+            this.lastSelectedArtist = lastSelectedArtistToAssign;
+            return this;
+        }
+
+        /**
+         * Sets the last selected host for the user being built.
+         *
+         * @param lastSelectedHostToAssign The last selected host to set.
+         * @return This builder for method chaining.
+         */
+        public Builder lastSelectedHost(final Host lastSelectedHostToAssign) {
+            this.lastSelectedHost = lastSelectedHostToAssign;
+            return this;
+        }
+
+        /**
+         * Builds a new instance of {@link User} using the configured builder.
+         *
+         * @return A new instance of {@link User}.
+         */
+        public User build() {
+            return new User(this);
+        }
     }
 
     /**
      * Search array list.
      *
      * @param filters the filters
-     * @param type    the type
+     * @param typeToAssign    the type
      * @return the array list
      */
-    public ArrayList<String> search(final Filters filters, final String type) {
+    public ArrayList<String> search(final Filters filters, final String typeToAssign) {
         searchBar.clearSelection();
         player.stop();
 
@@ -79,7 +225,7 @@ public class User extends LibraryEntry {
         if (connectionStatus == Enums.ConnectionStatus.OFFLINE) {
             results.add(0, "OFFLINE");
         }
-        List<LibraryEntry> libraryEntries = searchBar.search(filters, type);
+        List<LibraryEntry> libraryEntries = searchBar.search(filters, typeToAssign);
 
         for (LibraryEntry libraryEntry : libraryEntries) {
             results.add(libraryEntry.getName());
@@ -421,13 +567,13 @@ public class User extends LibraryEntry {
      */
     public String follow() {
         LibraryEntry selection = searchBar.getLastSelected();
-        String type = searchBar.getLastSearchType();
+        String typeToAssign = searchBar.getLastSearchType();
 
         if (selection == null) {
             return "Please select a source before following or unfollowing.";
         }
 
-        if (!type.equals("playlist")) {
+        if (!typeToAssign.equals("playlist")) {
             return "The selected source is not a playlist.";
         }
 
@@ -578,7 +724,8 @@ public class User extends LibraryEntry {
 
         List<Song> top5LikedSongs = new ArrayList<>(likedSongs);
         top5LikedSongs.sort(Comparator.comparingInt(Song::getLikes).reversed());
-        List<Song> top5SortedSongs = top5LikedSongs.subList(0, Math.min(5, top5LikedSongs.size()));
+        List<Song> top5SortedSongs = top5LikedSongs.subList(
+                0, Math.min(LIMITFIVE, top5LikedSongs.size()));
         for (Song likedSong : top5SortedSongs) {
             likedSongsNames = likedSongsNames.concat(likedSong.getName());
             if (top5SortedSongs.indexOf(likedSong) != top5SortedSongs.size() - 1) {
@@ -588,7 +735,8 @@ public class User extends LibraryEntry {
 
         List<Playlist> top5FollowedPlaylists = new ArrayList<>(followedPlaylists);
         top5FollowedPlaylists.sort(Comparator.comparingInt(Playlist::getFollowers).reversed());
-        List<Playlist> top5SortedPlaylists = top5FollowedPlaylists.subList(0, Math.min(5, top5FollowedPlaylists.size()));
+        List<Playlist> top5SortedPlaylists = top5FollowedPlaylists.subList(
+                0, Math.min(LIMITFIVE, top5FollowedPlaylists.size()));
         for (Playlist followedPlaylist : top5SortedPlaylists) {
             followedPlaylistsNames = followedPlaylistsNames.concat(followedPlaylist.getName());
             if (top5SortedPlaylists.indexOf(followedPlaylist) != top5SortedPlaylists.size() - 1) {

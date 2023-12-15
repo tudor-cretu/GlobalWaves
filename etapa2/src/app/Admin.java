@@ -51,8 +51,9 @@ public final class Admin {
     public static void setUsers(final List<UserInput> userInputList) {
         users = new ArrayList<>();
         for (UserInput userInput : userInputList) {
-            users.add(new User(userInput.getUsername(), userInput.getType(),
-                    userInput.getAge(), userInput.getCity()));
+            users.add(new User.Builder(userInput.getUsername(),
+                    userInput.getType(), userInput.getAge(),
+                    userInput.getCity()).build());
         }
     }
 
@@ -302,7 +303,7 @@ public final class Admin {
      */
     public static String addUser(final String username, final String type,
                                  final Integer age, final String city) {
-        User toBeAddedUser = new User(username, type, age, city);
+        User toBeAddedUser = new User.Builder(username, type, age, city).build();
         toBeAddedUser.setConnectionStatus(Enums.ConnectionStatus.ONLINE);
         for (User user : users) {
             if (user.getUsername().equals(username)) {
@@ -310,11 +311,11 @@ public final class Admin {
             }
         }
         if (type.equals("artist")) {
-            artists.add(new Artist(username, type, age, city));
+            artists.add(new Artist.Builder(username, type, age, city).build());
         }
 
         if (type.equals("host")) {
-            hosts.add(new Host(username, type, age, city));
+            hosts.add(new Host.Builder(username, type, age, city).build());
         }
         users.add(toBeAddedUser);
         return "The username " + username + " has been added successfully.";
@@ -488,7 +489,8 @@ public final class Admin {
         if (user.getType() != null && !user.getType().equals("artist")) {
             return username + " is not an artist.";
         }
-        Artist artist = new Artist(username, user.getType(), user.getAge(), user.getCity());
+        Artist artist = new Artist.Builder(username, user.getType(),
+                user.getAge(), user.getCity()).build();
         boolean found = false;
         for (Artist auxArtist : artists) {
             if (auxArtist.getUsername().equals(artist.getUsername())) {
@@ -516,7 +518,8 @@ public final class Admin {
         if (user.getType() != null && !user.getType().equals("host")) {
             return username + " is not a host.";
         }
-        Host host = new Host(username, user.getType(), user.getAge(), user.getCity());
+        Host host = new Host.Builder(username, user.getType(),
+                user.getAge(), user.getCity()).build();
         boolean found = false;
         for (Host auxHost : hosts) {
             if (auxHost.getUsername().equals(host.getUsername())) {

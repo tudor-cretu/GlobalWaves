@@ -817,10 +817,10 @@ public final class CommandRunner {
 
     /**
      * Get top 5 artists object node
-     * @param command the command input
+     * @param commandInput the command input
      * @return the object node
      */
-    public static ObjectNode getTop5Artists(CommandInput commandInput) {
+    public static ObjectNode getTop5Artists(final CommandInput commandInput) {
         ArrayList<String> result = Admin.getTop5Artists();
 
         ObjectNode objectNode = objectMapper.createObjectNode();
